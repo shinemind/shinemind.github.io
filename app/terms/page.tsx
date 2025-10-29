@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "Terms of Service for ShineTime",
+  description: "Terms of Service for ShineMind",
 };
 
 export default function TermsPage() {
@@ -12,7 +12,7 @@ export default function TermsPage() {
       <div className="max-w-4xl mx-auto px-6 py-12">
         <div className="mb-8">
           <Link href="/" className="text-blue-600 hover:text-blue-800 text-sm">
-            ← Back to ShineTime
+            ← Back to ShineMind
           </Link>
         </div>
         
@@ -26,21 +26,21 @@ export default function TermsPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Acceptance of Terms</h2>
             <p className="text-gray-700 leading-relaxed">
-              By using ShineTime, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our app.
+              By using ShineMind, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our app.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">2. Description of Service</h2>
             <p className="text-gray-700 leading-relaxed">
-              ShineTime is a mobile application designed to help you start and end your day with mindfulness, meditation, gratitude practices, and personal affirmations. Our goal is to provide a gentle way to enhance your daily routine.
+              ShineMind is a mobile application designed to help you start and end your day with mindfulness, meditation, gratitude practices, and personal affirmations. Our goal is to provide a gentle way to enhance your daily routine.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">3. User Responsibilities</h2>
             <ul className="text-gray-700 leading-relaxed list-disc pl-6 space-y-2">
-              <li>You must be at least 13 years old to use ShineTime</li>
+              <li>You must be at least 13 years old to use ShineMind</li>
               <li>You are responsible for maintaining the confidentiality of your account</li>
               <li>You agree to use the app in accordance with applicable laws</li>
               <li>You will not attempt to reverse engineer or modify the app</li>
@@ -50,7 +50,7 @@ export default function TermsPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">4. Content and Intellectual Property</h2>
             <p className="text-gray-700 leading-relaxed">
-              All content, features, and functionality of ShineTime are owned by us and are protected by copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, or create derivative works without our permission.
+              All content, features, and functionality of ShineMind are owned by us and are protected by copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, or create derivative works without our permission.
             </p>
           </section>
 
@@ -64,7 +64,7 @@ export default function TermsPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">6. Limitation of Liability</h2>
             <p className="text-gray-700 leading-relaxed">
-              ShineTime is provided "as is" without warranties of any kind. We are not liable for any damages arising from your use of the app. The app is designed for general wellness purposes and is not a substitute for professional medical advice.
+              ShineMind is provided "as is" without warranties of any kind. We are not liable for any damages arising from your use of the app. The app is designed for general wellness purposes and is not a substitute for professional medical advice.
             </p>
           </section>
 
@@ -79,8 +79,8 @@ export default function TermsPage() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">8. Contact Information</h2>
             <p className="text-gray-700 leading-relaxed">
               If you have any questions about these Terms of Service, please contact us at{" "}
-              <a href="mailto:support@shinetime.app" className="text-blue-600 hover:text-blue-800">
-                support@shinetime.app
+              <a href="mailto:support@shinemind.app" className="text-blue-600 hover:text-blue-800">
+                contact@shinemind.app
               </a>
             </p>
           </section>

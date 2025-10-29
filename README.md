@@ -1,10 +1,10 @@
-# ShineTime - A gentle way to start and end your day
+# ShineMind - A gentle way to start and end your day
 
 ![Page preview](./preview.png)
 
 ## Description:
 
-A modern Next.js waitlist landing page for ShineTime chat app that captures potential customer emails using Formspark service.
+A modern Next.js waitlist landing page for ShineMind chat app that captures potential customer emails using Formspark service.
 
 - Designed using Figma
 - Built using powerful technologies: Next.js, TypeScript and Tailwind CSS

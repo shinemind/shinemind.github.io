@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Privacy Policy for ShineTime",
+  description: "Privacy Policy for ShineMind",
 };
 
 export default function PrivacyPage() {
@@ -12,7 +12,7 @@ export default function PrivacyPage() {
       <div className="max-w-4xl mx-auto px-6 py-12">
         <div className="mb-8">
           <Link href="/" className="text-blue-600 hover:text-blue-800 text-sm">
-            ← Back to ShineTime
+            ← Back to ShineMind
           </Link>
         </div>
         
@@ -94,7 +94,7 @@ export default function PrivacyPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">7. Children's Privacy</h2>
             <p className="text-gray-700 leading-relaxed">
-              ShineTime is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you are a parent and believe your child has provided us with personal information, please contact us.
+              ShineMind is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you are a parent and believe your child has provided us with personal information, please contact us.
             </p>
           </section>
 
@@ -109,8 +109,8 @@ export default function PrivacyPage() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">9. Contact Us</h2>
             <p className="text-gray-700 leading-relaxed">
               If you have any questions about this Privacy Policy, please contact us at{" "}
-              <a href="mailto:privacy@shinetime.app" className="text-blue-600 hover:text-blue-800">
-                privacy@shinetime.app
+              <a href="mailto:privacy@shinemind.app" className="text-blue-600 hover:text-blue-800">
+                contact@shinemind.app
               </a>
             </p>
           </section>
