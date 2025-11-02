@@ -2,88 +2,182 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms of Service",
+  title: "Terms of Service - ShineMind",
   description: "Terms of Service for ShineMind",
 };
 
 export default function TermsPage() {
   return (
-    <div className="min-h-screen bg-white">
-      <div className="max-w-4xl mx-auto px-6 py-12">
-        <div className="mb-8">
-          <Link href="/" className="text-blue-600 hover:text-blue-800 text-sm">
-            ← Back to ShineMind
-          </Link>
-        </div>
-        
-        <h1 className="text-4xl font-bold text-gray-900 mb-8">Terms of Service</h1>
-        
-        <div className="prose prose-lg max-w-none">
-          <p className="text-gray-600 mb-6">
-            <strong>Last updated:</strong> {new Date().toLocaleDateString()}
-          </p>
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <Link
+          href="/"
+          className="inline-flex items-center text-purple-300 hover:text-purple-200 mb-8 transition-colors"
+        >
+          ← Back to Home
+        </Link>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Acceptance of Terms</h2>
-            <p className="text-gray-700 leading-relaxed">
-              By using ShineMind, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our app.
-            </p>
-          </section>
+        <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 md:p-12 border border-white/20">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            Terms of Service
+          </h1>
+          <p className="text-gray-400 mb-8">Last updated: {new Date().toLocaleDateString()}</p>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">2. Description of Service</h2>
-            <p className="text-gray-700 leading-relaxed">
-              ShineMind is a mobile application designed to help you start and end your day with mindfulness, meditation, gratitude practices, and personal affirmations. Our goal is to provide a gentle way to enhance your daily routine.
-            </p>
-          </section>
+          <div className="prose prose-invert prose-lg max-w-none">
+            <div className="space-y-8 text-gray-300">
+              <section>
+                <h2 className="text-2xl font-semibold text-white mb-4">1. Acceptance of Terms</h2>
+                <p>
+                  By accessing and using ShineMind ("the App"), you accept and agree to be bound by the
+                  terms and provision of this agreement. If you do not agree to these Terms of Service,
+                  please do not use the App.
+                </p>
+              </section>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">3. User Responsibilities</h2>
-            <ul className="text-gray-700 leading-relaxed list-disc pl-6 space-y-2">
-              <li>You must be at least 13 years old to use ShineMind</li>
-              <li>You are responsible for maintaining the confidentiality of your account</li>
-              <li>You agree to use the app in accordance with applicable laws</li>
-              <li>You will not attempt to reverse engineer or modify the app</li>
-            </ul>
-          </section>
+              <section>
+                <h2 className="text-2xl font-semibold text-white mb-4">2. Description of Service</h2>
+                <p>
+                  ShineMind is a mental wellness application that provides guided meditation, gratitude
+                  journaling, goal tracking, affirmations, and sleep sounds to help users improve their
+                  mental health and personal development through structured daily routines.
+                </p>
+              </section>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">4. Content and Intellectual Property</h2>
-            <p className="text-gray-700 leading-relaxed">
-              All content, features, and functionality of ShineMind are owned by us and are protected by copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, or create derivative works without our permission.
-            </p>
-          </section>
+              <section>
+                <h2 className="text-2xl font-semibold text-white mb-4">3. User Account</h2>
+                <p>
+                  To use certain features of the App, you must create an account using Apple Sign-In.
+                  You are responsible for:
+                </p>
+                <ul className="list-disc pl-6 mt-2 space-y-2">
+                  <li>Maintaining the confidentiality of your account credentials</li>
+                  <li>All activities that occur under your account</li>
+                  <li>Notifying us immediately of any unauthorized use of your account</li>
+                </ul>
+              </section>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">5. Privacy</h2>
-            <p className="text-gray-700 leading-relaxed">
-              Your privacy is important to us. Please review our Privacy Policy to understand how we collect, use, and protect your information.
-            </p>
-          </section>
+              <section>
+                <h2 className="text-2xl font-semibold text-white mb-4">4. Premium Subscription</h2>
+                <p className="mb-3">
+                  ShineMind offers a free version with limited features and premium subscription options:
+                </p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li>Monthly subscription: $6.99/month (includes 7 days free trial)</li>
+                  <li>Annual subscription: $39.99/year (includes 7 days free trial)</li>
+                  <li>Lifetime access: $79.99 (one-time payment)</li>
+                </ul>
+                <p className="mt-3">
+                  Both monthly and annual subscriptions include a 7-day free trial. You will not be charged
+                  until the trial period ends. Subscriptions automatically renew unless canceled at least 24
+                  hours before the end of the current period. You can manage or cancel your subscription through
+                  your Apple ID account settings.
+                </p>
+              </section>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">6. Limitation of Liability</h2>
-            <p className="text-gray-700 leading-relaxed">
-              ShineMind is provided "as is" without warranties of any kind. We are not liable for any damages arising from your use of the app. The app is designed for general wellness purposes and is not a substitute for professional medical advice.
-            </p>
-          </section>
+              <section>
+                <h2 className="text-2xl font-semibold text-white mb-4">5. User Content</h2>
+                <p className="mb-3">
+                  You retain ownership of any content you create in the App, including:
+                </p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li>Gratitude journal entries and photos</li>
+                  <li>Custom affirmation recordings</li>
+                  <li>Goal entries and notes</li>
+                  <li>Profile information</li>
+                </ul>
+                <p className="mt-3">
+                  By creating content in the App, you grant us a license to store and process this
+                  content solely for the purpose of providing the service to you.
+                </p>
+              </section>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">7. Changes to Terms</h2>
-            <p className="text-gray-700 leading-relaxed">
-              We may update these Terms of Service from time to time. We will notify you of any material changes by posting the new terms in the app or on our website.
-            </p>
-          </section>
+              <section>
+                <h2 className="text-2xl font-semibold text-white mb-4">6. Acceptable Use</h2>
+                <p className="mb-3">You agree not to:</p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li>Use the App for any unlawful purpose</li>
+                  <li>Attempt to gain unauthorized access to any portion of the App</li>
+                  <li>Interfere with or disrupt the App's servers or networks</li>
+                  <li>Upload viruses or malicious code</li>
+                  <li>Harass, abuse, or harm another person through the App</li>
+                </ul>
+              </section>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">8. Contact Information</h2>
-            <p className="text-gray-700 leading-relaxed">
-              If you have any questions about these Terms of Service, please contact us at{" "}
-              <a href="mailto:support@shinemind.app" className="text-blue-600 hover:text-blue-800">
-                contact@shinemind.app
-              </a>
-            </p>
-          </section>
+              <section>
+                <h2 className="text-2xl font-semibold text-white mb-4">7. Medical Disclaimer</h2>
+                <p>
+                  ShineMind is a wellness tool and is not intended to diagnose, treat, cure, or prevent
+                  any disease or medical condition. The App is not a substitute for professional medical
+                  advice, diagnosis, or treatment. Always seek the advice of your physician or other
+                  qualified health provider with any questions you may have regarding a medical condition.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-semibold text-white mb-4">8. Intellectual Property</h2>
+                <p>
+                  The App and its original content, features, and functionality are owned by ShineMind
+                  and are protected by international copyright, trademark, patent, trade secret, and
+                  other intellectual property laws.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-semibold text-white mb-4">9. Limitation of Liability</h2>
+                <p>
+                  To the maximum extent permitted by law, ShineMind shall not be liable for any indirect,
+                  incidental, special, consequential, or punitive damages, or any loss of profits or
+                  revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill,
+                  or other intangible losses.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-semibold text-white mb-4">10. Data and Privacy</h2>
+                <p>
+                  Your use of the App is also governed by our Privacy Policy. Please review our{" "}
+                  <Link href="/privacy" className="text-purple-400 hover:text-purple-300 underline">
+                    Privacy Policy
+                  </Link>
+                  , which explains how we collect, use, and protect your personal information.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-semibold text-white mb-4">11. Termination</h2>
+                <p>
+                  We may terminate or suspend your account and access to the App immediately, without
+                  prior notice or liability, for any reason, including if you breach these Terms of
+                  Service. Upon termination, your right to use the App will immediately cease.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-semibold text-white mb-4">12. Changes to Terms</h2>
+                <p>
+                  We reserve the right to modify or replace these Terms at any time. If a revision is
+                  material, we will provide at least 30 days' notice prior to any new terms taking effect.
+                  Your continued use of the App after such modifications constitutes acceptance of the
+                  updated Terms.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-semibold text-white mb-4">13. Contact Us</h2>
+                <p>
+                  If you have any questions about these Terms of Service, please contact us at:
+                </p>
+                <p className="mt-2">
+                  <a
+                    href="mailto:contact@shinemind.app"
+                    className="text-purple-400 hover:text-purple-300 underline"
+                  >
+                    contact@shinemind.app
+                  </a>
+                </p>
+              </section>
+            </div>
+          </div>
         </div>
       </div>
     </div>
