@@ -7,9 +7,12 @@ import { Toaster } from "react-hot-toast";
 import { useState } from "react";
 import Lottie from "lottie-react";
 import shining2Animation from "@/public/shining-2.json";
+import LanguageSelector from "@/components/LanguageSelector";
+import { useLanguage } from "@/lib/i18n";
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { t } = useLanguage();
   return (
     <>
       <Toaster />
@@ -32,17 +35,18 @@ export default function Home() {
               {/* Desktop Menu */}
               <div className="hidden md:flex items-center gap-8">
                 <a href="#home" className="text-gray-300 hover:text-white transition-colors">
-                  Home
+                  {t("nav.home")}
                 </a>
                 <a href="#features" className="text-gray-300 hover:text-white transition-colors">
-                  Features
+                  {t("nav.features")}
                 </a>
                 <a href="#pricing" className="text-gray-300 hover:text-white transition-colors">
-                  Pricing
+                  {t("nav.pricing")}
                 </a>
                 <a href="#waitlist" className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2 rounded-full text-sm font-semibold hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-105">
-                  Join Waitlist
+                  {t("nav.joinWaitlist")}
                 </a>
+                <LanguageSelector />
               </div>
 
               {/* Mobile Menu Button */}
@@ -64,29 +68,32 @@ export default function Home() {
                   onClick={() => setMobileMenuOpen(false)}
                   className="block text-gray-300 hover:text-white transition-colors py-2"
                 >
-                  Home
+                  {t("nav.home")}
                 </a>
                 <a
                   href="#features"
                   onClick={() => setMobileMenuOpen(false)}
                   className="block text-gray-300 hover:text-white transition-colors py-2"
                 >
-                  Features
+                  {t("nav.features")}
                 </a>
                 <a
                   href="#pricing"
                   onClick={() => setMobileMenuOpen(false)}
                   className="block text-gray-300 hover:text-white transition-colors py-2"
                 >
-                  Pricing
+                  {t("nav.pricing")}
                 </a>
                 <a
                   href="#waitlist"
                   onClick={() => setMobileMenuOpen(false)}
                   className="block bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-full text-sm font-semibold text-center hover:from-purple-600 hover:to-pink-600 transition-all"
                 >
-                  Join Waitlist
+                  {t("nav.joinWaitlist")}
                 </a>
+                <div className="pt-2">
+                  <LanguageSelector />
+                </div>
               </div>
             </div>
           )}
@@ -125,13 +132,12 @@ export default function Home() {
 
             <div className="max-w-4xl mx-auto space-y-6 -mt-[30px]">
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight leading-tight">
-                Let your mind
-                <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-400 bg-clip-text text-transparent"> shine everyday</span>
+                {t("hero.title")}
+                <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-400 bg-clip-text text-transparent"> {t("hero.titleHighlight")}</span>
               </h2>
 
               <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-                Transform your daily routine with mindful meditation, gratitude journaling,
-                and goal tracking. Build lasting habits for a healthier, happier you.
+                {t("hero.subtitle")}
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center pt-10">
@@ -139,14 +145,14 @@ export default function Home() {
                 href="#pricing"
                 className="group relative bg-gradient-to-r from-purple-500 to-pink-500 text-white px-10 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 shadow-2xl hover:shadow-purple-500/50"
               >
-                <span className="relative z-10">View Pricing</span>
+                <span className="relative z-10">{t("hero.viewPricing")}</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </a>
               <a
                 href="#waitlist"
                 className="relative bg-white/10 backdrop-blur-md text-white px-10 py-4 rounded-full text-lg font-semibold hover:bg-white/20 transition-all border border-white/30 shadow-xl hover:shadow-2xl hover:border-white/50"
               >
-                Join Waitlist
+                {t("hero.joinWaitlist")}
               </a>
             </div>
           </div>
@@ -158,10 +164,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Everything You Need to Thrive
+              {t("features.title")}
             </h2>
             <p className="text-xl text-gray-300">
-              Powerful features designed for your wellbeing journey
+              {t("features.subtitle")}
             </p>
           </div>
 
@@ -171,10 +177,9 @@ export default function Home() {
               <div className="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center mb-4">
                 <Sparkles className="w-7 h-7 text-blue-400" />
               </div>
-              <h3 className="text-2xl font-semibold text-white mb-3">Guided Meditation</h3>
+              <h3 className="text-2xl font-semibold text-white mb-3">{t("features.guidedMeditation.title")}</h3>
               <p className="text-gray-300">
-                Customizable meditation sessions with breathing techniques, soothing animations,
-                and calming background music.
+                {t("features.guidedMeditation.description")}
               </p>
             </div>
 
@@ -183,10 +188,9 @@ export default function Home() {
               <div className="w-12 h-12 bg-pink-500/20 rounded-xl flex items-center justify-center mb-4">
                 <Heart className="w-7 h-7 text-pink-400" />
               </div>
-              <h3 className="text-2xl font-semibold text-white mb-3">Gratitude Journal</h3>
+              <h3 className="text-2xl font-semibold text-white mb-3">{t("features.gratitudeJournal.title")}</h3>
               <p className="text-gray-300">
-                Capture daily moments of gratitude with photos, voice notes, and categorized entries
-                to cultivate positivity.
+                {t("features.gratitudeJournal.description")}
               </p>
             </div>
 
@@ -195,10 +199,9 @@ export default function Home() {
               <div className="w-12 h-12 bg-yellow-500/20 rounded-xl flex items-center justify-center mb-4">
                 <Target className="w-7 h-7 text-yellow-400" />
               </div>
-              <h3 className="text-2xl font-semibold text-white mb-3">Goal Tracking</h3>
+              <h3 className="text-2xl font-semibold text-white mb-3">{t("features.goalTracking.title")}</h3>
               <p className="text-gray-300">
-                Set and track unlimited goals across 10 life categories with difficulty levels
-                and progress monitoring.
+                {t("features.goalTracking.description")}
               </p>
             </div>
 
@@ -207,10 +210,9 @@ export default function Home() {
               <div className="w-12 h-12 bg-purple-500/20 rounded-xl flex items-center justify-center mb-4">
                 <MessageCircle className="w-7 h-7 text-purple-400" />
               </div>
-              <h3 className="text-2xl font-semibold text-white mb-3">Affirmations</h3>
+              <h3 className="text-2xl font-semibold text-white mb-3">{t("features.affirmations.title")}</h3>
               <p className="text-gray-300">
-                Record custom affirmations with text-to-speech playback to reinforce positive
-                self-talk daily.
+                {t("features.affirmations.description")}
               </p>
             </div>
 
@@ -219,10 +221,9 @@ export default function Home() {
               <div className="w-12 h-12 bg-cyan-500/20 rounded-xl flex items-center justify-center mb-4">
                 <Music className="w-7 h-7 text-cyan-400" />
               </div>
-              <h3 className="text-2xl font-semibold text-white mb-3">Sleep Sounds</h3>
+              <h3 className="text-2xl font-semibold text-white mb-3">{t("features.sleepSounds.title")}</h3>
               <p className="text-gray-300">
-                Curated library of relaxing sleep sounds and music to help you wind down
-                and improve sleep quality.
+                {t("features.sleepSounds.description")}
               </p>
             </div>
 
@@ -231,10 +232,9 @@ export default function Home() {
               <div className="w-12 h-12 bg-orange-500/20 rounded-xl flex items-center justify-center mb-4">
                 <BarChart3 className="w-7 h-7 text-orange-400" />
               </div>
-              <h3 className="text-2xl font-semibold text-white mb-3">Activity Tracking</h3>
+              <h3 className="text-2xl font-semibold text-white mb-3">{t("features.activityTracking.title")}</h3>
               <p className="text-gray-300">
-                Track your wellness journey with detailed analytics, streaks, and weekly trends
-                to stay motivated.
+                {t("features.activityTracking.description")}
               </p>
             </div>
           </div>
@@ -246,10 +246,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Beautiful. Simple. Powerful.
+              {t("screenshots.title")}
             </h2>
             <p className="text-xl text-gray-300">
-              A premium experience designed for your daily wellness routine
+              {t("screenshots.subtitle")}
             </p>
           </div>
 
@@ -301,10 +301,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Morning & Evening Rituals
+              {t("routines.title")}
             </h2>
             <p className="text-xl text-gray-300">
-              Two powerful routines to bookend your day
+              {t("routines.subtitle")}
             </p>
           </div>
 
@@ -315,27 +315,27 @@ export default function Home() {
                 <div className="w-16 h-16 bg-yellow-500/20 rounded-2xl flex items-center justify-center">
                   <span className="text-4xl">☀️</span>
                 </div>
-                <h3 className="text-3xl font-bold text-white">Shine</h3>
+                <h3 className="text-3xl font-bold text-white">{t("routines.shine.title")}</h3>
               </div>
               <p className="text-gray-300 mb-6 text-lg">
-                Start your mornings with intention and energy
+                {t("routines.shine.description")}
               </p>
               <ul className="space-y-3 text-gray-200">
                 <li className="flex items-start gap-3">
                   <span className="text-yellow-400 mt-1">✓</span>
-                  <span>Guided meditation to center your mind</span>
+                  <span>{t("routines.shine.items.meditation")}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-yellow-400 mt-1">✓</span>
-                  <span>Review and set daily goals</span>
+                  <span>{t("routines.shine.items.goals")}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-yellow-400 mt-1">✓</span>
-                  <span>Positive affirmations for motivation</span>
+                  <span>{t("routines.shine.items.affirmations")}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-yellow-400 mt-1">✓</span>
-                  <span>Track your progress and streaks</span>
+                  <span>{t("routines.shine.items.tracking")}</span>
                 </li>
               </ul>
             </div>
@@ -346,27 +346,27 @@ export default function Home() {
                 <div className="w-16 h-16 bg-blue-500/20 rounded-2xl flex items-center justify-center">
                   <span className="text-4xl">🌙</span>
                 </div>
-                <h3 className="text-3xl font-bold text-white">Wind Down</h3>
+                <h3 className="text-3xl font-bold text-white">{t("routines.windDown.title")}</h3>
               </div>
               <p className="text-gray-300 mb-6 text-lg">
-                End your evenings with reflection and peace
+                {t("routines.windDown.description")}
               </p>
               <ul className="space-y-3 text-gray-200">
                 <li className="flex items-start gap-3">
                   <span className="text-blue-400 mt-1">✓</span>
-                  <span>Reflect on daily accomplishments</span>
+                  <span>{t("routines.windDown.items.accomplishments")}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-blue-400 mt-1">✓</span>
-                  <span>Gratitude journaling with voice & photos</span>
+                  <span>{t("routines.windDown.items.gratitude")}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-blue-400 mt-1">✓</span>
-                  <span>Relaxing meditation sessions</span>
+                  <span>{t("routines.windDown.items.meditation")}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-blue-400 mt-1">✓</span>
-                  <span>Calming sleep sounds for better rest</span>
+                  <span>{t("routines.windDown.items.sleepSounds")}</span>
                 </li>
               </ul>
             </div>
@@ -379,36 +379,36 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Start Your Journey Today
+              {t("pricing.title")}
             </h2>
             <p className="text-xl text-gray-300">
-              Free to start, premium to unlock your full potential
+              {t("pricing.subtitle")}
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
             {/* Free Plan */}
             <div className="bg-white/5 backdrop-blur-md rounded-3xl p-8 border border-white/20">
-              <h3 className="text-2xl font-bold text-white mb-2">Free</h3>
+              <h3 className="text-2xl font-bold text-white mb-2">{t("pricing.free.title")}</h3>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-white">$0</span>
+                <span className="text-4xl font-bold text-white">{t("pricing.free.price")}</span>
               </div>
               <ul className="space-y-3 text-gray-300 mb-8">
                 <li className="flex items-start gap-2">
                   <span className="text-green-400 mt-1">✓</span>
-                  <span>Up to 3 goals</span>
+                  <span>{t("pricing.free.features.goals")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-400 mt-1">✓</span>
-                  <span>2 custom affirmations</span>
+                  <span>{t("pricing.free.features.affirmations")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-400 mt-1">✓</span>
-                  <span>Basic meditation</span>
+                  <span>{t("pricing.free.features.meditation")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-400 mt-1">✓</span>
-                  <span>Gratitude journal</span>
+                  <span>{t("pricing.free.features.journal")}</span>
                 </li>
               </ul>
             </div>
@@ -416,100 +416,100 @@ export default function Home() {
             {/* Premium Monthly */}
             <div className="bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-md rounded-3xl p-8 border border-purple-500/40 relative">
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-1 rounded-full text-sm font-semibold">
-                Popular
+                {t("pricing.monthly.badge")}
               </div>
-              <h3 className="text-2xl font-bold text-white mb-2">Monthly</h3>
+              <h3 className="text-2xl font-bold text-white mb-2">{t("pricing.monthly.title")}</h3>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-white">$6.99</span>
-                <span className="text-gray-300">/month</span>
-                <div className="text-sm text-blue-400 mt-1">7 days free trial</div>
+                <span className="text-4xl font-bold text-white">{t("pricing.monthly.price")}</span>
+                <span className="text-gray-300">{t("pricing.monthly.period")}</span>
+                <div className="text-sm text-blue-400 mt-1">{t("pricing.monthly.trial")}</div>
               </div>
               <ul className="space-y-3 text-gray-200 mb-8">
                 <li className="flex items-start gap-2">
                   <span className="text-yellow-400 mt-1">✓</span>
-                  <span>Unlimited goals</span>
+                  <span>{t("pricing.monthly.features.goals")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-yellow-400 mt-1">✓</span>
-                  <span>Unlimited affirmations</span>
+                  <span>{t("pricing.monthly.features.affirmations")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-yellow-400 mt-1">✓</span>
-                  <span>Premium sleep sounds</span>
+                  <span>{t("pricing.monthly.features.sleepSounds")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-yellow-400 mt-1">✓</span>
-                  <span>Advanced analytics</span>
+                  <span>{t("pricing.monthly.features.analytics")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-yellow-400 mt-1">✓</span>
-                  <span>Priority support</span>
+                  <span>{t("pricing.monthly.features.support")}</span>
                 </li>
               </ul>
             </div>
 
             {/* Yearly */}
             <div className="bg-white/5 backdrop-blur-md rounded-3xl p-8 border border-white/20">
-              <h3 className="text-2xl font-bold text-white mb-2">Yearly</h3>
+              <h3 className="text-2xl font-bold text-white mb-2">{t("pricing.yearly.title")}</h3>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-white">$39.99</span>
-                <span className="text-gray-300">/year</span>
-                <div className="text-sm text-green-400 mt-1">Save 50% • 7 days free trial</div>
+                <span className="text-4xl font-bold text-white">{t("pricing.yearly.price")}</span>
+                <span className="text-gray-300">{t("pricing.yearly.period")}</span>
+                <div className="text-sm text-green-400 mt-1">{t("pricing.yearly.savings")}</div>
               </div>
               <ul className="space-y-3 text-gray-300 mb-8">
                 <li className="flex items-start gap-2">
                   <span className="text-green-400 mt-1">✓</span>
-                  <span>Unlimited goals</span>
+                  <span>{t("pricing.yearly.features.goals")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-400 mt-1">✓</span>
-                  <span>Unlimited affirmations</span>
+                  <span>{t("pricing.yearly.features.affirmations")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-400 mt-1">✓</span>
-                  <span>Premium sleep sounds</span>
+                  <span>{t("pricing.yearly.features.sleepSounds")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-400 mt-1">✓</span>
-                  <span>Advanced analytics</span>
+                  <span>{t("pricing.yearly.features.analytics")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-400 mt-1">✓</span>
-                  <span>Priority support</span>
+                  <span>{t("pricing.yearly.features.support")}</span>
                 </li>
               </ul>
             </div>
 
             {/* Lifetime */}
             <div className="bg-white/5 backdrop-blur-md rounded-3xl p-8 border border-white/20">
-              <h3 className="text-2xl font-bold text-white mb-2">Lifetime</h3>
+              <h3 className="text-2xl font-bold text-white mb-2">{t("pricing.lifetime.title")}</h3>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-white">$79.99</span>
-                <div className="text-sm text-green-400">One-time payment</div>
+                <span className="text-4xl font-bold text-white">{t("pricing.lifetime.price")}</span>
+                <div className="text-sm text-green-400">{t("pricing.lifetime.note")}</div>
               </div>
               <ul className="space-y-3 text-gray-300 mb-8">
                 <li className="flex items-start gap-2">
                   <span className="text-green-400 mt-1">✓</span>
-                  <span>All Premium features</span>
+                  <span>{t("pricing.lifetime.features.all")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-400 mt-1">✓</span>
-                  <span>Unlimited everything</span>
+                  <span>{t("pricing.lifetime.features.unlimited")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-400 mt-1">✓</span>
-                  <span>Future updates included</span>
+                  <span>{t("pricing.lifetime.features.updates")}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-400 mt-1">✓</span>
-                  <span>Best long-term value</span>
+                  <span>{t("pricing.lifetime.features.value")}</span>
                 </li>
               </ul>
             </div>
           </div>
 
           <div className="text-center mt-12">
-            <p className="text-gray-400 mb-8">Available on iOS</p>
+            <p className="text-gray-400 mb-8">{t("pricing.availableOn")}</p>
             <div className="flex justify-center gap-4">
               <a
                 href="#"
@@ -532,10 +532,10 @@ export default function Home() {
       <section id="waitlist" className="py-24 bg-gradient-to-br from-purple-600/10 to-pink-600/10 backdrop-blur-sm">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Join the Waitlist
+            {t("waitlist.title")}
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Be the first to know when ShineMind launches. Sign up now and get exclusive early access!
+            {t("waitlist.subtitle")}
           </p>
 
           <div className="flex flex-col items-center">
@@ -560,42 +560,42 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-white">ShineMind</h3>
               </div>
               <p className="text-gray-400">
-                Your daily companion for mental wellness and personal growth.
+                {t("footer.tagline")}
               </p>
             </div>
             <div>
-              <h4 className="text-white font-semibold mb-4">Legal</h4>
+              <h4 className="text-white font-semibold mb-4">{t("footer.legal")}</h4>
               <ul className="space-y-2">
                 <li>
                   <Link href="/privacy" className="text-gray-400 hover:text-white transition-colors">
-                    Privacy Policy
+                    {t("footer.privacyPolicy")}
                   </Link>
                 </li>
                 <li>
                   <Link href="/terms" className="text-gray-400 hover:text-white transition-colors">
-                    Terms of Service
+                    {t("footer.termsOfService")}
                   </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h4 className="text-white font-semibold mb-4">Support</h4>
+              <h4 className="text-white font-semibold mb-4">{t("footer.support")}</h4>
               <ul className="space-y-2">
                 <li>
                   <a href="#waitlist" className="text-gray-400 hover:text-white transition-colors">
-                    Join Waitlist
+                    {t("nav.joinWaitlist")}
                   </a>
                 </li>
                 <li>
                   <a href="mailto:contact@shinemind.app" className="text-gray-400 hover:text-white transition-colors">
-                    Contact Us
+                    {t("footer.contactUs")}
                   </a>
                 </li>
               </ul>
             </div>
           </div>
           <div className="border-t border-white/10 pt-8 text-center text-gray-400">
-            <p>&copy; {new Date().getFullYear()} ShineMind. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} ShineMind. {t("footer.copyright")}</p>
           </div>
         </div>
       </footer>

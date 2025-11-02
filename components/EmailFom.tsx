@@ -2,8 +2,10 @@
 import { InfoCircledIcon } from "@radix-ui/react-icons";
 import { useState } from "react";
 import { toast } from "react-hot-toast";
+import { useLanguage } from "@/lib/i18n";
 
 export default function EmailForm() {
+  const { t } = useLanguage();
   const [email, setEmail] = useState<string>("");
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
 
@@ -21,7 +23,7 @@ export default function EmailForm() {
         : undefined);
 
     if (!endpoint) {
-      toast.error("Form endpoint is not configured.");
+      toast.error(t("waitlist.endpointError"));
       return;
     }
 
@@ -38,15 +40,15 @@ export default function EmailForm() {
 
       if (response.ok) {
         setEmail("");
-        toast.success("Thank you for joining our waitlist! 🚀");
+        toast.success(t("waitlist.success"));
       } else {
         setEmail("");
-        toast.error("Oops! Something went wrong!");
+        toast.error(t("waitlist.error"));
       }
     } catch (err) {
       setEmail("");
       console.error(err);
-      toast.error("Network error. Please try again.");
+      toast.error(t("waitlist.networkError"));
     } finally {
       setIsSubmitting(false);
     }
@@ -64,7 +66,7 @@ export default function EmailForm() {
             pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
             id="email-address"
             name="email"
-            placeholder="Enter your email address"
+            placeholder={t("waitlist.emailPlaceholder")}
             required
             type="email"
             value={email}
@@ -75,7 +77,7 @@ export default function EmailForm() {
             type="submit"
             disabled={isSubmitting}
           >
-            <span>{isSubmitting ? "Submitting..." : "Join Waitlist"}</span>
+            <span>{isSubmitting ? t("waitlist.submitting") : t("waitlist.submit")}</span>
           </button>
         </div>
       </form>
@@ -83,7 +85,7 @@ export default function EmailForm() {
       <div className="flex items-start justify-center gap-2 text-gray-400 max-w-lg w-full">
         <InfoCircledIcon className="mt-0.5 shrink-0" />
         <p className="text-sm text-center">
-          No worries! Your data is completely safe and will only be used to provide you with updates about our product.
+          {t("waitlist.privacyNote")}
         </p>
       </div>
     </div>

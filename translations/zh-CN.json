@@ -1,0 +1,342 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "joinWaitlist": "Join Waitlist"
+  },
+  "hero": {
+    "title": "Let your mind",
+    "titleHighlight": "shine everyday",
+    "subtitle": "Transform your daily routine with mindful meditation, gratitude journaling, and goal tracking. Build lasting habits for a healthier, happier you.",
+    "viewPricing": "View Pricing",
+    "joinWaitlist": "Join Waitlist"
+  },
+  "features": {
+    "title": "Everything You Need to Thrive",
+    "subtitle": "Powerful features designed for your wellbeing journey",
+    "guidedMeditation": {
+      "title": "Guided Meditation",
+      "description": "Customizable meditation sessions with breathing techniques, soothing animations, and calming background music."
+    },
+    "gratitudeJournal": {
+      "title": "Gratitude Journal",
+      "description": "Capture daily moments of gratitude with photos, voice notes, and categorized entries to cultivate positivity."
+    },
+    "goalTracking": {
+      "title": "Goal Tracking",
+      "description": "Set and track unlimited goals across 10 life categories with difficulty levels and progress monitoring."
+    },
+    "affirmations": {
+      "title": "Affirmations",
+      "description": "Record custom affirmations with text-to-speech playback to reinforce positive self-talk daily."
+    },
+    "sleepSounds": {
+      "title": "Sleep Sounds",
+      "description": "Curated library of relaxing sleep sounds and music to help you wind down and improve sleep quality."
+    },
+    "activityTracking": {
+      "title": "Activity Tracking",
+      "description": "Track your wellness journey with detailed analytics, streaks, and weekly trends to stay motivated."
+    }
+  },
+  "screenshots": {
+    "title": "Beautiful. Simple. Powerful.",
+    "subtitle": "A premium experience designed for your daily wellness routine"
+  },
+  "routines": {
+    "title": "Morning & Evening Rituals",
+    "subtitle": "Two powerful routines to bookend your day",
+    "shine": {
+      "title": "Shine",
+      "description": "Start your mornings with intention and energy",
+      "items": {
+        "meditation": "Guided meditation to center your mind",
+        "goals": "Review and set daily goals",
+        "affirmations": "Positive affirmations for motivation",
+        "tracking": "Track your progress and streaks"
+      }
+    },
+    "windDown": {
+      "title": "Wind Down",
+      "description": "End your evenings with reflection and peace",
+      "items": {
+        "accomplishments": "Reflect on daily accomplishments",
+        "gratitude": "Gratitude journaling with voice & photos",
+        "meditation": "Relaxing meditation sessions",
+        "sleepSounds": "Calming sleep sounds for better rest"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Start Your Journey Today",
+    "subtitle": "Free to start, premium to unlock your full potential",
+    "free": {
+      "title": "Free",
+      "price": "$0",
+      "features": {
+        "goals": "Up to 3 goals",
+        "affirmations": "2 custom affirmations",
+        "meditation": "Basic meditation",
+        "journal": "Gratitude journal"
+      }
+    },
+    "monthly": {
+      "title": "Monthly",
+      "price": "$6.99",
+      "period": "/month",
+      "trial": "7 days free trial",
+      "badge": "Popular",
+      "features": {
+        "goals": "Unlimited goals",
+        "affirmations": "Unlimited affirmations",
+        "sleepSounds": "Premium sleep sounds",
+        "analytics": "Advanced analytics",
+        "support": "Priority support"
+      }
+    },
+    "yearly": {
+      "title": "Yearly",
+      "price": "$39.99",
+      "period": "/year",
+      "savings": "Save 50% • 7 days free trial",
+      "features": {
+        "goals": "Unlimited goals",
+        "affirmations": "Unlimited affirmations",
+        "sleepSounds": "Premium sleep sounds",
+        "analytics": "Advanced analytics",
+        "support": "Priority support"
+      }
+    },
+    "lifetime": {
+      "title": "Lifetime",
+      "price": "$79.99",
+      "note": "One-time payment",
+      "features": {
+        "all": "All Premium features",
+        "unlimited": "Unlimited everything",
+        "updates": "Future updates included",
+        "value": "Best long-term value"
+      }
+    },
+    "availableOn": "Available on iOS"
+  },
+  "waitlist": {
+    "title": "Join the Waitlist",
+    "subtitle": "Be the first to know when ShineMind launches. Sign up now and get exclusive early access!",
+    "emailPlaceholder": "Enter your email address",
+    "submit": "Join Waitlist",
+    "submitting": "Submitting...",
+    "privacyNote": "No worries! Your data is completely safe and will only be used to provide you with updates about our product.",
+    "success": "Thank you for joining our waitlist! 🚀",
+    "error": "Oops! Something went wrong!",
+    "networkError": "Network error. Please try again.",
+    "endpointError": "Form endpoint is not configured."
+  },
+  "footer": {
+    "tagline": "Your daily companion for mental wellness and personal growth.",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "support": "Support",
+    "contactUs": "Contact Us",
+    "copyright": "All rights reserved."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated",
+    "backToHome": "← Back to Home",
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "content": "By accessing and using ShineMind (\"the App\"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to these Terms of Service, please do not use the App."
+      },
+      "description": {
+        "title": "2. Description of Service",
+        "content": "ShineMind is a mental wellness application that provides guided meditation, gratitude journaling, goal tracking, affirmations, and sleep sounds to help users improve their mental health and personal development through structured daily routines."
+      },
+      "userAccount": {
+        "title": "3. User Account",
+        "content": "To use certain features of the App, you must create an account using Apple Sign-In. You are responsible for:",
+        "items": {
+          "credentials": "Maintaining the confidentiality of your account credentials",
+          "activities": "All activities that occur under your account",
+          "notification": "Notifying us immediately of any unauthorized use of your account"
+        }
+      },
+      "premium": {
+        "title": "4. Premium Subscription",
+        "content": "ShineMind offers a free version with limited features and premium subscription options:",
+        "items": {
+          "monthly": "Monthly subscription: $6.99/month (includes 7 days free trial)",
+          "annual": "Annual subscription: $39.99/year (includes 7 days free trial)",
+          "lifetime": "Lifetime access: $79.99 (one-time payment)"
+        },
+        "trialNote": "Both monthly and annual subscriptions include a 7-day free trial. You will not be charged until the trial period ends. Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period. You can manage or cancel your subscription through your Apple ID account settings."
+      },
+      "userContent": {
+        "title": "5. User Content",
+        "content": "You retain ownership of any content you create in the App, including:",
+        "items": {
+          "gratitude": "Gratitude journal entries and photos",
+          "affirmations": "Custom affirmation recordings",
+          "goals": "Goal entries and notes",
+          "profile": "Profile information"
+        },
+        "license": "By creating content in the App, you grant us a license to store and process this content solely for the purpose of providing the service to you."
+      },
+      "acceptableUse": {
+        "title": "6. Acceptable Use",
+        "title2": "You agree not to:",
+        "items": {
+          "unlawful": "Use the App for any unlawful purpose",
+          "unauthorized": "Attempt to gain unauthorized access to any portion of the App",
+          "interfere": "Interfere with or disrupt the App's servers or networks",
+          "viruses": "Upload viruses or malicious code",
+          "harass": "Harass, abuse, or harm another person through the App"
+        }
+      },
+      "medical": {
+        "title": "7. Medical Disclaimer",
+        "content": "ShineMind is a wellness tool and is not intended to diagnose, treat, cure, or prevent any disease or medical condition. The App is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition."
+      },
+      "ip": {
+        "title": "8. Intellectual Property",
+        "content": "The App and its original content, features, and functionality are owned by ShineMind and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws."
+      },
+      "liability": {
+        "title": "9. Limitation of Liability",
+        "content": "To the maximum extent permitted by law, ShineMind shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses."
+      },
+      "data": {
+        "title": "10. Data and Privacy",
+        "content": "Your use of the App is also governed by our Privacy Policy. Please review our Privacy Policy, which explains how we collect, use, and protect your personal information."
+      },
+      "termination": {
+        "title": "11. Termination",
+        "content": "We may terminate or suspend your account and access to the App immediately, without prior notice or liability, for any reason, including if you breach these Terms of Service. Upon termination, your right to use the App will immediately cease."
+      },
+      "changes": {
+        "title": "12. Changes to Terms",
+        "content": "We reserve the right to modify or replace these Terms at any time. If a revision is material, we will provide at least 30 days' notice prior to any new terms taking effect. Your continued use of the App after such modifications constitutes acceptance of the updated Terms."
+      },
+      "contact": {
+        "title": "13. Contact Us",
+        "content": "If you have any questions about these Terms of Service, please contact us at:"
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated",
+    "backToHome": "← Back to Home",
+    "intro": "At ShineMind, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.",
+    "sections": {
+      "information": {
+        "title": "1. Information We Collect",
+        "content": "We collect information you provide directly to us when using ShineMind:",
+        "items": {
+          "account": "Account Information: Name, email address (via Apple Sign-In), profile picture",
+          "content": "User Content: Gratitude journal entries, affirmation recordings, goal entries, meditation preferences, photos you upload",
+          "usage": "Usage Data: Meditation sessions, activity completion, streaks, session times, app interactions",
+          "device": "Device Information: Device type, operating system, app version, unique device identifiers",
+          "subscription": "Subscription Information: Purchase history and subscription status (managed through Apple/RevenueCat)"
+        }
+      },
+      "use": {
+        "title": "2. How We Use Your Information",
+        "content": "We use the information we collect to:",
+        "items": {
+          "provide": "Provide, maintain, and improve the App's features and functionality",
+          "sync": "Sync your data across devices using Supabase",
+          "track": "Track your progress, streaks, and activity history",
+          "notifications": "Send you notifications about your routines (if enabled)",
+          "process": "Process and manage your premium subscription",
+          "support": "Provide customer support and respond to your inquiries",
+          "analyze": "Analyze app usage to improve user experience",
+          "security": "Ensure the security and integrity of our services"
+        }
+      },
+      "sharing": {
+        "title": "3. Information Sharing and Disclosure",
+        "content": "We do not sell your personal information. We may share your information only in the following circumstances:",
+        "items": {
+          "providers": "Service Providers: We use Supabase for data storage and RevenueCat for subscription management. These providers are bound by confidentiality obligations.",
+          "apple": "Apple: Authentication is handled through Apple Sign-In, subject to Apple's privacy policy",
+          "legal": "Legal Requirements: When required by law, regulation, legal process, or governmental request",
+          "protection": "Protection of Rights: To protect the rights, property, and safety of ShineMind, our users, or others",
+          "consent": "With Your Consent: When you explicitly consent to sharing your information"
+        }
+      },
+      "security": {
+        "title": "4. Data Security",
+        "content": "We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. This includes:",
+        "items": {
+          "encryption": "Encryption of data in transit and at rest",
+          "rls": "Row-Level Security (RLS) policies in Supabase database",
+          "auth": "Secure authentication via Apple Sign-In",
+          "assessments": "Regular security assessments and updates"
+        },
+        "note": "However, no method of transmission over the internet or electronic storage is 100% secure. We cannot guarantee absolute security."
+      },
+      "retention": {
+        "title": "5. Data Retention",
+        "content": "We retain your personal information for as long as your account is active or as needed to provide you services. You may request deletion of your data at any time through the app settings or by contacting us. Upon deletion:",
+        "items": {
+          "deleted": "Your account and all associated data will be permanently deleted",
+          "removed": "Your gratitude entries, affirmations, goals, and meditation history will be removed",
+          "retained": "Some data may be retained for legal or regulatory compliance"
+        }
+      },
+      "rights": {
+        "title": "6. Your Rights and Choices",
+        "content": "Depending on your location, you may have the following rights:",
+        "items": {
+          "access": "Access: Request access to your personal information",
+          "correction": "Correction: Request correction of inaccurate data",
+          "deletion": "Deletion: Request deletion of your account and data",
+          "portability": "Data Portability: Request a copy of your data in a portable format",
+          "optout": "Opt-Out: Disable notifications in app settings",
+          "withdraw": "Withdraw Consent: Withdraw consent for data processing where applicable"
+        },
+        "contact": "To exercise these rights, contact us at"
+      },
+      "children": {
+        "title": "7. Children's Privacy",
+        "content": "ShineMind is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately, and we will take steps to delete such information."
+      },
+      "transfers": {
+        "title": "8. International Data Transfers",
+        "content": "Your information may be transferred to and maintained on servers located outside of your state, province, country, or other governmental jurisdiction where data protection laws may differ. By using ShineMind, you consent to the transfer of your information to our facilities and service providers."
+      },
+      "thirdParty": {
+        "title": "9. Third-Party Services",
+        "content": "ShineMind integrates with the following third-party services:",
+        "items": {
+          "supabase": "Supabase: Database and authentication services",
+          "revenuecat": "RevenueCat: Subscription and payment processing",
+          "apple": "Apple Services: Apple Sign-In, Push Notifications, In-App Purchases"
+        },
+        "note": "These services have their own privacy policies. We encourage you to review them."
+      },
+      "camera": {
+        "title": "10. Camera and Photo Library",
+        "content": "ShineMind requests access to your camera and photo library to allow you to:",
+        "items": {
+          "photos": "Add photos to gratitude journal entries",
+          "profile": "Set a profile picture"
+        },
+        "note": "Photos are stored securely in your account and are not shared with third parties. You can revoke camera/photo access at any time in your device settings."
+      },
+      "changes": {
+        "title": "11. Changes to This Privacy Policy",
+        "content": "We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the new Privacy Policy in the App and updating the \"Last updated\" date. Your continued use of ShineMind after such modifications constitutes your acknowledgment and acceptance of the updated policy."
+      },
+      "contact": {
+        "title": "12. Contact Us",
+        "content": "If you have any questions about this Privacy Policy or our privacy practices, please contact us at:"
+      }
+    }
+  }
+}
+

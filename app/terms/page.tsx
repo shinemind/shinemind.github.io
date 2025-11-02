@@ -1,12 +1,9 @@
-import { Metadata } from "next";
+"use client";
 import Link from "next/link";
-
-export const metadata: Metadata = {
-  title: "Terms of Service - ShineMind",
-  description: "Terms of Service for ShineMind",
-};
+import { useLanguage } from "@/lib/i18n";
 
 export default function TermsPage() {
+  const { t } = useLanguage();
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -14,32 +11,28 @@ export default function TermsPage() {
           href="/"
           className="inline-flex items-center text-purple-300 hover:text-purple-200 mb-8 transition-colors"
         >
-          ← Back to Home
+          {t("terms.backToHome")}
         </Link>
 
         <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 md:p-12 border border-white/20">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Terms of Service
+            {t("terms.title")}
           </h1>
-          <p className="text-gray-400 mb-8">Last updated: {new Date().toLocaleDateString()}</p>
+          <p className="text-gray-400 mb-8">{t("terms.lastUpdated")}: {new Date().toLocaleDateString()}</p>
 
           <div className="prose prose-invert prose-lg max-w-none">
             <div className="space-y-8 text-gray-300">
               <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">1. Acceptance of Terms</h2>
+                <h2 className="text-2xl font-semibold text-white mb-4">{t("terms.sections.acceptance.title")}</h2>
                 <p>
-                  By accessing and using ShineMind ("the App"), you accept and agree to be bound by the
-                  terms and provision of this agreement. If you do not agree to these Terms of Service,
-                  please do not use the App.
+                  {t("terms.sections.acceptance.content")}
                 </p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">2. Description of Service</h2>
+                <h2 className="text-2xl font-semibold text-white mb-4">{t("terms.sections.description.title")}</h2>
                 <p>
-                  ShineMind is a mental wellness application that provides guided meditation, gratitude
-                  journaling, goal tracking, affirmations, and sleep sounds to help users improve their
-                  mental health and personal development through structured daily routines.
+                  {t("terms.sections.description.content")}
                 </p>
               </section>
 
