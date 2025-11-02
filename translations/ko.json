@@ -1,342 +1,341 @@
 {
   "nav": {
-    "home": "Home",
-    "features": "Features",
-    "pricing": "Pricing",
-    "joinWaitlist": "Join Waitlist"
+    "home": "홈",
+    "features": "기능",
+    "pricing": "요금",
+    "joinWaitlist": "대기자 명단에 참여"
   },
   "hero": {
-    "title": "Let your mind",
-    "titleHighlight": "shine everyday",
-    "subtitle": "Transform your daily routine with mindful meditation, gratitude journaling, and goal tracking. Build lasting habits for a healthier, happier you.",
-    "viewPricing": "View Pricing",
-    "joinWaitlist": "Join Waitlist"
+    "title": "당신의 마음을",
+    "titleHighlight": "매일 빛나게 하세요",
+    "subtitle": "마음챙김 명상, 감사 일기, 목표 추적으로 일상을 변화시키세요. 더 건강하고 행복한 당신을 위한 지속적인 습관을 만들어가세요.",
+    "viewPricing": "요금 보기",
+    "joinWaitlist": "대기자 명단에 참여"
   },
   "features": {
-    "title": "Everything You Need to Thrive",
-    "subtitle": "Powerful features designed for your wellbeing journey",
+    "title": "번영을 위해 필요한 모든 것",
+    "subtitle": "웰니스 여정을 위해 설계된 강력한 기능",
     "guidedMeditation": {
-      "title": "Guided Meditation",
-      "description": "Customizable meditation sessions with breathing techniques, soothing animations, and calming background music."
+      "title": "가이드 명상",
+      "description": "호흡 기법, 진정 효과가 있는 애니메이션, 평온한 배경 음악을 갖춘 맞춤형 명상 세션."
     },
     "gratitudeJournal": {
-      "title": "Gratitude Journal",
-      "description": "Capture daily moments of gratitude with photos, voice notes, and categorized entries to cultivate positivity."
+      "title": "감사 일기",
+      "description": "사진, 음성 메모, 분류된 항목으로 감사의 일상적인 순간을 기록하여 긍정성을 키웁니다."
     },
     "goalTracking": {
-      "title": "Goal Tracking",
-      "description": "Set and track unlimited goals across 10 life categories with difficulty levels and progress monitoring."
+      "title": "목표 추적",
+      "description": "난이도 수준과 진행 상황 모니터링을 갖춘 10가지 생활 카테고리에서 무제한 목표를 설정하고 추적합니다."
     },
     "affirmations": {
-      "title": "Affirmations",
-      "description": "Record custom affirmations with text-to-speech playback to reinforce positive self-talk daily."
+      "title": "긍정 확언",
+      "description": "텍스트 음성 변환 재생 기능이 있는 맞춤형 긍정 확언을 녹음하여 매일 긍정적인 자기 대화를 강화합니다."
     },
     "sleepSounds": {
-      "title": "Sleep Sounds",
-      "description": "Curated library of relaxing sleep sounds and music to help you wind down and improve sleep quality."
+      "title": "수면 음향",
+      "description": "편안한 수면 음향과 음악의 엄선된 라이브러리로 몸을 이완하고 수면의 질을 향상시킵니다."
     },
     "activityTracking": {
-      "title": "Activity Tracking",
-      "description": "Track your wellness journey with detailed analytics, streaks, and weekly trends to stay motivated."
+      "title": "활동 추적",
+      "description": "상세한 분석, 연속 기록, 주간 트렌드로 웰니스 여정을 추적하여 동기를 유지합니다."
     }
   },
   "screenshots": {
-    "title": "Beautiful. Simple. Powerful.",
-    "subtitle": "A premium experience designed for your daily wellness routine"
+    "title": "아름답다. 간단하다. 강력하다.",
+    "subtitle": "일상적인 웰니스 루틴을 위해 설계된 프리미엄 경험"
   },
   "routines": {
-    "title": "Morning & Evening Rituals",
-    "subtitle": "Two powerful routines to bookend your day",
+    "title": "아침 & 저녁 의식",
+    "subtitle": "하루를 마무리하는 두 가지 강력한 루틴",
     "shine": {
-      "title": "Shine",
-      "description": "Start your mornings with intention and energy",
+      "title": "샤인",
+      "description": "의도와 에너지로 아침을 시작하세요",
       "items": {
-        "meditation": "Guided meditation to center your mind",
-        "goals": "Review and set daily goals",
-        "affirmations": "Positive affirmations for motivation",
-        "tracking": "Track your progress and streaks"
+        "meditation": "마음을 집중시키는 가이드 명상",
+        "goals": "일일 목표 검토 및 설정",
+        "affirmations": "동기를 위한 긍정적 확언",
+        "tracking": "진행 상황과 연속 기록 추적"
       }
     },
     "windDown": {
-      "title": "Wind Down",
-      "description": "End your evenings with reflection and peace",
+      "title": "윈드 다운",
+      "description": "반성과 평화로 저녁을 마무리하세요",
       "items": {
-        "accomplishments": "Reflect on daily accomplishments",
-        "gratitude": "Gratitude journaling with voice & photos",
-        "meditation": "Relaxing meditation sessions",
-        "sleepSounds": "Calming sleep sounds for better rest"
+        "accomplishments": "일일 성취 반성",
+        "gratitude": "음성 및 사진이 포함된 감사 일기",
+        "meditation": "편안한 명상 세션",
+        "sleepSounds": "더 나은 휴식을 위한 평온한 수면 음향"
       }
     }
   },
   "pricing": {
-    "title": "Start Your Journey Today",
-    "subtitle": "Free to start, premium to unlock your full potential",
+    "title": "오늘 여정을 시작하세요",
+    "subtitle": "무료로 시작하고, 프리미엄으로 전체 잠재력을 발휘하세요",
     "free": {
-      "title": "Free",
+      "title": "무료",
       "price": "$0",
       "features": {
-        "goals": "Up to 3 goals",
-        "affirmations": "2 custom affirmations",
-        "meditation": "Basic meditation",
-        "journal": "Gratitude journal"
+        "goals": "최대 3개의 목표",
+        "affirmations": "맞춤형 긍정 확언 2개",
+        "meditation": "기본 명상",
+        "journal": "감사 일기"
       }
     },
     "monthly": {
-      "title": "Monthly",
+      "title": "월간",
       "price": "$6.99",
-      "period": "/month",
-      "trial": "7 days free trial",
-      "badge": "Popular",
+      "period": "/월",
+      "trial": "7일 무료 체험",
+      "badge": "인기",
       "features": {
-        "goals": "Unlimited goals",
-        "affirmations": "Unlimited affirmations",
-        "sleepSounds": "Premium sleep sounds",
-        "analytics": "Advanced analytics",
-        "support": "Priority support"
+        "goals": "무제한 목표",
+        "affirmations": "무제한 긍정 확언",
+        "sleepSounds": "프리미엄 수면 음향",
+        "analytics": "고급 분석",
+        "support": "우선 지원"
       }
     },
     "yearly": {
-      "title": "Yearly",
+      "title": "연간",
       "price": "$39.99",
-      "period": "/year",
-      "savings": "Save 50% • 7 days free trial",
+      "period": "/년",
+      "savings": "50% 절약 • 7일 무료 체험",
       "features": {
-        "goals": "Unlimited goals",
-        "affirmations": "Unlimited affirmations",
-        "sleepSounds": "Premium sleep sounds",
-        "analytics": "Advanced analytics",
-        "support": "Priority support"
+        "goals": "무제한 목표",
+        "affirmations": "무제한 긍정 확언",
+        "sleepSounds": "프리미엄 수면 음향",
+        "analytics": "고급 분석",
+        "support": "우선 지원"
       }
     },
     "lifetime": {
-      "title": "Lifetime",
+      "title": "평생",
       "price": "$79.99",
-      "note": "One-time payment",
+      "note": "일회성 결제",
       "features": {
-        "all": "All Premium features",
-        "unlimited": "Unlimited everything",
-        "updates": "Future updates included",
-        "value": "Best long-term value"
+        "all": "모든 프리미엄 기능",
+        "unlimited": "모든 것 무제한",
+        "updates": "향후 업데이트 포함",
+        "value": "최고의 장기 가치"
       }
     },
-    "availableOn": "Available on iOS"
+    "availableOn": "iOS에서 사용 가능"
   },
   "waitlist": {
-    "title": "Join the Waitlist",
-    "subtitle": "Be the first to know when ShineMind launches. Sign up now and get exclusive early access!",
-    "emailPlaceholder": "Enter your email address",
-    "submit": "Join Waitlist",
-    "submitting": "Submitting...",
-    "privacyNote": "No worries! Your data is completely safe and will only be used to provide you with updates about our product.",
-    "success": "Thank you for joining our waitlist! 🚀",
-    "error": "Oops! Something went wrong!",
-    "networkError": "Network error. Please try again.",
-    "endpointError": "Form endpoint is not configured."
+    "title": "대기자 명단에 참여",
+    "subtitle": "ShineMind가 출시될 때 가장 먼저 알려드립니다. 지금 등록하고 독점적인 초기 액세스를 받으세요!",
+    "emailPlaceholder": "이메일 주소를 입력하세요",
+    "submit": "대기자 명단에 참여",
+    "submitting": "제출 중...",
+    "privacyNote": "걱정 마세요! 귀하의 데이터는 완전히 안전하며 제품 업데이트를 제공하는 데만 사용됩니다.",
+    "success": "대기자 명단에 참여해 주셔서 감사합니다! 🚀",
+    "error": "오류가 발생했습니다!",
+    "networkError": "네트워크 오류. 다시 시도해 주세요.",
+    "endpointError": "양식 엔드포인트가 구성되지 않았습니다."
   },
   "footer": {
-    "tagline": "Your daily companion for mental wellness and personal growth.",
-    "legal": "Legal",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service",
-    "support": "Support",
-    "contactUs": "Contact Us",
-    "copyright": "All rights reserved."
+    "tagline": "정신 웰니스와 개인 성장을 위한 일상적인 동반자.",
+    "legal": "법적",
+    "privacyPolicy": "개인정보 보호정책",
+    "termsOfService": "서비스 약관",
+    "support": "지원",
+    "contactUs": "문의하기",
+    "copyright": "모든 권리 보유."
   },
   "terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last updated",
-    "backToHome": "← Back to Home",
+    "title": "서비스 약관",
+    "lastUpdated": "최종 업데이트",
+    "backToHome": "← 홈으로 돌아가기",
     "sections": {
       "acceptance": {
-        "title": "1. Acceptance of Terms",
-        "content": "By accessing and using ShineMind (\"the App\"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to these Terms of Service, please do not use the App."
+        "title": "1. 약관 동의",
+        "content": "ShineMind(\"앱\")에 액세스하고 사용함으로써 본 합의의 약관 및 규정에 구속되는 데 동의하는 것으로 간주됩니다. 본 서비스 약관에 동의하지 않는 경우 앱을 사용하지 마십시오."
       },
       "description": {
-        "title": "2. Description of Service",
-        "content": "ShineMind is a mental wellness application that provides guided meditation, gratitude journaling, goal tracking, affirmations, and sleep sounds to help users improve their mental health and personal development through structured daily routines."
+        "title": "2. 서비스 설명",
+        "content": "ShineMind는 가이드 명상, 감사 일기, 목표 추적, 긍정 확언 및 수면 음향을 제공하는 정신 웰니스 애플리케이션으로, 구조화된 일상적인 루틴을 통해 사용자의 정신 건강과 개인 발전을 개선하는 데 도움이 됩니다."
       },
       "userAccount": {
-        "title": "3. User Account",
-        "content": "To use certain features of the App, you must create an account using Apple Sign-In. You are responsible for:",
+        "title": "3. 사용자 계정",
+        "content": "앱의 특정 기능을 사용하려면 Apple Sign-In을 사용하여 계정을 만들어야 합니다. 다음에 대해 책임이 있습니다:",
         "items": {
-          "credentials": "Maintaining the confidentiality of your account credentials",
-          "activities": "All activities that occur under your account",
-          "notification": "Notifying us immediately of any unauthorized use of your account"
+          "credentials": "계정 자격 증명의 기밀성 유지",
+          "activities": "귀하의 계정에서 발생하는 모든 활동",
+          "notification": "계정의 무단 사용을 즉시 알리는 것"
         }
       },
       "premium": {
-        "title": "4. Premium Subscription",
-        "content": "ShineMind offers a free version with limited features and premium subscription options:",
+        "title": "4. 프리미엄 구독",
+        "content": "ShineMind는 제한된 기능이 있는 무료 버전과 프리미엄 구독 옵션을 제공합니다:",
         "items": {
-          "monthly": "Monthly subscription: $6.99/month (includes 7 days free trial)",
-          "annual": "Annual subscription: $39.99/year (includes 7 days free trial)",
-          "lifetime": "Lifetime access: $79.99 (one-time payment)"
+          "monthly": "월간 구독: $6.99/월 (7일 무료 체험 포함)",
+          "annual": "연간 구독: $39.99/년 (7일 무료 체험 포함)",
+          "lifetime": "평생 액세스: $79.99 (일회성 결제)"
         },
-        "trialNote": "Both monthly and annual subscriptions include a 7-day free trial. You will not be charged until the trial period ends. Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period. You can manage or cancel your subscription through your Apple ID account settings."
+        "trialNote": "월간 및 연간 구독 모두 7일 무료 체험이 포함됩니다. 체험 기간이 종료될 때까지 요금이 청구되지 않습니다. 현재 기간 종료 최소 24시간 전에 취소하지 않는 한 구독이 자동으로 갱신됩니다. Apple ID 계정 설정을 통해 구독을 관리하거나 취소할 수 있습니다."
       },
       "userContent": {
-        "title": "5. User Content",
-        "content": "You retain ownership of any content you create in the App, including:",
+        "title": "5. 사용자 콘텐츠",
+        "content": "앱에서 생성한 모든 콘텐츠의 소유권을 보유합니다. 여기에는 다음이 포함됩니다:",
         "items": {
-          "gratitude": "Gratitude journal entries and photos",
-          "affirmations": "Custom affirmation recordings",
-          "goals": "Goal entries and notes",
-          "profile": "Profile information"
+          "gratitude": "감사 일기 항목 및 사진",
+          "affirmations": "맞춤형 긍정 확언 녹음",
+          "goals": "목표 항목 및 메모",
+          "profile": "프로필 정보"
         },
-        "license": "By creating content in the App, you grant us a license to store and process this content solely for the purpose of providing the service to you."
+        "license": "앱에서 콘텐츠를 생성함으로써 귀하는 서비스를 제공하기 위한 목적으로만 이 콘텐츠를 저장하고 처리할 수 있는 라이선스를 당사에 부여합니다."
       },
       "acceptableUse": {
-        "title": "6. Acceptable Use",
-        "title2": "You agree not to:",
+        "title": "6. 허용 가능한 사용",
+        "title2": "다음에 동의하지 않습니다:",
         "items": {
-          "unlawful": "Use the App for any unlawful purpose",
-          "unauthorized": "Attempt to gain unauthorized access to any portion of the App",
-          "interfere": "Interfere with or disrupt the App's servers or networks",
-          "viruses": "Upload viruses or malicious code",
-          "harass": "Harass, abuse, or harm another person through the App"
+          "unlawful": "불법적인 목적으로 앱 사용",
+          "unauthorized": "앱의 일부에 무단 액세스 시도",
+          "interfere": "앱의 서버 또는 네트워크 간섭 또는 방해",
+          "viruses": "바이러스 또는 악성 코드 업로드",
+          "harass": "앱을 통해 다른 사람을 괴롭히거나 학대하거나 해치는 것"
         }
       },
       "medical": {
-        "title": "7. Medical Disclaimer",
-        "content": "ShineMind is a wellness tool and is not intended to diagnose, treat, cure, or prevent any disease or medical condition. The App is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition."
+        "title": "7. 의료 면책 조항",
+        "content": "ShineMind는 웰니스 도구이며 어떤 질병이나 의학적 상태를 진단, 치료, 치료하거나 예방하기 위한 것이 아닙니다. 앱은 전문적인 의학적 조언, 진단 또는 치료의 대체재가 아닙니다. 의학적 상태에 대한 질문이 있는 경우 항상 의사나 기타 자격을 갖춘 건강 제공자의 조언을 구하십시오."
       },
       "ip": {
-        "title": "8. Intellectual Property",
-        "content": "The App and its original content, features, and functionality are owned by ShineMind and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws."
+        "title": "8. 지적 재산권",
+        "content": "앱과 그 원본 콘텐츠, 기능 및 기능은 ShineMind가 소유하며 국제 저작권, 상표, 특허, 영업 비밀 및 기타 지적 재산권 법으로 보호됩니다."
       },
       "liability": {
-        "title": "9. Limitation of Liability",
-        "content": "To the maximum extent permitted by law, ShineMind shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses."
+        "title": "9. 책임의 제한",
+        "content": "법에서 허용하는 최대 범위까지, ShineMind는 간접적, 부수적, 특별, 결과적 또는 징벌적 손해 또는 수익 손실(직접 또는 간접적으로 발생한 경우) 또는 데이터, 사용, 평판 또는 기타 무형 손실에 대해 책임을 지지 않습니다."
       },
       "data": {
-        "title": "10. Data and Privacy",
-        "content": "Your use of the App is also governed by our Privacy Policy. Please review our Privacy Policy, which explains how we collect, use, and protect your personal information."
+        "title": "10. 데이터 및 개인정보 보호",
+        "content": "앱 사용은 당사의 개인정보 보호정책에 따라 규제됩니다. 개인 정보를 수집, 사용 및 보호하는 방법을 설명하는 개인정보 보호정책을 검토하십시오."
       },
       "termination": {
-        "title": "11. Termination",
-        "content": "We may terminate or suspend your account and access to the App immediately, without prior notice or liability, for any reason, including if you breach these Terms of Service. Upon termination, your right to use the App will immediately cease."
+        "title": "11. 종료",
+        "content": "당사는 이 서비스 약관을 위반하는 경우를 포함하여 어떤 이유로든 사전 통지나 책임 없이 귀하의 계정과 앱에 대한 액세스를 즉시 종료하거나 중단할 수 있습니다. 종료 시 앱 사용 권한은 즉시 중지됩니다."
       },
       "changes": {
-        "title": "12. Changes to Terms",
-        "content": "We reserve the right to modify or replace these Terms at any time. If a revision is material, we will provide at least 30 days' notice prior to any new terms taking effect. Your continued use of the App after such modifications constitutes acceptance of the updated Terms."
+        "title": "12. 약관 변경",
+        "content": "당사는 언제든지 이러한 약관을 수정하거나 교체할 권리를 보유합니다. 수정이 중요한 경우 새로운 약관이 효력을 발휘하기 전에 최소 30일 전에 통지를 제공합니다. 그러한 수정 후에도 앱을 계속 사용하는 것은 업데이트된 약관에 대한 수락을 구성합니다."
       },
       "contact": {
-        "title": "13. Contact Us",
-        "content": "If you have any questions about these Terms of Service, please contact us at:"
+        "title": "13. 문의하기",
+        "content": "이 서비스 약관에 대한 질문이 있으면 다음으로 문의하십시오:"
       }
     }
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated",
-    "backToHome": "← Back to Home",
-    "intro": "At ShineMind, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.",
+    "title": "개인정보 보호정책",
+    "lastUpdated": "최종 업데이트",
+    "backToHome": "← 홈으로 돌아가기",
+    "intro": "ShineMind에서는 귀하의 개인정보 보호를 진지하게 받아들입니다. 이 개인정보 보호정책은 모바일 애플리케이션을 사용할 때 정보를 수집, 사용, 공개 및 보호하는 방법을 설명합니다.",
     "sections": {
       "information": {
-        "title": "1. Information We Collect",
-        "content": "We collect information you provide directly to us when using ShineMind:",
+        "title": "1. 수집하는 정보",
+        "content": "ShineMind를 사용할 때 직접 제공하는 정보를 수집합니다:",
         "items": {
-          "account": "Account Information: Name, email address (via Apple Sign-In), profile picture",
-          "content": "User Content: Gratitude journal entries, affirmation recordings, goal entries, meditation preferences, photos you upload",
-          "usage": "Usage Data: Meditation sessions, activity completion, streaks, session times, app interactions",
-          "device": "Device Information: Device type, operating system, app version, unique device identifiers",
-          "subscription": "Subscription Information: Purchase history and subscription status (managed through Apple/RevenueCat)"
+          "account": "계정 정보: 이름, 이메일 주소(Apple Sign-In을 통해), 프로필 사진",
+          "content": "사용자 콘텐츠: 감사 일기 항목, 긍정 확언 녹음, 목표 항목, 명상 기본 설정, 업로드한 사진",
+          "usage": "사용 데이터: 명상 세션, 활동 완료, 연속 기록, 세션 시간, 앱 상호 작용",
+          "device": "기기 정보: 기기 유형, 운영 체제, 앱 버전, 고유 기기 식별자",
+          "subscription": "구독 정보: 구매 기록 및 구독 상태(Apple/RevenueCat를 통해 관리)"
         }
       },
       "use": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information we collect to:",
+        "title": "2. 정보 사용 방법",
+        "content": "수집한 정보를 사용하여:",
         "items": {
-          "provide": "Provide, maintain, and improve the App's features and functionality",
-          "sync": "Sync your data across devices using Supabase",
-          "track": "Track your progress, streaks, and activity history",
-          "notifications": "Send you notifications about your routines (if enabled)",
-          "process": "Process and manage your premium subscription",
-          "support": "Provide customer support and respond to your inquiries",
-          "analyze": "Analyze app usage to improve user experience",
-          "security": "Ensure the security and integrity of our services"
+          "provide": "앱의 기능과 기능성 제공, 유지 및 개선",
+          "sync": "Supabase를 사용하여 기기 간 데이터 동기화",
+          "track": "진행 상황, 연속 기록 및 활동 기록 추적",
+          "notifications": "루틴에 대한 알림 전송(활성화된 경우)",
+          "process": "프리미엄 구독 처리 및 관리",
+          "support": "고객 지원 제공 및 문의 사항 응답",
+          "analyze": "앱 사용 분석으로 사용자 경험 개선",
+          "security": "서비스의 보안 및 무결성 보장"
         }
       },
       "sharing": {
-        "title": "3. Information Sharing and Disclosure",
-        "content": "We do not sell your personal information. We may share your information only in the following circumstances:",
+        "title": "3. 정보 공유 및 공개",
+        "content": "당사는 개인 정보를 판매하지 않습니다. 다음 상황에서만 정보를 공유할 수 있습니다:",
         "items": {
-          "providers": "Service Providers: We use Supabase for data storage and RevenueCat for subscription management. These providers are bound by confidentiality obligations.",
-          "apple": "Apple: Authentication is handled through Apple Sign-In, subject to Apple's privacy policy",
-          "legal": "Legal Requirements: When required by law, regulation, legal process, or governmental request",
-          "protection": "Protection of Rights: To protect the rights, property, and safety of ShineMind, our users, or others",
-          "consent": "With Your Consent: When you explicitly consent to sharing your information"
+          "providers": "서비스 제공업체: 데이터 저장을 위해 Supabase를 사용하고 구독 관리를 위해 RevenueCat를 사용합니다. 이러한 제공업체는 기밀 유지 의무를 따릅니다.",
+          "apple": "Apple: 인증은 Apple Sign-In을 통해 처리되며 Apple의 개인정보 보호정책을 따릅니다",
+          "legal": "법적 요구 사항: 법률, 규정, 법적 절차 또는 정부 요청에 따라 필요한 경우",
+          "protection": "권리 보호: ShineMind, 사용자 또는 기타 사람들의 권리, 재산 및 안전을 보호하기 위해",
+          "consent": "귀하의 동의: 정보 공유에 명시적으로 동의한 경우"
         }
       },
       "security": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. This includes:",
+        "title": "4. 데이터 보안",
+        "content": "당사는 무단 액세스, 변경, 공개 또는 파괴로부터 개인 정보를 보호하기 위한 적절한 기술 및 조직 보안 조치를 구현합니다. 여기에는 다음이 포함됩니다:",
         "items": {
-          "encryption": "Encryption of data in transit and at rest",
-          "rls": "Row-Level Security (RLS) policies in Supabase database",
-          "auth": "Secure authentication via Apple Sign-In",
-          "assessments": "Regular security assessments and updates"
+          "encryption": "전송 중 및 저장 중 데이터 암호화",
+          "rls": "Supabase 데이터베이스의 행 수준 보안(RLS) 정책",
+          "auth": "Apple Sign-In을 통한 보안 인증",
+          "assessments": "정기적인 보안 평가 및 업데이트"
         },
-        "note": "However, no method of transmission over the internet or electronic storage is 100% secure. We cannot guarantee absolute security."
+        "note": "그러나 인터넷을 통한 전송 또는 전자 저장 방법은 100% 안전하지 않습니다. 절대적인 보안을 보장할 수 없습니다."
       },
       "retention": {
-        "title": "5. Data Retention",
-        "content": "We retain your personal information for as long as your account is active or as needed to provide you services. You may request deletion of your data at any time through the app settings or by contacting us. Upon deletion:",
+        "title": "5. 데이터 보관",
+        "content": "당사는 귀하의 계정이 활성 상태인 한 또는 서비스를 제공하는 데 필요한 만큼 개인 정보를 보관합니다. 앱 설정을 통해 또는 당사에 연락하여 언제든지 데이터 삭제를 요청할 수 있습니다. 삭제 시:",
         "items": {
-          "deleted": "Your account and all associated data will be permanently deleted",
-          "removed": "Your gratitude entries, affirmations, goals, and meditation history will be removed",
-          "retained": "Some data may be retained for legal or regulatory compliance"
+          "deleted": "귀하의 계정 및 모든 관련 데이터가 영구적으로 삭제됩니다",
+          "removed": "감사 항목, 긍정 확언, 목표 및 명상 기록이 제거됩니다",
+          "retained": "법적 또는 규제 준수를 위해 일부 데이터가 보관될 수 있습니다"
         }
       },
       "rights": {
-        "title": "6. Your Rights and Choices",
-        "content": "Depending on your location, you may have the following rights:",
+        "title": "6. 귀하의 권리 및 선택",
+        "content": "귀하의 위치에 따라 다음 권리가 있을 수 있습니다:",
         "items": {
-          "access": "Access: Request access to your personal information",
-          "correction": "Correction: Request correction of inaccurate data",
-          "deletion": "Deletion: Request deletion of your account and data",
-          "portability": "Data Portability: Request a copy of your data in a portable format",
-          "optout": "Opt-Out: Disable notifications in app settings",
-          "withdraw": "Withdraw Consent: Withdraw consent for data processing where applicable"
+          "access": "액세스: 개인 정보에 대한 액세스 요청",
+          "correction": "정정: 부정확한 데이터의 정정 요청",
+          "deletion": "삭제: 계정 및 데이터 삭제 요청",
+          "portability": "데이터 이식성: 휴대 가능한 형식으로 데이터 사본 요청",
+          "optout": "옵트아웃: 앱 설정에서 알림 비활성화",
+          "withdraw": "동의 철회: 해당하는 경우 데이터 처리에 대한 동의 철회"
         },
-        "contact": "To exercise these rights, contact us at"
+        "contact": "이러한 권리를 행사하려면 다음으로 문의하십시오"
       },
       "children": {
-        "title": "7. Children's Privacy",
-        "content": "ShineMind is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately, and we will take steps to delete such information."
+        "title": "7. 아동의 개인정보 보호",
+        "content": "ShineMind는 13세 미만의 아동을 대상으로 하지 않습니다. 당사는 13세 미만의 아동으로부터 개인 정보를 고의로 수집하지 않습니다. 부모 또는 보호자이며 자녀가 당사에 개인 정보를 제공했다고 생각하는 경우 즉시 당사에 연락하시기 바랍니다. 당사는 그러한 정보를 삭제하기 위한 조치를 취할 것입니다."
       },
       "transfers": {
-        "title": "8. International Data Transfers",
-        "content": "Your information may be transferred to and maintained on servers located outside of your state, province, country, or other governmental jurisdiction where data protection laws may differ. By using ShineMind, you consent to the transfer of your information to our facilities and service providers."
+        "title": "8. 국제 데이터 전송",
+        "content": "귀하의 정보는 데이터 보호법이 다를 수 있는 주, 도, 국가 또는 기타 정부 관할권 외부에 있는 서버로 전송되고 유지될 수 있습니다. ShineMind를 사용함으로써 귀하는 정보를 당사의 시설 및 서비스 제공업체로 전송하는 것에 동의합니다."
       },
       "thirdParty": {
-        "title": "9. Third-Party Services",
-        "content": "ShineMind integrates with the following third-party services:",
+        "title": "9. 제3자 서비스",
+        "content": "ShineMind는 다음 제3자 서비스와 통합됩니다:",
         "items": {
-          "supabase": "Supabase: Database and authentication services",
-          "revenuecat": "RevenueCat: Subscription and payment processing",
-          "apple": "Apple Services: Apple Sign-In, Push Notifications, In-App Purchases"
+          "supabase": "Supabase: 데이터베이스 및 인증 서비스",
+          "revenuecat": "RevenueCat: 구독 및 결제 처리",
+          "apple": "Apple 서비스: Apple Sign-In, 푸시 알림, 앱 내 구매"
         },
-        "note": "These services have their own privacy policies. We encourage you to review them."
+        "note": "이러한 서비스에는 자체 개인정보 보호정책이 있습니다. 검토하시기 바랍니다."
       },
       "camera": {
-        "title": "10. Camera and Photo Library",
-        "content": "ShineMind requests access to your camera and photo library to allow you to:",
+        "title": "10. 카메라 및 사진 라이브러리",
+        "content": "ShineMind는 다음을 허용하기 위해 카메라 및 사진 라이브러리에 대한 액세스를 요청합니다:",
         "items": {
-          "photos": "Add photos to gratitude journal entries",
-          "profile": "Set a profile picture"
+          "photos": "감사 일기 항목에 사진 추가",
+          "profile": "프로필 사진 설정"
         },
-        "note": "Photos are stored securely in your account and are not shared with third parties. You can revoke camera/photo access at any time in your device settings."
+        "note": "사진은 계정에 안전하게 저장되며 제3자와 공유되지 않습니다. 기기 설정에서 언제든지 카메라/사진 액세스를 취소할 수 있습니다."
       },
       "changes": {
-        "title": "11. Changes to This Privacy Policy",
-        "content": "We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the new Privacy Policy in the App and updating the \"Last updated\" date. Your continued use of ShineMind after such modifications constitutes your acknowledgment and acceptance of the updated policy."
+        "title": "11. 이 개인정보 보호정책 변경",
+        "content": "당사는 때때로 이 개인정보 보호정책을 업데이트할 수 있습니다. 중요한 변경 사항이 있는 경우 앱에 새로운 개인정보 보호정책을 게시하고 \"최종 업데이트\" 날짜를 업데이트하여 알려드립니다. 그러한 수정 후에도 ShineMind를 계속 사용하는 것은 업데이트된 정책에 대한 인정 및 수락을 구성합니다."
       },
       "contact": {
-        "title": "12. Contact Us",
-        "content": "If you have any questions about this Privacy Policy or our privacy practices, please contact us at:"
+        "title": "12. 문의하기",
+        "content": "이 개인정보 보호정책이나 당사의 개인정보 보호 관행에 대한 질문이 있으면 다음으로 문의하십시오:"
       }
     }
   }
 }
-

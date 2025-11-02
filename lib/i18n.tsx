@@ -17,6 +17,24 @@ export type { Language };
 // Use translations from the loader
 const TRANSLATION_MAP = translations;
 
+// Runtime verification of translations (in development)
+if (typeof window !== "undefined" && process.env.NODE_ENV === "development") {
+  const mapKeys = Object.keys(TRANSLATION_MAP);
+  console.log("🔍 TRANSLATION_MAP keys:", mapKeys);
+  mapKeys.forEach((key) => {
+    const value = TRANSLATION_MAP[key as Language];
+    if (!value) {
+      console.error(`❌ TRANSLATION_MAP["${key}"] is undefined`);
+    } else if (typeof value !== "object") {
+      console.error(`❌ TRANSLATION_MAP["${key}"] is not an object:`, typeof value);
+    } else if (Object.keys(value).length === 0) {
+      console.error(`❌ TRANSLATION_MAP["${key}"] is empty`);
+    } else {
+      console.log(`✅ TRANSLATION_MAP["${key}"] loaded (${Object.keys(value).length} top-level keys)`);
+    }
+  });
+}
+
 interface Translations {
   [key: string]: any;
 }
@@ -73,17 +91,47 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   function loadTranslations(lang: Language) {
     try {
+      // Debug: Check what's in TRANSLATION_MAP
+      const mapKeys = Object.keys(TRANSLATION_MAP);
+      const hasLang = lang in TRANSLATION_MAP;
+      
+      console.log(`🔍 Loading translations for: "${lang}"`);
+      console.log(`   TRANSLATION_MAP keys:`, mapKeys);
+      console.log(`   Language "${lang}" exists in map:`, hasLang);
+      console.log(`   Type check:`, typeof TRANSLATION_MAP[lang]);
+      
       const translationData = TRANSLATION_MAP[lang];
-      if (translationData) {
-        // Create a new object to ensure React detects the change
-        setTranslations({ ...translationData });
-      } else {
-        // Fallback to English if translation not found
-        console.warn(`Translation not found for: ${lang}, using English`);
+      
+      // More detailed validation
+      if (!translationData) {
+        console.error(`❌ Translation data is undefined for: ${lang}`);
+        console.log(`   Available languages:`, mapKeys);
+        console.log(`   Attempting to access TRANSLATION_MAP["${lang}"]:`, TRANSLATION_MAP[lang]);
+        console.log(`   TRANSLATION_MAP.ja:`, TRANSLATION_MAP.ja);
+        console.log(`   TRANSLATION_MAP.ko:`, TRANSLATION_MAP.ko);
         setTranslations({ ...TRANSLATION_MAP.en });
+        return;
       }
+      
+      if (typeof translationData !== "object") {
+        console.error(`❌ Translation data is not an object for: ${lang}`, typeof translationData);
+        setTranslations({ ...TRANSLATION_MAP.en });
+        return;
+      }
+      
+      const keys = Object.keys(translationData);
+      if (keys.length === 0) {
+        console.error(`❌ Translation data is empty for: ${lang}`);
+        setTranslations({ ...TRANSLATION_MAP.en });
+        return;
+      }
+      
+      // Create a new object to ensure React detects the change
+      setTranslations({ ...translationData });
+      console.log(`✅ Successfully loaded translations for: ${lang} (${keys.length} keys)`, keys.slice(0, 3));
     } catch (error) {
-      console.error(`Failed to load translations for ${lang}:`, error);
+      console.error(`❌ Failed to load translations for ${lang}:`, error);
+      console.error(`   Error details:`, error);
       // Fallback to English on error
       setTranslations({ ...TRANSLATION_MAP.en });
     }

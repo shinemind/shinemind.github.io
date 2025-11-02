@@ -1,342 +1,341 @@
 {
   "nav": {
-    "home": "Home",
-    "features": "Features",
-    "pricing": "Pricing",
-    "joinWaitlist": "Join Waitlist"
+    "home": "首页",
+    "features": "功能",
+    "pricing": "价格",
+    "joinWaitlist": "加入等候名单"
   },
   "hero": {
-    "title": "Let your mind",
-    "titleHighlight": "shine everyday",
-    "subtitle": "Transform your daily routine with mindful meditation, gratitude journaling, and goal tracking. Build lasting habits for a healthier, happier you.",
-    "viewPricing": "View Pricing",
-    "joinWaitlist": "Join Waitlist"
+    "title": "让您的心灵",
+    "titleHighlight": "每天都闪耀",
+    "subtitle": "通过正念冥想、感恩日记和目标追踪来改变您的日常习惯。为更健康、更快乐的您建立持久的习惯。",
+    "viewPricing": "查看价格",
+    "joinWaitlist": "加入等候名单"
   },
   "features": {
-    "title": "Everything You Need to Thrive",
-    "subtitle": "Powerful features designed for your wellbeing journey",
+    "title": "您茁壮成长所需的一切",
+    "subtitle": "为您的健康之旅设计的强大功能",
     "guidedMeditation": {
-      "title": "Guided Meditation",
-      "description": "Customizable meditation sessions with breathing techniques, soothing animations, and calming background music."
+      "title": "引导冥想",
+      "description": "可自定义的冥想课程，包含呼吸技巧、舒缓动画和平静的背景音乐。"
     },
     "gratitudeJournal": {
-      "title": "Gratitude Journal",
-      "description": "Capture daily moments of gratitude with photos, voice notes, and categorized entries to cultivate positivity."
+      "title": "感恩日记",
+      "description": "用照片、语音笔记和分类条目捕捉日常感恩时刻，培养积极心态。"
     },
     "goalTracking": {
-      "title": "Goal Tracking",
-      "description": "Set and track unlimited goals across 10 life categories with difficulty levels and progress monitoring."
+      "title": "目标追踪",
+      "description": "在10个生活类别中设定和追踪无限目标，包含难度等级和进度监控。"
     },
     "affirmations": {
-      "title": "Affirmations",
-      "description": "Record custom affirmations with text-to-speech playback to reinforce positive self-talk daily."
+      "title": "肯定语",
+      "description": "录制自定义肯定语，具有文字转语音播放功能，以强化每日积极的自我对话。"
     },
     "sleepSounds": {
-      "title": "Sleep Sounds",
-      "description": "Curated library of relaxing sleep sounds and music to help you wind down and improve sleep quality."
+      "title": "睡眠音效",
+      "description": "精选的放松睡眠音效和音乐库，帮助您放松并改善睡眠质量。"
     },
     "activityTracking": {
-      "title": "Activity Tracking",
-      "description": "Track your wellness journey with detailed analytics, streaks, and weekly trends to stay motivated."
+      "title": "活动追踪",
+      "description": "通过详细分析、连续记录和每周趋势追踪您的健康之旅，保持动力。"
     }
   },
   "screenshots": {
-    "title": "Beautiful. Simple. Powerful.",
-    "subtitle": "A premium experience designed for your daily wellness routine"
+    "title": "美丽。简单。强大。",
+    "subtitle": "为您的日常健康习惯设计的高级体验"
   },
   "routines": {
-    "title": "Morning & Evening Rituals",
-    "subtitle": "Two powerful routines to bookend your day",
+    "title": "早晨与夜晚仪式",
+    "subtitle": "两个强大的日常习惯来结束您的一天",
     "shine": {
-      "title": "Shine",
-      "description": "Start your mornings with intention and energy",
+      "title": "闪耀",
+      "description": "带着意图和能量开始您的早晨",
       "items": {
-        "meditation": "Guided meditation to center your mind",
-        "goals": "Review and set daily goals",
-        "affirmations": "Positive affirmations for motivation",
-        "tracking": "Track your progress and streaks"
+        "meditation": "引导冥想来集中您的思绪",
+        "goals": "检视并设定每日目标",
+        "affirmations": "积极肯定语以获得动力",
+        "tracking": "追踪您的进度和连续记录"
       }
     },
     "windDown": {
-      "title": "Wind Down",
-      "description": "End your evenings with reflection and peace",
+      "title": "放松",
+      "description": "以反思和平静结束您的夜晚",
       "items": {
-        "accomplishments": "Reflect on daily accomplishments",
-        "gratitude": "Gratitude journaling with voice & photos",
-        "meditation": "Relaxing meditation sessions",
-        "sleepSounds": "Calming sleep sounds for better rest"
+        "accomplishments": "反思每日成就",
+        "gratitude": "使用语音和照片的感恩日记",
+        "meditation": "放松的冥想课程",
+        "sleepSounds": "平静的睡眠音效以获得更好的休息"
       }
     }
   },
   "pricing": {
-    "title": "Start Your Journey Today",
-    "subtitle": "Free to start, premium to unlock your full potential",
+    "title": "今天就开始您的旅程",
+    "subtitle": "免费开始，高级版解锁您的全部潜力",
     "free": {
-      "title": "Free",
+      "title": "免费",
       "price": "$0",
       "features": {
-        "goals": "Up to 3 goals",
-        "affirmations": "2 custom affirmations",
-        "meditation": "Basic meditation",
-        "journal": "Gratitude journal"
+        "goals": "最多3个目标",
+        "affirmations": "2个自定义肯定语",
+        "meditation": "基本冥想",
+        "journal": "感恩日记"
       }
     },
     "monthly": {
-      "title": "Monthly",
+      "title": "月付",
       "price": "$6.99",
-      "period": "/month",
-      "trial": "7 days free trial",
-      "badge": "Popular",
+      "period": "/月",
+      "trial": "7天免费试用",
+      "badge": "热门",
       "features": {
-        "goals": "Unlimited goals",
-        "affirmations": "Unlimited affirmations",
-        "sleepSounds": "Premium sleep sounds",
-        "analytics": "Advanced analytics",
-        "support": "Priority support"
+        "goals": "无限目标",
+        "affirmations": "无限肯定语",
+        "sleepSounds": "高级睡眠音效",
+        "analytics": "进阶分析",
+        "support": "优先支持"
       }
     },
     "yearly": {
-      "title": "Yearly",
+      "title": "年付",
       "price": "$39.99",
-      "period": "/year",
-      "savings": "Save 50% • 7 days free trial",
+      "period": "/年",
+      "savings": "节省50% • 7天免费试用",
       "features": {
-        "goals": "Unlimited goals",
-        "affirmations": "Unlimited affirmations",
-        "sleepSounds": "Premium sleep sounds",
-        "analytics": "Advanced analytics",
-        "support": "Priority support"
+        "goals": "无限目标",
+        "affirmations": "无限肯定语",
+        "sleepSounds": "高级睡眠音效",
+        "analytics": "进阶分析",
+        "support": "优先支持"
       }
     },
     "lifetime": {
-      "title": "Lifetime",
+      "title": "终身",
       "price": "$79.99",
-      "note": "One-time payment",
+      "note": "一次性付款",
       "features": {
-        "all": "All Premium features",
-        "unlimited": "Unlimited everything",
-        "updates": "Future updates included",
-        "value": "Best long-term value"
+        "all": "所有高级功能",
+        "unlimited": "一切无限制",
+        "updates": "包含未来更新",
+        "value": "最佳长期价值"
       }
     },
-    "availableOn": "Available on iOS"
+    "availableOn": "可在iOS上使用"
   },
   "waitlist": {
-    "title": "Join the Waitlist",
-    "subtitle": "Be the first to know when ShineMind launches. Sign up now and get exclusive early access!",
-    "emailPlaceholder": "Enter your email address",
-    "submit": "Join Waitlist",
-    "submitting": "Submitting...",
-    "privacyNote": "No worries! Your data is completely safe and will only be used to provide you with updates about our product.",
-    "success": "Thank you for joining our waitlist! 🚀",
-    "error": "Oops! Something went wrong!",
-    "networkError": "Network error. Please try again.",
-    "endpointError": "Form endpoint is not configured."
+    "title": "加入等候名单",
+    "subtitle": "成为第一个知道ShineMind推出的人。立即注册并获得独家早期访问权限！",
+    "emailPlaceholder": "输入您的电子邮件地址",
+    "submit": "加入等候名单",
+    "submitting": "提交中...",
+    "privacyNote": "别担心！您的数据完全安全，仅用于向您提供产品更新。",
+    "success": "感谢您加入我们的等候名单！🚀",
+    "error": "糟糕！出错了！",
+    "networkError": "网络错误。请重试。",
+    "endpointError": "表单端点未配置。"
   },
   "footer": {
-    "tagline": "Your daily companion for mental wellness and personal growth.",
-    "legal": "Legal",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service",
-    "support": "Support",
-    "contactUs": "Contact Us",
-    "copyright": "All rights reserved."
+    "tagline": "您日常的心理健康和个人成长伴侣。",
+    "legal": "法律",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "support": "支持",
+    "contactUs": "联系我们",
+    "copyright": "版权所有。"
   },
   "terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last updated",
-    "backToHome": "← Back to Home",
+    "title": "服务条款",
+    "lastUpdated": "最后更新",
+    "backToHome": "← 返回首页",
     "sections": {
       "acceptance": {
-        "title": "1. Acceptance of Terms",
-        "content": "By accessing and using ShineMind (\"the App\"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to these Terms of Service, please do not use the App."
+        "title": "1. 接受条款",
+        "content": "通过访问和使用ShineMind（\"应用程序\"），您接受并同意受本协议的条款和规定约束。如果您不同意这些服务条款，请勿使用应用程序。"
       },
       "description": {
-        "title": "2. Description of Service",
-        "content": "ShineMind is a mental wellness application that provides guided meditation, gratitude journaling, goal tracking, affirmations, and sleep sounds to help users improve their mental health and personal development through structured daily routines."
+        "title": "2. 服务说明",
+        "content": "ShineMind是一个心理健康应用程序，提供引导冥想、感恩日记、目标追踪、肯定语和睡眠音效，通过结构化的日常习惯帮助用户改善心理健康和个人发展。"
       },
       "userAccount": {
-        "title": "3. User Account",
-        "content": "To use certain features of the App, you must create an account using Apple Sign-In. You are responsible for:",
+        "title": "3. 用户账户",
+        "content": "要使用应用程序的某些功能，您必须使用Apple Sign-In创建账户。您需要负责：",
         "items": {
-          "credentials": "Maintaining the confidentiality of your account credentials",
-          "activities": "All activities that occur under your account",
-          "notification": "Notifying us immediately of any unauthorized use of your account"
+          "credentials": "维护账户凭证的机密性",
+          "activities": "您账户下发生的所有活动",
+          "notification": "立即通知我们任何未经授权使用您账户的情况"
         }
       },
       "premium": {
-        "title": "4. Premium Subscription",
-        "content": "ShineMind offers a free version with limited features and premium subscription options:",
+        "title": "4. 高级订阅",
+        "content": "ShineMind提供功能有限免费版本和高级订阅选项：",
         "items": {
-          "monthly": "Monthly subscription: $6.99/month (includes 7 days free trial)",
-          "annual": "Annual subscription: $39.99/year (includes 7 days free trial)",
-          "lifetime": "Lifetime access: $79.99 (one-time payment)"
+          "monthly": "月付订阅：$6.99/月（包含7天免费试用）",
+          "annual": "年付订阅：$39.99/年（包含7天免费试用）",
+          "lifetime": "终身访问：$79.99（一次性付款）"
         },
-        "trialNote": "Both monthly and annual subscriptions include a 7-day free trial. You will not be charged until the trial period ends. Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period. You can manage or cancel your subscription through your Apple ID account settings."
+        "trialNote": "月付和年付订阅都包含7天免费试用。试用期结束前不会收费。除非在当前期间结束前至少24小时取消，否则订阅会自动续订。您可以通过Apple ID账户设置管理或取消订阅。"
       },
       "userContent": {
-        "title": "5. User Content",
-        "content": "You retain ownership of any content you create in the App, including:",
+        "title": "5. 用户内容",
+        "content": "您保留在应用程序中创建的任何内容的所有权，包括：",
         "items": {
-          "gratitude": "Gratitude journal entries and photos",
-          "affirmations": "Custom affirmation recordings",
-          "goals": "Goal entries and notes",
-          "profile": "Profile information"
+          "gratitude": "感恩日记条目和照片",
+          "affirmations": "自定义肯定语录音",
+          "goals": "目标条目和笔记",
+          "profile": "个人资料信息"
         },
-        "license": "By creating content in the App, you grant us a license to store and process this content solely for the purpose of providing the service to you."
+        "license": "通过在应用程序中创建内容，您授予我们仅为向您提供服务的目的而存储和处理此内容的许可。"
       },
       "acceptableUse": {
-        "title": "6. Acceptable Use",
-        "title2": "You agree not to:",
+        "title": "6. 可接受的使用",
+        "title2": "您同意不：",
         "items": {
-          "unlawful": "Use the App for any unlawful purpose",
-          "unauthorized": "Attempt to gain unauthorized access to any portion of the App",
-          "interfere": "Interfere with or disrupt the App's servers or networks",
-          "viruses": "Upload viruses or malicious code",
-          "harass": "Harass, abuse, or harm another person through the App"
+          "unlawful": "将应用程序用于任何非法目的",
+          "unauthorized": "尝试未经授权访问应用程序的任何部分",
+          "interfere": "干扰或破坏应用程序的服务器或网络",
+          "viruses": "上传病毒或恶意代码",
+          "harass": "通过应用程序骚扰、虐待或伤害他人"
         }
       },
       "medical": {
-        "title": "7. Medical Disclaimer",
-        "content": "ShineMind is a wellness tool and is not intended to diagnose, treat, cure, or prevent any disease or medical condition. The App is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition."
+        "title": "7. 医疗免责声明",
+        "content": "ShineMind是一个健康工具，并非旨在诊断、治疗、治愈或预防任何疾病或医疗状况。应用程序不能替代专业的医疗建议、诊断或治疗。对于任何医疗状况相关的问题，请始终寻求您的医生或其他合格医疗提供者的建议。"
       },
       "ip": {
-        "title": "8. Intellectual Property",
-        "content": "The App and its original content, features, and functionality are owned by ShineMind and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws."
+        "title": "8. 知识产权",
+        "content": "应用程序及其原始内容、功能和功能由ShineMind拥有，并受国际版权、商标、专利、商业秘密和其他知识产权法保护。"
       },
       "liability": {
-        "title": "9. Limitation of Liability",
-        "content": "To the maximum extent permitted by law, ShineMind shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses."
+        "title": "9. 责任限制",
+        "content": "在法律允许的最大范围内，ShineMind不对任何间接、偶然、特殊、后果性或惩罚性损害，或任何利润或收入损失（无论直接或间接产生），或任何数据、使用、商誉或其他无形损失负责。"
       },
       "data": {
-        "title": "10. Data and Privacy",
-        "content": "Your use of the App is also governed by our Privacy Policy. Please review our Privacy Policy, which explains how we collect, use, and protect your personal information."
+        "title": "10. 数据和隐私",
+        "content": "您对应用程序的使用也受我们的隐私政策管辖。请查看我们的隐私政策，其中说明我们如何收集、使用和保护您的个人信息。"
       },
       "termination": {
-        "title": "11. Termination",
-        "content": "We may terminate or suspend your account and access to the App immediately, without prior notice or liability, for any reason, including if you breach these Terms of Service. Upon termination, your right to use the App will immediately cease."
+        "title": "11. 终止",
+        "content": "我们可能立即终止或暂停您的账户和对应用程序的访问，无需事先通知或承担责任，原因包括但不限于您违反这些服务条款。终止后，您使用应用程序的权利将立即停止。"
       },
       "changes": {
-        "title": "12. Changes to Terms",
-        "content": "We reserve the right to modify or replace these Terms at any time. If a revision is material, we will provide at least 30 days' notice prior to any new terms taking effect. Your continued use of the App after such modifications constitutes acceptance of the updated Terms."
+        "title": "12. 条款变更",
+        "content": "我们保留随时修改或替换这些条款的权利。如果修订是实质性的，我们将在任何新条款生效前至少提前30天通知。在进行此类修改后继续使用应用程序即表示接受更新后的条款。"
       },
       "contact": {
-        "title": "13. Contact Us",
-        "content": "If you have any questions about these Terms of Service, please contact us at:"
+        "title": "13. 联系我们",
+        "content": "如果您对这些服务条款有任何疑问，请通过以下方式联系我们："
       }
     }
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated",
-    "backToHome": "← Back to Home",
-    "intro": "At ShineMind, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.",
+    "title": "隐私政策",
+    "lastUpdated": "最后更新",
+    "backToHome": "← 返回首页",
+    "intro": "在ShineMind，我们认真对待您的隐私。本隐私政策说明当您使用我们的移动应用程序时，我们如何收集、使用、披露和保护您的信息。",
     "sections": {
       "information": {
-        "title": "1. Information We Collect",
-        "content": "We collect information you provide directly to us when using ShineMind:",
+        "title": "1. 我们收集的信息",
+        "content": "我们收集您在使用ShineMind时直接向我们提供的信息：",
         "items": {
-          "account": "Account Information: Name, email address (via Apple Sign-In), profile picture",
-          "content": "User Content: Gratitude journal entries, affirmation recordings, goal entries, meditation preferences, photos you upload",
-          "usage": "Usage Data: Meditation sessions, activity completion, streaks, session times, app interactions",
-          "device": "Device Information: Device type, operating system, app version, unique device identifiers",
-          "subscription": "Subscription Information: Purchase history and subscription status (managed through Apple/RevenueCat)"
+          "account": "账户信息：姓名、电子邮件地址（通过Apple Sign-In）、个人资料照片",
+          "content": "用户内容：感恩日记条目、肯定语录音、目标条目、冥想偏好、您上传的照片",
+          "usage": "使用数据：冥想课程、活动完成、连续记录、课程时间、应用程序互动",
+          "device": "设备信息：设备类型、操作系统、应用程序版本、唯一设备标识符",
+          "subscription": "订阅信息：购买历史和订阅状态（通过Apple/RevenueCat管理）"
         }
       },
       "use": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information we collect to:",
+        "title": "2. 我们如何使用您的信息",
+        "content": "我们使用收集的信息来：",
         "items": {
-          "provide": "Provide, maintain, and improve the App's features and functionality",
-          "sync": "Sync your data across devices using Supabase",
-          "track": "Track your progress, streaks, and activity history",
-          "notifications": "Send you notifications about your routines (if enabled)",
-          "process": "Process and manage your premium subscription",
-          "support": "Provide customer support and respond to your inquiries",
-          "analyze": "Analyze app usage to improve user experience",
-          "security": "Ensure the security and integrity of our services"
+          "provide": "提供、维护和改进应用程序的功能和功能",
+          "sync": "使用Supabase在设备间同步您的数据",
+          "track": "追踪您的进度、连续记录和活动历史",
+          "notifications": "向您发送关于您的习惯的通知（如果已启用）",
+          "process": "处理和管理您的高级订阅",
+          "support": "提供客户支持并回应您的询问",
+          "analyze": "分析应用程序使用情况以改善用户体验",
+          "security": "确保我们服务的安全性和完整性"
         }
       },
       "sharing": {
-        "title": "3. Information Sharing and Disclosure",
-        "content": "We do not sell your personal information. We may share your information only in the following circumstances:",
+        "title": "3. 信息共享和披露",
+        "content": "我们不出售您的个人信息。我们仅在以下情况下共享您的信息：",
         "items": {
-          "providers": "Service Providers: We use Supabase for data storage and RevenueCat for subscription management. These providers are bound by confidentiality obligations.",
-          "apple": "Apple: Authentication is handled through Apple Sign-In, subject to Apple's privacy policy",
-          "legal": "Legal Requirements: When required by law, regulation, legal process, or governmental request",
-          "protection": "Protection of Rights: To protect the rights, property, and safety of ShineMind, our users, or others",
-          "consent": "With Your Consent: When you explicitly consent to sharing your information"
+          "providers": "服务提供商：我们使用Supabase进行数据存储，使用RevenueCat进行订阅管理。这些提供商受保密义务约束。",
+          "apple": "Apple：认证通过Apple Sign-In处理，遵循Apple的隐私政策",
+          "legal": "法律要求：当法律、法规、法律程序或政府要求时",
+          "protection": "权利保护：保护ShineMind、我们的用户或其他人的权利、财产和安全",
+          "consent": "经您同意：当您明确同意共享您的信息时"
         }
       },
       "security": {
-        "title": "4. Data Security",
-        "content": "We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. This includes:",
+        "title": "4. 数据安全",
+        "content": "我们实施适当的技术和组织安全措施，以保护您的个人信息免受未经授权的访问、更改、披露或破坏。这包括：",
         "items": {
-          "encryption": "Encryption of data in transit and at rest",
-          "rls": "Row-Level Security (RLS) policies in Supabase database",
-          "auth": "Secure authentication via Apple Sign-In",
-          "assessments": "Regular security assessments and updates"
+          "encryption": "传输中和静止时的数据加密",
+          "rls": "Supabase数据库中的行级安全（RLS）政策",
+          "auth": "通过Apple Sign-In的安全认证",
+          "assessments": "定期的安全评估和更新"
         },
-        "note": "However, no method of transmission over the internet or electronic storage is 100% secure. We cannot guarantee absolute security."
+        "note": "但是，通过互联网传输或电子存储的方法都不是100%安全的。我们无法保证绝对安全。"
       },
       "retention": {
-        "title": "5. Data Retention",
-        "content": "We retain your personal information for as long as your account is active or as needed to provide you services. You may request deletion of your data at any time through the app settings or by contacting us. Upon deletion:",
+        "title": "5. 数据保留",
+        "content": "只要您的账户处于活动状态或需要为您提供服务，我们就会保留您的个人信息。您可以随时通过应用程序设置或联系我们来请求删除您的数据。删除时：",
         "items": {
-          "deleted": "Your account and all associated data will be permanently deleted",
-          "removed": "Your gratitude entries, affirmations, goals, and meditation history will be removed",
-          "retained": "Some data may be retained for legal or regulatory compliance"
+          "deleted": "您的账户和所有相关数据将被永久删除",
+          "removed": "您的感恩条目、肯定语、目标和冥想历史将被移除",
+          "retained": "某些数据可能因法律或法规合规而保留"
         }
       },
       "rights": {
-        "title": "6. Your Rights and Choices",
-        "content": "Depending on your location, you may have the following rights:",
+        "title": "6. 您的权利和选择",
+        "content": "根据您的位置，您可能拥有以下权利：",
         "items": {
-          "access": "Access: Request access to your personal information",
-          "correction": "Correction: Request correction of inaccurate data",
-          "deletion": "Deletion: Request deletion of your account and data",
-          "portability": "Data Portability: Request a copy of your data in a portable format",
-          "optout": "Opt-Out: Disable notifications in app settings",
-          "withdraw": "Withdraw Consent: Withdraw consent for data processing where applicable"
+          "access": "访问：请求访问您的个人信息",
+          "correction": "更正：请求更正不准确的数据",
+          "deletion": "删除：请求删除您的账户和数据",
+          "portability": "数据可携性：请求以可携格式复制您的数据",
+          "optout": "选择退出：在应用程序设置中禁用通知",
+          "withdraw": "撤回同意：在适用的情况下撤回数据处理的同意"
         },
-        "contact": "To exercise these rights, contact us at"
+        "contact": "要行使这些权利，请通过以下方式联系我们"
       },
       "children": {
-        "title": "7. Children's Privacy",
-        "content": "ShineMind is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately, and we will take steps to delete such information."
+        "title": "7. 儿童隐私",
+        "content": "ShineMind不适用于13岁以下的儿童。我们不会故意从13岁以下的儿童收集个人信息。如果您是父母或监护人，并相信您的孩子向我们提供了个人信息，请立即联系我们，我们将采取措施删除此类信息。"
       },
       "transfers": {
-        "title": "8. International Data Transfers",
-        "content": "Your information may be transferred to and maintained on servers located outside of your state, province, country, or other governmental jurisdiction where data protection laws may differ. By using ShineMind, you consent to the transfer of your information to our facilities and service providers."
+        "title": "8. 国际数据传输",
+        "content": "您的信息可能会被传输到并保存在您所在州、省、国家或其他政府管辖区以外的服务器上，这些地方的数据保护法可能不同。使用ShineMind即表示您同意将您的信息传输到我们的设施和服务提供商。"
       },
       "thirdParty": {
-        "title": "9. Third-Party Services",
-        "content": "ShineMind integrates with the following third-party services:",
+        "title": "9. 第三方服务",
+        "content": "ShineMind与以下第三方服务整合：",
         "items": {
-          "supabase": "Supabase: Database and authentication services",
-          "revenuecat": "RevenueCat: Subscription and payment processing",
-          "apple": "Apple Services: Apple Sign-In, Push Notifications, In-App Purchases"
+          "supabase": "Supabase：数据库和认证服务",
+          "revenuecat": "RevenueCat：订阅和付款处理",
+          "apple": "Apple服务：Apple Sign-In、推送通知、应用程序内购买"
         },
-        "note": "These services have their own privacy policies. We encourage you to review them."
+        "note": "这些服务有自己的隐私政策。我们鼓励您查看它们。"
       },
       "camera": {
-        "title": "10. Camera and Photo Library",
-        "content": "ShineMind requests access to your camera and photo library to allow you to:",
+        "title": "10. 相机和照片库",
+        "content": "ShineMind请求访问您的相机和照片库，以允许您：",
         "items": {
-          "photos": "Add photos to gratitude journal entries",
-          "profile": "Set a profile picture"
+          "photos": "在感恩日记条目中添加照片",
+          "profile": "设定个人资料照片"
         },
-        "note": "Photos are stored securely in your account and are not shared with third parties. You can revoke camera/photo access at any time in your device settings."
+        "note": "照片安全地存储在您的账户中，不会与第三方共享。您可以随时在设备设置中撤销相机/照片访问权限。"
       },
       "changes": {
-        "title": "11. Changes to This Privacy Policy",
-        "content": "We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the new Privacy Policy in the App and updating the \"Last updated\" date. Your continued use of ShineMind after such modifications constitutes your acknowledgment and acceptance of the updated policy."
+        "title": "11. 本隐私政策的变更",
+        "content": "我们可能会不时更新本隐私政策。我们将通过在应用程序中发布新的隐私政策并更新\"最后更新\"日期来通知您任何重大变更。在进行此类修改后继续使用ShineMind即表示您承认并接受更新后的政策。"
       },
       "contact": {
-        "title": "12. Contact Us",
-        "content": "If you have any questions about this Privacy Policy or our privacy practices, please contact us at:"
+        "title": "12. 联系我们",
+        "content": "如果您对本隐私政策或我们的隐私做法有任何疑问，请通过以下方式联系我们："
       }
     }
   }
 }
-
