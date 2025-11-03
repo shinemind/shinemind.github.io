@@ -37,137 +37,83 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">3. User Account</h2>
-                <p>
-                  To use certain features of the App, you must create an account using Apple Sign-In.
-                  You are responsible for:
-                </p>
+                <h2 className="text-2xl font-semibold text-white mb-4">{t("terms.sections.userAccount.title")}</h2>
+                <p>{t("terms.sections.userAccount.content")}</p>
                 <ul className="list-disc pl-6 mt-2 space-y-2">
-                  <li>Maintaining the confidentiality of your account credentials</li>
-                  <li>All activities that occur under your account</li>
-                  <li>Notifying us immediately of any unauthorized use of your account</li>
+                  <li>{t("terms.sections.userAccount.items.credentials")}</li>
+                  <li>{t("terms.sections.userAccount.items.activities")}</li>
+                  <li>{t("terms.sections.userAccount.items.notification")}</li>
                 </ul>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">4. Premium Subscription</h2>
-                <p className="mb-3">
-                  ShineMind offers a free version with limited features and premium subscription options:
-                </p>
+                <h2 className="text-2xl font-semibold text-white mb-4">{t("terms.sections.premium.title")}</h2>
+                <p className="mb-3">{t("terms.sections.premium.content")}</p>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li>Monthly subscription: $6.99/month (includes 7 days free trial)</li>
-                  <li>Annual subscription: $39.99/year (includes 7 days free trial)</li>
-                  <li>Lifetime access: $79.99 (one-time payment)</li>
+                  <li>{t("terms.sections.premium.items.monthly")}</li>
+                  <li>{t("terms.sections.premium.items.annual")}</li>
+                  <li>{t("terms.sections.premium.items.lifetime")}</li>
                 </ul>
-                <p className="mt-3">
-                  Both monthly and annual subscriptions include a 7-day free trial. You will not be charged
-                  until the trial period ends. Subscriptions automatically renew unless canceled at least 24
-                  hours before the end of the current period. You can manage or cancel your subscription through
-                  your Apple ID account settings.
-                </p>
+                <p className="mt-3">{t("terms.sections.premium.trialNote")}</p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">5. User Content</h2>
-                <p className="mb-3">
-                  You retain ownership of any content you create in the App, including:
-                </p>
+                <h2 className="text-2xl font-semibold text-white mb-4">{t("terms.sections.userContent.title")}</h2>
+                <p className="mb-3">{t("terms.sections.userContent.content")}</p>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li>Gratitude journal entries and photos</li>
-                  <li>Custom affirmation recordings</li>
-                  <li>Goal entries and notes</li>
-                  <li>Profile information</li>
+                  <li>{t("terms.sections.userContent.items.gratitude")}</li>
+                  <li>{t("terms.sections.userContent.items.affirmations")}</li>
+                  <li>{t("terms.sections.userContent.items.goals")}</li>
+                  <li>{t("terms.sections.userContent.items.profile")}</li>
                 </ul>
-                <p className="mt-3">
-                  By creating content in the App, you grant us a license to store and process this
-                  content solely for the purpose of providing the service to you.
-                </p>
+                <p className="mt-3">{t("terms.sections.userContent.license")}</p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">6. Acceptable Use</h2>
-                <p className="mb-3">You agree not to:</p>
+                <h2 className="text-2xl font-semibold text-white mb-4">{t("terms.sections.acceptableUse.title")}</h2>
+                <p className="mb-3">{t("terms.sections.acceptableUse.title2")}</p>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li>Use the App for any unlawful purpose</li>
-                  <li>Attempt to gain unauthorized access to any portion of the App</li>
-                  <li>Interfere with or disrupt the App's servers or networks</li>
-                  <li>Upload viruses or malicious code</li>
-                  <li>Harass, abuse, or harm another person through the App</li>
+                  <li>{t("terms.sections.acceptableUse.items.unlawful")}</li>
+                  <li>{t("terms.sections.acceptableUse.items.unauthorized")}</li>
+                  <li>{t("terms.sections.acceptableUse.items.interfere")}</li>
+                  <li>{t("terms.sections.acceptableUse.items.viruses")}</li>
+                  <li>{t("terms.sections.acceptableUse.items.harass")}</li>
                 </ul>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">7. Medical Disclaimer</h2>
-                <p>
-                  ShineMind is a wellness tool and is not intended to diagnose, treat, cure, or prevent
-                  any disease or medical condition. The App is not a substitute for professional medical
-                  advice, diagnosis, or treatment. Always seek the advice of your physician or other
-                  qualified health provider with any questions you may have regarding a medical condition.
-                </p>
+                <h2 className="text-2xl font-semibold text-white mb-4">{t("terms.sections.medical.title")}</h2>
+                <p>{t("terms.sections.medical.content")}</p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">8. Intellectual Property</h2>
-                <p>
-                  The App and its original content, features, and functionality are owned by ShineMind
-                  and are protected by international copyright, trademark, patent, trade secret, and
-                  other intellectual property laws.
-                </p>
+                <h2 className="text-2xl font-semibold text-white mb-4">{t("terms.sections.ip.title")}</h2>
+                <p>{t("terms.sections.ip.content")}</p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">9. Limitation of Liability</h2>
-                <p>
-                  To the maximum extent permitted by law, ShineMind shall not be liable for any indirect,
-                  incidental, special, consequential, or punitive damages, or any loss of profits or
-                  revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill,
-                  or other intangible losses.
-                </p>
+                <h2 className="text-2xl font-semibold text-white mb-4">{t("terms.sections.liability.title")}</h2>
+                <p>{t("terms.sections.liability.content")}</p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">10. Data and Privacy</h2>
-                <p>
-                  Your use of the App is also governed by our Privacy Policy. Please review our{" "}
-                  <Link href="/privacy" className="text-purple-400 hover:text-purple-300 underline">
-                    Privacy Policy
-                  </Link>
-                  , which explains how we collect, use, and protect your personal information.
-                </p>
+                <h2 className="text-2xl font-semibold text-white mb-4">{t("terms.sections.data.title")}</h2>
+                <p>{t("terms.sections.data.content")}</p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">11. Termination</h2>
-                <p>
-                  We may terminate or suspend your account and access to the App immediately, without
-                  prior notice or liability, for any reason, including if you breach these Terms of
-                  Service. Upon termination, your right to use the App will immediately cease.
-                </p>
+                <h2 className="text-2xl font-semibold text-white mb-4">{t("terms.sections.termination.title")}</h2>
+                <p>{t("terms.sections.termination.content")}</p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">12. Changes to Terms</h2>
-                <p>
-                  We reserve the right to modify or replace these Terms at any time. If a revision is
-                  material, we will provide at least 30 days' notice prior to any new terms taking effect.
-                  Your continued use of the App after such modifications constitutes acceptance of the
-                  updated Terms.
-                </p>
+                <h2 className="text-2xl font-semibold text-white mb-4">{t("terms.sections.changes.title")}</h2>
+                <p>{t("terms.sections.changes.content")}</p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold text-white mb-4">13. Contact Us</h2>
-                <p>
-                  If you have any questions about these Terms of Service, please contact us at:
-                </p>
-                <p className="mt-2">
-                  <a
-                    href="mailto:contact@shinemind.app"
-                    className="text-purple-400 hover:text-purple-300 underline"
-                  >
-                    contact@shinemind.app
-                  </a>
-                </p>
+                <h2 className="text-2xl font-semibold text-white mb-4">{t("terms.sections.contact.title")}</h2>
+                <p>{t("terms.sections.contact.content")}</p>
               </section>
             </div>
           </div>

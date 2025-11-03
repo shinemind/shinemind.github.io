@@ -1,5 +1,5 @@
 "use client";
-import { InfoCircledIcon } from "@radix-ui/react-icons";
+// Removed privacy note icon
 import { useState } from "react";
 import { toast } from "react-hot-toast";
 import { useLanguage } from "@/lib/i18n";
@@ -82,12 +82,7 @@ export default function EmailForm() {
         </div>
       </form>
 
-      <div className="flex items-start justify-center gap-2 text-gray-400 max-w-lg w-full">
-        <InfoCircledIcon className="mt-0.5 shrink-0" />
-        <p className="text-sm text-center">
-          {t("waitlist.privacyNote")}
-        </p>
-      </div>
+      {/* Privacy note removed per request */}
     </div>
   );
 }
