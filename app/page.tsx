@@ -143,7 +143,7 @@ export default function Home() {
             </div>
 
             <div className="max-w-4xl mx-auto space-y-8 -mt-[20px]">
-              <h2 className="text-5xl md:text-6xl lg:text-7xl font-black text-white tracking-tight leading-[1.1]">
+              <h2 className="font-heading text-5xl md:text-6xl lg:text-7xl font-black text-white tracking-tight leading-[1.1]">
                 {t("hero.title")}{" "}
                 <span className="relative inline-block">
                   <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-400 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(236,72,153,0.5)]">
@@ -191,7 +191,7 @@ export default function Home() {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
-            <h2 className="text-5xl md:text-6xl font-black text-white mb-6 tracking-tight">
+            <h2 className="font-heading text-5xl md:text-6xl font-black text-white mb-6 tracking-tight">
               {t("features.title")}
             </h2>
             <p className="text-xl md:text-2xl text-gray-300 font-light max-w-3xl mx-auto">
@@ -291,7 +291,7 @@ export default function Home() {
       <section className="relative py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
-            <h2 className="text-5xl md:text-6xl font-black text-white mb-6 tracking-tight">
+            <h2 className="font-heading text-5xl md:text-6xl font-black text-white mb-6 tracking-tight">
               {t("screenshots.title")}
             </h2>
             <p className="text-xl md:text-2xl text-gray-300 font-light max-w-3xl mx-auto">
@@ -363,7 +363,7 @@ export default function Home() {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
-            <h2 className="text-5xl md:text-6xl font-black text-white mb-6 tracking-tight">
+            <h2 className="font-heading text-5xl md:text-6xl font-black text-white mb-6 tracking-tight">
               {t("routines.title")}
             </h2>
             <p className="text-xl md:text-2xl text-gray-300 font-light max-w-3xl mx-auto">
@@ -452,7 +452,7 @@ export default function Home() {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
-            <h2 className="text-5xl md:text-6xl font-black text-white mb-6 tracking-tight">
+            <h2 className="font-heading text-5xl md:text-6xl font-black text-white mb-6 tracking-tight">
               {t("pricing.title")}
             </h2>
             <p className="text-xl md:text-2xl text-gray-300 font-light max-w-3xl mx-auto">
@@ -623,7 +623,7 @@ export default function Home() {
 
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-3xl p-12 md:p-16 border border-white/20 shadow-2xl">
-            <h2 className="text-5xl md:text-6xl font-black text-white mb-6 tracking-tight">
+            <h2 className="font-heading text-5xl md:text-6xl font-black text-white mb-6 tracking-tight">
               {t("waitlist.title")}
             </h2>
             <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto font-light leading-relaxed">
