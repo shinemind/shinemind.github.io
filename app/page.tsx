@@ -6,7 +6,7 @@ import EmailForm from "@/components/EmailFom";
 import { Toaster } from "react-hot-toast";
 import { useState } from "react";
 import Lottie from "lottie-react";
-import shining2Animation from "@/public/shining-2.json";
+import shining6Animation from "@/public/shining-6.json";
 import LanguageSelector from "@/components/LanguageSelector";
 import { useLanguage } from "@/lib/i18n";
 
@@ -121,12 +121,17 @@ export default function Home() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center w-full">
           <div className="space-y-0">
             <div className="flex justify-center mb-8">
-              <div className="w-[270px] h-[270px] md:w-[330px] md:h-[330px]" style={{ filter: 'hue-rotate(-30deg) saturate(1.4) brightness(1.15)' }}>
-                <Lottie
-                  animationData={shining2Animation}
-                  loop={true}
-                  autoplay={true}
-                />
+              <div className="relative w-[180px] h-[180px] md:w-[220px] md:h-[220px] drop-shadow-[0_0_28px_rgba(168,85,247,0.45)]">
+                {/* Lottie animation set to near-white to receive gradient tint */}
+                <div className="absolute inset-0" style={{ filter: 'grayscale(1) brightness(1.8) contrast(1.2)' }}>
+                  <Lottie
+                    animationData={shining6Animation}
+                    loop={true}
+                    autoplay={true}
+                  />
+                </div>
+                {/* Gradient colorization overlay */}
+                <div className="absolute inset-0 rounded-full pointer-events-none mix-blend-screen opacity-90 bg-gradient-to-br from-purple-400 via-pink-400 to-yellow-300" />
               </div>
             </div>
 
@@ -253,13 +258,13 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-3xl blur-xl opacity-25 group-hover:opacity-40 transition-opacity"></div>
               <div className="relative bg-white/5 backdrop-blur-sm rounded-3xl p-4 border border-white/10">
                 <Image
-                  src="/home-page.PNG"
-                  alt="ShineMind Home Screen"
+                  src="/1.png"
+                  alt="App screenshot 1"
                   width={400}
                   height={800}
                   className="rounded-2xl w-full h-auto"
@@ -271,8 +276,8 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-3xl blur-xl opacity-25 group-hover:opacity-40 transition-opacity"></div>
               <div className="relative bg-white/5 backdrop-blur-sm rounded-3xl p-4 border border-white/10">
                 <Image
-                  src="/data-page.PNG"
-                  alt="ShineMind Activity Tracking"
+                  src="/2.png"
+                  alt="App screenshot 2"
                   width={400}
                   height={800}
                   className="rounded-2xl w-full h-auto"
@@ -284,8 +289,21 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-3xl blur-xl opacity-25 group-hover:opacity-40 transition-opacity"></div>
               <div className="relative bg-white/5 backdrop-blur-sm rounded-3xl p-4 border border-white/10">
                 <Image
-                  src="/profile-page.PNG"
-                  alt="ShineMind User Profile"
+                  src="/3.png"
+                  alt="App screenshot 3"
+                  width={400}
+                  height={800}
+                  className="rounded-2xl w-full h-auto"
+                />
+              </div>
+            </div>
+
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-3xl blur-xl opacity-25 group-hover:opacity-40 transition-opacity"></div>
+              <div className="relative bg-white/5 backdrop-blur-sm rounded-3xl p-4 border border-white/10">
+                <Image
+                  src="/4.png"
+                  alt="App screenshot 4"
                   width={400}
                   height={800}
                   className="rounded-2xl w-full h-auto"
