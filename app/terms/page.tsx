@@ -114,6 +114,14 @@ export default function TermsPage() {
               <section>
                 <h2 className="text-2xl font-semibold text-white mb-4">{t("terms.sections.contact.title")}</h2>
                 <p>{t("terms.sections.contact.content")}</p>
+                <p className="mt-2">
+                  <a
+                    href="mailto:contact@shinemind.app"
+                    className="text-purple-400 hover:text-purple-300 underline"
+                  >
+                    contact@shinemind.app
+                  </a>
+                </p>
               </section>
             </div>
           </div>
