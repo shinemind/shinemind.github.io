@@ -3,14 +3,16 @@
     "home": "首页",
     "features": "功能",
     "pricing": "价格",
-    "joinWaitlist": "加入等候名单"
+    "joinWaitlist": "加入等候名单",
+    "downloadNow": "立即下载"
   },
   "hero": {
     "title": "让您的心灵",
     "titleHighlight": "每天都闪耀",
     "subtitle": "通过正念冥想、感恩日记和目标追踪来改变您的日常习惯。为更健康、更快乐的您建立持久的习惯。",
     "viewPricing": "查看价格",
-    "joinWaitlist": "加入等候名单"
+    "joinWaitlist": "加入等候名单",
+    "downloadNow": "立即下载"
   },
   "features": {
     "title": "您茁壮成长所需的一切",
@@ -132,6 +134,13 @@
     "error": "糟糕！出错了！",
     "networkError": "网络错误。请重试。",
     "endpointError": "表单端点未配置。"
+  },
+  "download": {
+    "title": "改变您的心态。",
+    "titleHighlight": "闪耀您的人生。",
+    "subtitle": "加入数千名将心理健康变成日常习惯的用户。",
+    "cta": "免费下载",
+    "note": "免费开始。随时升级。"
   },
   "footer": {
     "tagline": "您日常的心理健康和个人成长伴侣。",

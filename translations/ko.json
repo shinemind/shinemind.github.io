@@ -3,14 +3,16 @@
     "home": "홈",
     "features": "기능",
     "pricing": "요금",
-    "joinWaitlist": "대기자 명단에 참여"
+    "joinWaitlist": "대기자 명단에 참여",
+    "downloadNow": "지금 다운로드"
   },
   "hero": {
     "title": "당신의 마음을",
     "titleHighlight": "매일 빛나게 하세요",
     "subtitle": "마음챙김 명상, 감사 일기, 목표 추적으로 일상을 변화시키세요. 더 건강하고 행복한 당신을 위한 지속적인 습관을 만들어가세요.",
     "viewPricing": "요금 보기",
-    "joinWaitlist": "대기자 명단에 참여"
+    "joinWaitlist": "대기자 명단에 참여",
+    "downloadNow": "지금 다운로드"
   },
   "features": {
     "title": "번영을 위해 필요한 모든 것",
@@ -132,6 +134,13 @@
     "error": "오류가 발생했습니다!",
     "networkError": "네트워크 오류. 다시 시도해 주세요.",
     "endpointError": "양식 엔드포인트가 구성되지 않았습니다."
+  },
+  "download": {
+    "title": "마음을 변화시키세요.",
+    "titleHighlight": "삶을 빛나게 하세요.",
+    "subtitle": "정신 건강을 일상 습관으로 만든 수천 명과 함께하세요.",
+    "cta": "무료로 다운로드",
+    "note": "무료로 시작하세요. 언제든지 업그레이드 가능합니다."
   },
   "footer": {
     "tagline": "정신 웰니스와 개인 성장을 위한 일상적인 동반자.",

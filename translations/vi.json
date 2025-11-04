@@ -3,14 +3,16 @@
     "home": "Trang chủ",
     "features": "Tính năng",
     "pricing": "Bảng giá",
-    "joinWaitlist": "Tham gia danh sách chờ"
+    "joinWaitlist": "Tham gia danh sách chờ",
+    "downloadNow": "Tải xuống ngay"
   },
   "hero": {
     "title": "Để tâm trí bạn",
     "titleHighlight": "tỏa sáng mỗi ngày",
     "subtitle": "Biến đổi thói quen hàng ngày của bạn bằng thiền định chánh niệm, nhật ký biết ơn và theo dõi mục tiêu. Xây dựng thói quen bền vững cho một bạn khỏe mạnh và hạnh phúc hơn.",
     "viewPricing": "Xem giá",
-    "joinWaitlist": "Tham gia danh sách chờ"
+    "joinWaitlist": "Tham gia danh sách chờ",
+    "downloadNow": "Tải xuống ngay"
   },
   "features": {
     "title": "Mọi thứ bạn cần để phát triển",
@@ -132,6 +134,13 @@
     "error": "Ối! Đã xảy ra lỗi!",
     "networkError": "Lỗi mạng. Vui lòng thử lại.",
     "endpointError": "Điểm cuối biểu mẫu chưa được cấu hình."
+  },
+  "download": {
+    "title": "Thay Đổi Tâm Trí.",
+    "titleHighlight": "Tỏa Sáng Cuộc Sống.",
+    "subtitle": "Tham gia cùng hàng ngàn người đã biến sức khỏe tinh thần thành thói quen hàng ngày.",
+    "cta": "Tải miễn phí",
+    "note": "Miễn phí để bắt đầu. Nâng cấp bất cứ lúc nào."
   },
   "footer": {
     "tagline": "Người bạn đồng hành hàng ngày cho sức khỏe tinh thần và phát triển cá nhân.",

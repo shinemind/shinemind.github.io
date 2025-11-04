@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Sparkles, Heart, Target, MessageCircle, Music, BarChart3, Menu, X } from "lucide-react";
-import EmailForm from "@/components/EmailFom";
 import { Toaster } from "react-hot-toast";
 import { useState } from "react";
 import Lottie from "lottie-react";
@@ -43,8 +42,13 @@ export default function Home() {
                 <a href="#pricing" className="text-gray-300 hover:text-white transition-all duration-300 font-medium hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]">
                   {t("nav.pricing")}
                 </a>
-                <a href="#waitlist" className="relative group bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2.5 rounded-full text-sm font-bold hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-105 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-pink-500/40">
-                  <span className="relative z-10">{t("nav.joinWaitlist")}</span>
+                <a 
+                  href="https://apps.apple.com/us/app/shinemind/id6754637065" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="relative group bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2.5 rounded-full text-sm font-bold hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-105 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-pink-500/40"
+                >
+                  <span className="relative z-10">{t("nav.downloadNow")}</span>
                   <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-300"></div>
                 </a>
                 <LanguageSelector />
@@ -86,11 +90,13 @@ export default function Home() {
                   {t("nav.pricing")}
                 </a>
                 <a
-                  href="#waitlist"
+                  href="https://apps.apple.com/us/app/shinemind/id6754637065"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   onClick={() => setMobileMenuOpen(false)}
                   className="block bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-full text-sm font-semibold text-center hover:from-purple-600 hover:to-pink-600 transition-all"
                 >
-                  {t("nav.joinWaitlist")}
+                  {t("nav.downloadNow")}
                 </a>
                 <div className="pt-2">
                   <LanguageSelector />
@@ -170,11 +176,13 @@ export default function Home() {
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 opacity-0 group-hover:opacity-100 blur-2xl transition-opacity"></div>
               </a>
               <a
-                href="#waitlist"
+                href="https://apps.apple.com/us/app/shinemind/id6754637065"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group relative bg-white/5 backdrop-blur-xl text-white px-12 py-5 rounded-full text-lg font-bold hover:bg-white/10 transition-all border-2 border-white/20 shadow-2xl hover:shadow-white/20 hover:border-white/40 transform hover:scale-110"
               >
                 <span className="flex items-center gap-2">
-                  {t("hero.joinWaitlist")}
+                  {t("hero.downloadNow")}
                   <span className="group-hover:translate-x-1 transition-transform">→</span>
                 </span>
               </a>
@@ -600,24 +608,48 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Waitlist Section */}
-      <section id="waitlist" className="relative py-32 bg-gradient-to-br from-purple-600/10 to-pink-600/10 backdrop-blur-sm overflow-hidden">
-        {/* Decorative Background */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-purple-950/30 to-transparent"></div>
-        <div className="absolute top-20 left-1/4 w-96 h-96 bg-purple-500/20 rounded-full blur-[150px] animate-pulse"></div>
-        <div className="absolute bottom-20 right-1/4 w-96 h-96 bg-pink-500/20 rounded-full blur-[150px] animate-pulse" style={{animationDelay: '1s'}}></div>
+      {/* Download Section */}
+      <section id="download" className="relative py-40 md:py-48 overflow-hidden">
+        {/* Subtle Background */}
+        <div className="absolute inset-0">
+          <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-purple-500/5 rounded-full blur-[120px]"></div>
+          <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-pink-500/5 rounded-full blur-[120px]"></div>
+        </div>
 
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-3xl p-12 md:p-16 border border-white/20 shadow-2xl">
-            <h2 className="font-heading text-5xl md:text-6xl font-black text-white mb-6 tracking-tight">
-              {t("waitlist.title")}
-            </h2>
-            <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto font-light leading-relaxed">
-              {t("waitlist.subtitle")}
-            </p>
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-12">
+            {/* Premium Typography */}
+            <div className="space-y-4">
+              <h2 className="font-heading text-6xl md:text-7xl lg:text-8xl font-bold text-white tracking-tight leading-[1.05]">
+                {t("download.title")}
+                <br />
+                <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-400 bg-clip-text text-transparent">
+                  {t("download.titleHighlight")}
+                </span>
+              </h2>
 
-            <div className="flex flex-col items-center">
-              <EmailForm />
+              <p className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto font-light pt-4">
+                {t("download.subtitle")}
+              </p>
+            </div>
+
+            {/* CTA Section */}
+            <div className="flex flex-col items-center gap-6 pt-4">
+              <a
+                href="https://apps.apple.com/us/app/shinemind/id6754637065"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative inline-flex items-center gap-3 bg-white text-slate-900 px-10 py-5 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300 shadow-2xl shadow-white/10 hover:shadow-white/20 hover:scale-[1.02]"
+              >
+                <svg className="w-7 h-7" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+                </svg>
+                <span>{t("download.cta")}</span>
+              </a>
+
+              <p className="text-sm text-gray-500 font-light">
+                {t("download.note")}
+              </p>
             </div>
           </div>
         </div>
@@ -661,8 +693,13 @@ export default function Home() {
               <h4 className="text-white font-bold text-xl mb-6">{t("footer.support")}</h4>
               <ul className="space-y-3">
                 <li>
-                  <a href="#waitlist" className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-1 inline-block text-lg">
-                    {t("nav.joinWaitlist")}
+                  <a 
+                    href="https://apps.apple.com/us/app/shinemind/id6754637065" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-1 inline-block text-lg"
+                  >
+                    {t("nav.downloadNow")}
                   </a>
                 </li>
                 <li>

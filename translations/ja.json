@@ -3,14 +3,16 @@
     "home": "ホーム",
     "features": "機能",
     "pricing": "料金",
-    "joinWaitlist": "ウェイトリストに登録"
+    "joinWaitlist": "ウェイトリストに登録",
+    "downloadNow": "今すぐダウンロード"
   },
   "hero": {
     "title": "あなたの心を",
     "titleHighlight": "毎日輝かせましょう",
     "subtitle": "マインドフルな瞑想、感謝日記、目標追跡で毎日のルーティンを変えましょう。健康的で幸せなあなたのための永続的な習慣を築きます。",
     "viewPricing": "料金を見る",
-    "joinWaitlist": "ウェイトリストに登録"
+    "joinWaitlist": "ウェイトリストに登録",
+    "downloadNow": "今すぐダウンロード"
   },
   "features": {
     "title": "繁栄するために必要なすべて",
@@ -132,6 +134,13 @@
     "error": "エラーが発生しました！",
     "networkError": "ネットワークエラー。もう一度お試しください。",
     "endpointError": "フォームエンドポイントが設定されていません。"
+  },
+  "download": {
+    "title": "心を変える。",
+    "titleHighlight": "人生を輝かせる。",
+    "subtitle": "毎日のメンタルウェルネス習慣を作った何千人もの仲間に加わりましょう。",
+    "cta": "無料でダウンロード",
+    "note": "無料で始められます。いつでもアップグレード可能。"
   },
   "footer": {
     "tagline": "メンタルウェルネスと個人成長のための日常的な仲間。",

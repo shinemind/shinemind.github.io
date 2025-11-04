@@ -3,14 +3,16 @@
     "home": "Home",
     "features": "Features",
     "pricing": "Pricing",
-    "joinWaitlist": "Join Waitlist"
+    "joinWaitlist": "Join Waitlist",
+    "downloadNow": "Download Now"
   },
   "hero": {
     "title": "Let your mind",
     "titleHighlight": "shine everyday",
     "subtitle": "Transform your daily routine with mindful meditation, gratitude journaling, and goal tracking. Build lasting habits for a healthier, happier you.",
     "viewPricing": "View Pricing",
-    "joinWaitlist": "Join Waitlist"
+    "joinWaitlist": "Join Waitlist",
+    "downloadNow": "Download Now"
   },
   "features": {
     "title": "Everything You Need to Thrive",
@@ -132,6 +134,13 @@
     "error": "Oops! Something went wrong!",
     "networkError": "Network error. Please try again.",
     "endpointError": "Form endpoint is not configured."
+  },
+  "download": {
+    "title": "Transform Your Mind.",
+    "titleHighlight": "Shine Your Life.",
+    "subtitle": "Join thousands who've made mental wellness a daily habit.",
+    "cta": "Download for free",
+    "note": "Free to start. Upgrade anytime."
   },
   "footer": {
     "tagline": "Your daily companion for mental wellness and personal growth.",
