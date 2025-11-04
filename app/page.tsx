@@ -594,23 +594,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="text-center mt-12">
-            <p className="text-gray-400 mb-8">{t("pricing.availableOn")}</p>
-            <div className="flex justify-center gap-4">
-              <a
-                href="#"
-                className="inline-block transform hover:scale-105 transition-transform"
-              >
-                <Image
-                  src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-                  alt="Download on the App Store"
-                  width={200}
-                  height={60}
-                  className="h-14 w-auto"
-                />
-              </a>
-            </div>
-          </div>
+          {/* <div className="text-center mt-12">
+            <p className="text-gray-400 mb-8">App is currently being reviewed</p>
+          </div> */}
         </div>
       </section>
 
