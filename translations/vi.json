@@ -166,7 +166,7 @@
       },
       "userAccount": {
         "title": "3. Tài khoản người dùng",
-        "content": "Để sử dụng một số tính năng của Ứng dụng, bạn phải tạo tài khoản bằng Apple Sign-In. Bạn chịu trách nhiệm về:",
+        "content": "Để sử dụng Ứng dụng, bạn phải tạo tài khoản bằng Apple Sign-In. Bạn chịu trách nhiệm về:",
         "items": {
           "credentials": "Duy trì tính bảo mật của thông tin đăng nhập tài khoản của bạn",
           "activities": "Tất cả hoạt động xảy ra dưới tài khoản của bạn",

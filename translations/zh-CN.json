@@ -166,7 +166,7 @@
       },
       "userAccount": {
         "title": "3. 用户账户",
-        "content": "要使用应用程序的某些功能，您必须使用Apple Sign-In创建账户。您需要负责：",
+        "content": "要使用应用程序，您必须使用Apple Sign-In创建账户。您需要负责：",
         "items": {
           "credentials": "维护账户凭证的机密性",
           "activities": "您账户下发生的所有活动",
