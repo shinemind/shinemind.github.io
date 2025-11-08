@@ -30,9 +30,6 @@ export default function PrivacyPage() {
                 <p className="mb-3">{t("privacy.sections.information.content")}</p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>{t("privacy.sections.information.items.account")}</li>
-                  <li>{t("privacy.sections.information.items.content")}</li>
-                  <li>{t("privacy.sections.information.items.usage")}</li>
-                  <li>{t("privacy.sections.information.items.device")}</li>
                   <li>{t("privacy.sections.information.items.subscription")}</li>
                 </ul>
               </section>
@@ -114,8 +111,6 @@ export default function PrivacyPage() {
                 <h2 className="text-2xl font-semibold text-white mb-4">{t("privacy.sections.thirdParty.title")}</h2>
                 <p className="mb-3">{t("privacy.sections.thirdParty.content")}</p>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li>{t("privacy.sections.thirdParty.items.supabase")}</li>
-                  <li>{t("privacy.sections.thirdParty.items.revenuecat")}</li>
                   <li>{t("privacy.sections.thirdParty.items.apple")}</li>
                 </ul>
                 <p className="mt-3">{t("privacy.sections.thirdParty.note")}</p>
@@ -126,7 +121,6 @@ export default function PrivacyPage() {
                 <p>{t("privacy.sections.camera.content")}</p>
                 <ul className="list-disc pl-6 mt-3 space-y-2">
                   <li>{t("privacy.sections.camera.items.photos")}</li>
-                  <li>{t("privacy.sections.camera.items.profile")}</li>
                 </ul>
                 <p className="mt-3">{t("privacy.sections.camera.note")}</p>
               </section>

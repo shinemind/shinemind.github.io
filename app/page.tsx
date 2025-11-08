@@ -165,21 +165,10 @@ export default function Home() {
             </div>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center pt-12">
               <a
-                href="#pricing"
-                className="group relative bg-gradient-to-r from-purple-500 to-pink-500 text-white px-12 py-5 rounded-full text-lg font-bold transition-all transform hover:scale-110 shadow-2xl hover:shadow-purple-500/60 overflow-hidden"
-              >
-                <span className="relative z-10 flex items-center gap-2">
-                  {t("hero.viewPricing")}
-                  <span className="group-hover:translate-x-1 transition-transform">→</span>
-                </span>
-                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 opacity-0 group-hover:opacity-100 blur-2xl transition-opacity"></div>
-              </a>
-              <a
                 href="https://apps.apple.com/us/app/shinemind/id6754637065"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative bg-white/5 backdrop-blur-xl text-white px-12 py-5 rounded-full text-lg font-bold hover:bg-white/10 transition-all border-2 border-white/20 shadow-2xl hover:shadow-white/20 hover:border-white/40 transform hover:scale-110"
+                className="group relative bg-white/5 backdrop-blur-xl text-white px-12 py-5 rounded-full text-lg font-bold hover:bg-white/10 transition-all border-2 border-purple-500/50 shadow-2xl hover:shadow-purple-500/30 hover:border-purple-400/70 transform hover:scale-110"
               >
                 <span className="flex items-center gap-2">
                   {t("hero.downloadNow")}

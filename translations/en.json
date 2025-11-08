@@ -12,7 +12,7 @@
     "subtitle": "Transform your daily routine with mindful meditation, gratitude journaling, and goal tracking. Build lasting habits for a healthier, happier you.",
     "viewPricing": "View Pricing",
     "joinWaitlist": "Join Waitlist",
-    "downloadNow": "Download Now"
+    "downloadNow": "Try for free"
   },
   "features": {
     "title": "Everything You Need to Thrive",
@@ -138,7 +138,7 @@
   "download": {
     "title": "Transform Your Mind.",
     "titleHighlight": "Shine Your Life.",
-    "subtitle": "Join thousands who've made mental wellness a daily habit.",
+    "subtitle": "Start your journey to a healthier, happier mind today.",
     "cta": "Download for free",
     "note": "Free to start. Upgrade anytime."
   },
@@ -242,14 +242,11 @@
     "intro": "At ShineMind, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.",
     "sections": {
       "information": {
-        "title": "1. Information We Collect",
-        "content": "We collect information you provide directly to us when using ShineMind:",
+        "title": "1. Information We Store",
+        "content": "We store information you provide directly to us when using ShineMind:",
         "items": {
-          "account": "Account Information: Name, email address (via Apple Sign-In), profile picture",
-          "content": "User Content: Gratitude journal entries, affirmation recordings, goal entries, meditation preferences, photos you upload",
-          "usage": "Usage Data: Meditation sessions, activity completion, streaks, session times, app interactions",
-          "device": "Device Information: Device type, operating system, app version, unique device identifiers",
-          "subscription": "Subscription Information: Purchase history and subscription status (managed through Apple/RevenueCat)"
+          "account": "Account Information: Name and email address (email can be hidden if you prefer)",
+          "subscription": "Subscription Information: Purchase history and subscription status (managed through Apple)"
         }
       },
       "use": {
@@ -257,7 +254,7 @@
         "content": "We use the information we collect to:",
         "items": {
           "provide": "Provide, maintain, and improve the App's features and functionality",
-          "sync": "Sync your data across devices using Supabase",
+          "sync": "Sync your data across devices",
           "track": "Track your progress, streaks, and activity history",
           "notifications": "Send you notifications about your routines (if enabled)",
           "process": "Process and manage your premium subscription",
@@ -270,7 +267,7 @@
         "title": "3. Information Sharing and Disclosure",
         "content": "We do not sell your personal information. We may share your information only in the following circumstances:",
         "items": {
-          "providers": "Service Providers: We use Supabase for data storage and RevenueCat for subscription management. These providers are bound by confidentiality obligations.",
+          "providers": "Service Providers: We use trusted third-party service providers for data storage and subscription management. These providers are bound by confidentiality obligations.",
           "apple": "Apple: Authentication is handled through Apple Sign-In, subject to Apple's privacy policy",
           "legal": "Legal Requirements: When required by law, regulation, legal process, or governmental request",
           "protection": "Protection of Rights: To protect the rights, property, and safety of ShineMind, our users, or others",
@@ -282,7 +279,7 @@
         "content": "We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. This includes:",
         "items": {
           "encryption": "Encryption of data in transit and at rest",
-          "rls": "Row-Level Security (RLS) policies in Supabase database",
+          "rls": "Row-Level Security (RLS) policies in our database",
           "auth": "Secure authentication via Apple Sign-In",
           "assessments": "Regular security assessments and updates"
         },
@@ -308,7 +305,7 @@
           "optout": "Opt-Out: Disable notifications in app settings",
           "withdraw": "Withdraw Consent: Withdraw consent for data processing where applicable"
         },
-        "contact": "To exercise these rights, contact us at"
+        "contact": "To exercise these rights, please contact us."
       },
       "children": {
         "title": "7. Children's Privacy",
@@ -322,8 +319,6 @@
         "title": "9. Third-Party Services",
         "content": "ShineMind integrates with the following third-party services:",
         "items": {
-          "supabase": "Supabase: Database and authentication services",
-          "revenuecat": "RevenueCat: Subscription and payment processing",
           "apple": "Apple Services: Apple Sign-In, Push Notifications, In-App Purchases"
         },
         "note": "These services have their own privacy policies. We encourage you to review them."
@@ -332,8 +327,7 @@
         "title": "10. Camera and Photo Library",
         "content": "ShineMind requests access to your camera and photo library to allow you to:",
         "items": {
-          "photos": "Add photos to gratitude journal entries",
-          "profile": "Set a profile picture"
+          "photos": "Add photos to gratitude journal entries"
         },
         "note": "Photos are stored securely in your account and are not shared with third parties. You can revoke camera/photo access at any time in your device settings."
       },
