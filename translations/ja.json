@@ -80,7 +80,8 @@
         "goals": "最大3つの目標",
         "affirmations": "カスタムアファメーション2つ",
         "meditation": "基本的な瞑想",
-        "journal": "感謝日記"
+        "journal": "1日1つの感謝ノート",
+        "aiChat": "AIチャット5メッセージ/日"
       }
     },
     "monthly": {
@@ -92,6 +93,8 @@
       "features": {
         "goals": "無制限の目標",
         "affirmations": "無制限のアファメーション",
+        "journal": "無制限の感謝ノート",
+        "aiChat": "無制限のAIチャット",
         "sleepSounds": "プレミアム睡眠音",
         "analytics": "高度な分析",
         "support": "優先サポート"
@@ -105,6 +108,8 @@
       "features": {
         "goals": "無制限の目標",
         "affirmations": "無制限のアファメーション",
+        "journal": "無制限の感謝ノート",
+        "aiChat": "無制限のAIチャット",
         "sleepSounds": "プレミアム睡眠音",
         "analytics": "高度な分析",
         "support": "優先サポート"

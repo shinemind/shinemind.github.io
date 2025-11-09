@@ -80,7 +80,8 @@
         "goals": "Tối đa 3 mục tiêu",
         "affirmations": "2 khẳng định tùy chỉnh",
         "meditation": "Thiền định cơ bản",
-        "journal": "Nhật ký biết ơn"
+        "journal": "1 ghi chú biết ơn mỗi ngày",
+        "aiChat": "5 tin nhắn AI chat/ngày"
       }
     },
     "monthly": {
@@ -92,6 +93,8 @@
       "features": {
         "goals": "Mục tiêu không giới hạn",
         "affirmations": "Khẳng định không giới hạn",
+        "journal": "Ghi chú biết ơn không giới hạn",
+        "aiChat": "AI chat không giới hạn",
         "sleepSounds": "Âm thanh ngủ cao cấp",
         "analytics": "Phân tích nâng cao",
         "support": "Hỗ trợ ưu tiên"
@@ -105,6 +108,8 @@
       "features": {
         "goals": "Mục tiêu không giới hạn",
         "affirmations": "Khẳng định không giới hạn",
+        "journal": "Ghi chú biết ơn không giới hạn",
+        "aiChat": "AI chat không giới hạn",
         "sleepSounds": "Âm thanh ngủ cao cấp",
         "analytics": "Phân tích nâng cao",
         "support": "Hỗ trợ ưu tiên"

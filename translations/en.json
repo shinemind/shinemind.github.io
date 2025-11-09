@@ -80,7 +80,8 @@
         "goals": "Up to 3 goals",
         "affirmations": "2 custom affirmations",
         "meditation": "Basic meditation",
-        "journal": "Gratitude journal"
+        "journal": "1 gratitude note per day",
+        "aiChat": "5 AI chat messages/day"
       }
     },
     "monthly": {
@@ -92,6 +93,8 @@
       "features": {
         "goals": "Unlimited goals",
         "affirmations": "Unlimited affirmations",
+        "journal": "Unlimited gratitude notes",
+        "aiChat": "Unlimited AI chat",
         "sleepSounds": "Premium sleep sounds",
         "analytics": "Advanced analytics",
         "support": "Priority support"
@@ -105,6 +108,8 @@
       "features": {
         "goals": "Unlimited goals",
         "affirmations": "Unlimited affirmations",
+        "journal": "Unlimited gratitude notes",
+        "aiChat": "Unlimited AI chat",
         "sleepSounds": "Premium sleep sounds",
         "analytics": "Advanced analytics",
         "support": "Priority support"

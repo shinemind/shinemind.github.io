@@ -80,7 +80,8 @@
         "goals": "최대 3개의 목표",
         "affirmations": "맞춤형 긍정 확언 2개",
         "meditation": "기본 명상",
-        "journal": "감사 일기"
+        "journal": "하루 1개의 감사 노트",
+        "aiChat": "AI 채팅 5개 메시지/일"
       }
     },
     "monthly": {
@@ -92,6 +93,8 @@
       "features": {
         "goals": "무제한 목표",
         "affirmations": "무제한 긍정 확언",
+        "journal": "무제한 감사 노트",
+        "aiChat": "무제한 AI 채팅",
         "sleepSounds": "프리미엄 수면 음향",
         "analytics": "고급 분석",
         "support": "우선 지원"
@@ -105,6 +108,8 @@
       "features": {
         "goals": "무제한 목표",
         "affirmations": "무제한 긍정 확언",
+        "journal": "무제한 감사 노트",
+        "aiChat": "무제한 AI 채팅",
         "sleepSounds": "프리미엄 수면 음향",
         "analytics": "고급 분석",
         "support": "우선 지원"
