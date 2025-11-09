@@ -79,7 +79,7 @@
       "features": {
         "goals": "最多3个目标",
         "affirmations": "2个自定义肯定语",
-        "meditation": "基本冥想",
+        "meditation": "冥想时长限制",
         "journal": "每天1条感恩笔记",
         "aiChat": "每天5条AI聊天消息"
       }
@@ -93,6 +93,7 @@
       "features": {
         "goals": "无限目标",
         "affirmations": "无限肯定语",
+        "meditation": "冥想时长无限制",
         "journal": "无限感恩笔记",
         "aiChat": "无限AI聊天",
         "sleepSounds": "高级睡眠音效",
@@ -108,6 +109,7 @@
       "features": {
         "goals": "无限目标",
         "affirmations": "无限肯定语",
+        "meditation": "冥想时长无限制",
         "journal": "无限感恩笔记",
         "aiChat": "无限AI聊天",
         "sleepSounds": "高级睡眠音效",

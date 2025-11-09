@@ -79,7 +79,7 @@
       "features": {
         "goals": "최대 3개의 목표",
         "affirmations": "맞춤형 긍정 확언 2개",
-        "meditation": "기본 명상",
+        "meditation": "명상 시간 제한",
         "journal": "하루 1개의 감사 노트",
         "aiChat": "AI 채팅 5개 메시지/일"
       }
@@ -93,6 +93,7 @@
       "features": {
         "goals": "무제한 목표",
         "affirmations": "무제한 긍정 확언",
+        "meditation": "명상 시간 무제한",
         "journal": "무제한 감사 노트",
         "aiChat": "무제한 AI 채팅",
         "sleepSounds": "프리미엄 수면 음향",
@@ -108,6 +109,7 @@
       "features": {
         "goals": "무제한 목표",
         "affirmations": "무제한 긍정 확언",
+        "meditation": "명상 시간 무제한",
         "journal": "무제한 감사 노트",
         "aiChat": "무제한 AI 채팅",
         "sleepSounds": "프리미엄 수면 음향",

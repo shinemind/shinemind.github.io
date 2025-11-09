@@ -486,6 +486,10 @@ export default function Home() {
                     <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
                     <span className="text-base">{t("pricing.free.features.journal")}</span>
                   </li>
+                  <li className="flex items-start gap-3 group/item">
+                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
+                    <span className="text-base">{t("pricing.free.features.aiChat")}</span>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -511,6 +515,18 @@ export default function Home() {
                   <li className="flex items-start gap-3 group/item">
                     <span className="text-yellow-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
                     <span className="text-base font-medium">{t("pricing.monthly.features.affirmations")}</span>
+                  </li>
+                  <li className="flex items-start gap-3 group/item">
+                    <span className="text-yellow-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
+                    <span className="text-base font-medium">{t("pricing.monthly.features.meditation")}</span>
+                  </li>
+                  <li className="flex items-start gap-3 group/item">
+                    <span className="text-yellow-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
+                    <span className="text-base font-medium">{t("pricing.monthly.features.journal")}</span>
+                  </li>
+                  <li className="flex items-start gap-3 group/item">
+                    <span className="text-yellow-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
+                    <span className="text-base font-medium">{t("pricing.monthly.features.aiChat")}</span>
                   </li>
                   <li className="flex items-start gap-3 group/item">
                     <span className="text-yellow-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
@@ -546,6 +562,18 @@ export default function Home() {
                   <li className="flex items-start gap-3 group/item">
                     <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
                     <span className="text-base">{t("pricing.yearly.features.affirmations")}</span>
+                  </li>
+                  <li className="flex items-start gap-3 group/item">
+                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
+                    <span className="text-base">{t("pricing.yearly.features.meditation")}</span>
+                  </li>
+                  <li className="flex items-start gap-3 group/item">
+                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
+                    <span className="text-base">{t("pricing.yearly.features.journal")}</span>
+                  </li>
+                  <li className="flex items-start gap-3 group/item">
+                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
+                    <span className="text-base">{t("pricing.yearly.features.aiChat")}</span>
                   </li>
                   <li className="flex items-start gap-3 group/item">
                     <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
