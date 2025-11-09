@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { Sparkles, Heart, Target, MessageCircle, Music, BarChart3, Menu, X } from "lucide-react";
+import { Sparkles, Heart, Target, MessageCircle, Music, Menu, X, Bot } from "lucide-react";
 import { Toaster } from "react-hot-toast";
 import { useState } from "react";
 import Lottie from "lottie-react";
@@ -168,12 +168,14 @@ export default function Home() {
                 href="https://apps.apple.com/us/app/shinemind/id6754637065"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative bg-white/5 backdrop-blur-xl text-white px-12 py-5 rounded-full text-lg font-bold hover:bg-white/10 transition-all border-2 border-purple-500/50 shadow-2xl hover:shadow-purple-500/30 hover:border-purple-400/70 transform hover:scale-110"
+                className="group relative bg-gradient-to-r from-purple-500 to-pink-500 text-white px-12 py-5 rounded-full text-lg font-bold hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-110 shadow-2xl shadow-purple-500/40 hover:shadow-purple-500/60 overflow-hidden"
               >
-                <span className="flex items-center gap-2">
+                <span className="relative z-10 flex items-center gap-2">
                   {t("hero.downloadNow")}
                   <span className="group-hover:translate-x-1 transition-transform">→</span>
                 </span>
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 opacity-0 group-hover:opacity-100 blur-2xl transition-opacity"></div>
               </a>
             </div>
           </div>
@@ -197,7 +199,21 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Feature 1 */}
+            {/* Feature 1 - AI Wellness */}
+            <div className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/20 hover:border-emerald-400/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-emerald-500/20">
+              <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/0 to-emerald-500/0 group-hover:from-emerald-500/10 group-hover:to-transparent rounded-3xl transition-all duration-500"></div>
+              <div className="relative">
+                <div className="w-16 h-16 bg-gradient-to-br from-emerald-500/30 to-emerald-600/30 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-emerald-500/20">
+                  <Bot className="w-8 h-8 text-emerald-300 group-hover:rotate-12 transition-transform duration-300" />
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-emerald-300 transition-colors">{t("features.aiWellness.title")}</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  {t("features.aiWellness.description")}
+                </p>
+              </div>
+            </div>
+
+            {/* Feature 2 */}
             <div className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/20 hover:border-blue-400/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/20">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/0 to-blue-500/0 group-hover:from-blue-500/10 group-hover:to-transparent rounded-3xl transition-all duration-500"></div>
               <div className="relative">
@@ -211,7 +227,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Feature 2 */}
+            {/* Feature 3 */}
             <div className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/20 hover:border-pink-400/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-pink-500/20">
               <div className="absolute inset-0 bg-gradient-to-br from-pink-500/0 to-pink-500/0 group-hover:from-pink-500/10 group-hover:to-transparent rounded-3xl transition-all duration-500"></div>
               <div className="relative">
@@ -225,7 +241,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Feature 3 */}
+            {/* Feature 4 */}
             <div className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/20 hover:border-yellow-400/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/20">
               <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/0 to-yellow-500/0 group-hover:from-yellow-500/10 group-hover:to-transparent rounded-3xl transition-all duration-500"></div>
               <div className="relative">
@@ -239,7 +255,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Feature 4 */}
+            {/* Feature 5 */}
             <div className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/20 hover:border-purple-400/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/20">
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/0 to-purple-500/0 group-hover:from-purple-500/10 group-hover:to-transparent rounded-3xl transition-all duration-500"></div>
               <div className="relative">
@@ -253,7 +269,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Feature 5 */}
+            {/* Feature 6 */}
             <div className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/20 hover:border-cyan-400/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/20">
               <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/0 to-cyan-500/0 group-hover:from-cyan-500/10 group-hover:to-transparent rounded-3xl transition-all duration-500"></div>
               <div className="relative">
@@ -267,19 +283,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Feature 6 */}
-            <div className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/20 hover:border-orange-400/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/20">
-              <div className="absolute inset-0 bg-gradient-to-br from-orange-500/0 to-orange-500/0 group-hover:from-orange-500/10 group-hover:to-transparent rounded-3xl transition-all duration-500"></div>
-              <div className="relative">
-                <div className="w-16 h-16 bg-gradient-to-br from-orange-500/30 to-orange-600/30 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-orange-500/20">
-                  <BarChart3 className="w-8 h-8 text-orange-300 group-hover:rotate-12 transition-transform duration-300" />
-                </div>
-                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-orange-300 transition-colors">{t("features.activityTracking.title")}</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  {t("features.activityTracking.description")}
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>

@@ -9,7 +9,7 @@
   "hero": {
     "title": "Let your mind",
     "titleHighlight": "shine everyday",
-    "subtitle": "Transform your daily routine with mindful meditation, gratitude journaling, and goal tracking. Build lasting habits for a healthier, happier you.",
+    "subtitle": "Transform your daily routine with AI-powered wellness insights, mindful meditation, gratitude journaling, and goal tracking. Build lasting habits for a healthier, happier you.",
     "viewPricing": "View Pricing",
     "joinWaitlist": "Join Waitlist",
     "downloadNow": "Try for free"
@@ -37,9 +37,9 @@
       "title": "Sleep Sounds",
       "description": "Curated library of relaxing sleep sounds and music to help you wind down and improve sleep quality."
     },
-    "activityTracking": {
-      "title": "Activity Tracking",
-      "description": "Track your wellness journey with detailed analytics, streaks, and weekly trends to stay motivated."
+    "aiWellness": {
+      "title": "AI-Powered Wellness",
+      "description": "Chat with your activities and get personalized insights, recommendations, and support powered by AI to enhance your wellness journey."
     }
   },
   "screenshots": {
@@ -245,7 +245,7 @@
         "title": "1. Information We Store",
         "content": "We store information you provide directly to us when using ShineMind:",
         "items": {
-          "account": "Account Information: Name and email address (email can be hidden if you prefer)",
+          "account": "Account Information: Name, email address (email can be hidden if you prefer), and usage data",
           "subscription": "Subscription Information: Purchase history and subscription status (managed through Apple)"
         }
       },
@@ -309,7 +309,7 @@
       },
       "children": {
         "title": "7. Children's Privacy",
-        "content": "ShineMind is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately, and we will take steps to delete such information."
+        "content": "ShineMind is not intended for children under the age of 9. We do not knowingly collect personal information from children under 9. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately, and we will take steps to delete such information."
       },
       "transfers": {
         "title": "8. International Data Transfers",

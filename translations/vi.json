@@ -9,7 +9,7 @@
   "hero": {
     "title": "Để tâm trí bạn",
     "titleHighlight": "tỏa sáng mỗi ngày",
-    "subtitle": "Biến đổi thói quen hàng ngày của bạn bằng thiền định chánh niệm, nhật ký biết ơn và theo dõi mục tiêu. Xây dựng thói quen bền vững cho một bạn khỏe mạnh và hạnh phúc hơn.",
+    "subtitle": "Biến đổi thói quen hàng ngày của bạn bằng thông tin chi tiết về sức khỏe được hỗ trợ bởi AI, thiền định chánh niệm, nhật ký biết ơn và theo dõi mục tiêu. Xây dựng thói quen bền vững cho một bạn khỏe mạnh và hạnh phúc hơn.",
     "viewPricing": "Xem giá",
     "joinWaitlist": "Tham gia danh sách chờ",
     "downloadNow": "Dùng thử miễn phí"
@@ -37,9 +37,9 @@
       "title": "Âm thanh ngủ",
       "description": "Thư viện âm thanh và nhạc ngủ thư giãn được tuyển chọn để giúp bạn thư giãn và cải thiện chất lượng giấc ngủ."
     },
-    "activityTracking": {
-      "title": "Theo dõi hoạt động",
-      "description": "Theo dõi hành trình sức khỏe của bạn với phân tích chi tiết, chuỗi ngày và xu hướng hàng tuần để luôn có động lực."
+    "aiWellness": {
+      "title": "Sức khỏe được hỗ trợ bởi AI",
+      "description": "Trò chuyện với hoạt động của bạn và nhận thông tin chi tiết, đề xuất và hỗ trợ được cá nhân hóa do AI cung cấp để nâng cao hành trình sức khỏe của bạn."
     }
   },
   "screenshots": {
@@ -245,7 +245,7 @@
         "title": "1. Thông tin chúng tôi lưu trữ",
         "content": "Chúng tôi lưu trữ thông tin bạn cung cấp trực tiếp cho chúng tôi khi sử dụng ShineMind:",
         "items": {
-          "account": "Thông tin tài khoản: Tên và địa chỉ email (bạn có thể ẩn địa chỉ email nếu muốn)",
+          "account": "Thông tin tài khoản: Tên, địa chỉ email (bạn có thể ẩn địa chỉ email nếu muốn), và dữ liệu sử dụng",
           "subscription": "Thông tin đăng ký: Lịch sử mua hàng và trạng thái đăng ký (được quản lý thông qua Apple)"
         }
       },
@@ -309,7 +309,7 @@
       },
       "children": {
         "title": "7. Quyền riêng tư của trẻ em",
-        "content": "ShineMind không dành cho trẻ em dưới 13 tuổi. Chúng tôi không cố ý thu thập thông tin cá nhân từ trẻ em dưới 13 tuổi. Nếu bạn là cha mẹ hoặc người giám hộ và tin rằng con bạn đã cung cấp cho chúng tôi thông tin cá nhân, vui lòng liên hệ với chúng tôi ngay lập tức và chúng tôi sẽ thực hiện các bước để xóa thông tin đó."
+        "content": "ShineMind không dành cho trẻ em dưới 9 tuổi. Chúng tôi không cố ý thu thập thông tin cá nhân từ trẻ em dưới 9 tuổi. Nếu bạn là cha mẹ hoặc người giám hộ và tin rằng con bạn đã cung cấp cho chúng tôi thông tin cá nhân, vui lòng liên hệ với chúng tôi ngay lập tức và chúng tôi sẽ thực hiện các bước để xóa thông tin đó."
       },
       "transfers": {
         "title": "8. Chuyển dữ liệu quốc tế",
