@@ -42,9 +42,12 @@ export default function Home() {
                 <a href="#pricing" className="text-gray-300 hover:text-white transition-all duration-300 font-medium hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]">
                   {t("nav.pricing")}
                 </a>
-                <a 
-                  href="https://apps.apple.com/us/app/shinemind/id6754637065" 
-                  target="_blank" 
+                <Link href="/blog" className="text-gray-300 hover:text-white transition-all duration-300 font-medium hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]">
+                  {t("nav.blog")}
+                </Link>
+                <a
+                  href="https://apps.apple.com/us/app/shinemind/id6754637065"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="relative group bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2.5 rounded-full text-sm font-bold hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-105 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-pink-500/40"
                 >
@@ -89,6 +92,13 @@ export default function Home() {
                 >
                   {t("nav.pricing")}
                 </a>
+                <Link
+                  href="/blog"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="block text-gray-300 hover:text-white transition-colors py-2"
+                >
+                  {t("nav.blog")}
+                </Link>
                 <a
                   href="https://apps.apple.com/us/app/shinemind/id6754637065"
                   target="_blank"

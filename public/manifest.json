@@ -1,0 +1,64 @@
+{
+  "name": "ShineMind - AI Wellness App",
+  "short_name": "ShineMind",
+  "description": "Transform your daily routine with AI-powered wellness insights, guided meditation, gratitude journaling, and goal tracking.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#a855f7",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "wellness", "lifestyle", "productivity"],
+  "screenshots": [
+    {
+      "src": "/1.png",
+      "sizes": "1170x2532",
+      "type": "image/png"
+    },
+    {
+      "src": "/2.png",
+      "sizes": "1170x2532",
+      "type": "image/png"
+    },
+    {
+      "src": "/3.png",
+      "sizes": "1170x2532",
+      "type": "image/png"
+    },
+    {
+      "src": "/4.png",
+      "sizes": "1170x2532",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Meditation",
+      "short_name": "Meditate",
+      "description": "Begin your meditation session",
+      "url": "/#features",
+      "icons": [{ "src": "/logo.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Gratitude Journal",
+      "short_name": "Journal",
+      "description": "Write in your gratitude journal",
+      "url": "/#features",
+      "icons": [{ "src": "/logo.png", "sizes": "96x96" }]
+    }
+  ]
+}
