@@ -78,11 +78,11 @@
       "title": "Free",
       "price": "$0",
       "features": {
-        "goals": "Up to 1 goal",
+        "goals": "Up to 3 goals",
         "affirmations": "2 custom affirmations",
         "meditation": "Limited meditation duration",
         "journal": "1 gratitude note per day",
-        "aiChat": "5 AI chat messages/day"
+        "aiChat": "7 AI chat messages/day"
       }
     },
     "monthly": {

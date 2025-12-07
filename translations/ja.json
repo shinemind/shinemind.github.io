@@ -78,11 +78,11 @@
       "title": "無料",
       "price": "$0",
       "features": {
-        "goals": "最大1つの目標",
+        "goals": "最大3つの目標",
         "affirmations": "カスタムアファメーション2つ",
         "meditation": "瞑想時間制限あり",
         "journal": "1日1つの感謝ノート",
-        "aiChat": "AIチャット5メッセージ/日"
+        "aiChat": "AIチャット7メッセージ/日"
       }
     },
     "monthly": {

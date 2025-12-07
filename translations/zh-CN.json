@@ -78,11 +78,11 @@
       "title": "免费",
       "price": "$0",
       "features": {
-        "goals": "最多1个目标",
+        "goals": "最多3个目标",
         "affirmations": "2个自定义肯定语",
         "meditation": "冥想时长限制",
         "journal": "每天1条感恩笔记",
-        "aiChat": "每天5条AI聊天消息"
+        "aiChat": "每天7条AI聊天消息"
       }
     },
     "monthly": {

@@ -78,11 +78,11 @@
       "title": "Miễn phí",
       "price": "$0",
       "features": {
-        "goals": "Tối đa 1 mục tiêu",
+        "goals": "Tối đa 3 mục tiêu",
         "affirmations": "2 khẳng định tùy chỉnh",
         "meditation": "Thời gian thiền định có giới hạn",
         "journal": "1 ghi chú biết ơn mỗi ngày",
-        "aiChat": "5 tin nhắn AI chat/ngày"
+        "aiChat": "7 tin nhắn AI chat/ngày"
       }
     },
     "monthly": {
