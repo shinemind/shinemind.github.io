@@ -174,7 +174,7 @@
       },
       "userAccount": {
         "title": "3. User Account",
-        "content": "To use the App, you must create an account using Apple Sign-In. You are responsible for:",
+        "content": "To use the App, you must create an account using Apple Sign-In or Google Sign-In. You are responsible for:",
         "items": {
           "credentials": "Maintaining the confidentiality of your account credentials",
           "activities": "All activities that occur under your account",
@@ -189,7 +189,7 @@
           "annual": "Annual subscription: $39.99/year (includes 7 days free trial)",
           "lifetime": "Lifetime access: $79.99 (one-time payment)"
         },
-        "trialNote": "Both monthly and annual subscriptions include a 7-day free trial. You will not be charged until the trial period ends. Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period. You can manage or cancel your subscription through your Apple ID account settings."
+        "trialNote": "Both monthly and annual subscriptions include a 7-day free trial. You will not be charged until the trial period ends. Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period. You can manage or cancel your subscription through your Apple ID account settings or Google Play Store settings, depending on your platform."
       },
       "userContent": {
         "title": "5. User Content",
@@ -276,7 +276,7 @@
         "content": "We do not sell your personal information. We may share your information only in the following circumstances:",
         "items": {
           "providers": "Service Providers: We use trusted third-party service providers for data storage and subscription management. These providers are bound by confidentiality obligations.",
-          "apple": "Apple: Authentication is handled through Apple Sign-In, subject to Apple's privacy policy",
+          "apple": "Apple & Google: Authentication is handled through Apple Sign-In or Google Sign-In, subject to their respective privacy policies",
           "legal": "Legal Requirements: When required by law, regulation, legal process, or governmental request",
           "protection": "Protection of Rights: To protect the rights, property, and safety of ShineMind, our users, or others",
           "consent": "With Your Consent: When you explicitly consent to sharing your information"
@@ -288,7 +288,7 @@
         "items": {
           "encryption": "Encryption of data in transit and at rest",
           "rls": "Row-Level Security (RLS) policies in our database",
-          "auth": "Secure authentication via Apple Sign-In",
+          "auth": "Secure authentication via Apple Sign-In or Google Sign-In",
           "assessments": "Regular security assessments and updates"
         },
         "note": "However, no method of transmission over the internet or electronic storage is 100% secure. We cannot guarantee absolute security."
@@ -327,7 +327,8 @@
         "title": "9. Third-Party Services",
         "content": "ShineMind integrates with the following third-party services:",
         "items": {
-          "apple": "Apple Services: Apple Sign-In, Push Notifications, In-App Purchases"
+          "apple": "Apple Services: Apple Sign-In, Push Notifications, In-App Purchases",
+          "google": "Google Services: Google Sign-In"
         },
         "note": "These services have their own privacy policies. We encourage you to review them."
       },

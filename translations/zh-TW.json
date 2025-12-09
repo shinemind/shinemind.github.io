@@ -174,7 +174,7 @@
       },
       "userAccount": {
         "title": "3. 用戶帳戶",
-        "content": "要使用應用程式，您必須使用Apple Sign-In創建帳戶。您需要負責：",
+        "content": "要使用應用程式，您必須使用Apple Sign-In或Google Sign-In創建帳戶。您需要負責：",
         "items": {
           "credentials": "維護帳戶憑證的機密性",
           "activities": "您帳戶下發生的所有活動",
@@ -189,7 +189,7 @@
           "annual": "年付訂閱：$39.99/年（包含7天免費試用）",
           "lifetime": "終身訪問：$79.99（一次性付款）"
         },
-        "trialNote": "月付和年付訂閱都包含7天免費試用。試用期結束前不會收費。除非在當前期間結束前至少24小時取消，否則訂閱會自動續訂。您可以透過Apple ID帳戶設置管理或取消訂閱。"
+        "trialNote": "月付和年付訂閱都包含7天免費試用。試用期結束前不會收費。除非在當前期間結束前至少24小時取消，否則訂閱會自動續訂。根據您的平台，您可以透過Apple ID帳戶設置或Google Play Store設置管理或取消訂閱。"
       },
       "userContent": {
         "title": "5. 用戶內容",
@@ -276,7 +276,7 @@
         "content": "我們不出售您的個人資訊。我們僅在以下情況下共用您的資訊：",
         "items": {
           "providers": "服務提供商：我們使用可信的第三方服務提供商進行數據存儲和訂閱管理。這些提供商受保密義務約束。",
-          "apple": "Apple：認證透過Apple Sign-In處理，遵循Apple的隱私政策",
+          "apple": "Apple & Google：認證透過Apple Sign-In或Google Sign-In處理，遵循其各自的隱私政策",
           "legal": "法律要求：當法律、法規、法律程序或政府要求時",
           "protection": "權利保護：保護ShineMind、我們的用戶或其他人的權利、財產和安全",
           "consent": "經您同意：當您明確同意共用您的資訊時"
@@ -288,7 +288,7 @@
         "items": {
           "encryption": "傳輸中和靜止時的數據加密",
           "rls": "我們數據庫中的行級安全（RLS）政策",
-          "auth": "透過Apple Sign-In的安全認證",
+          "auth": "透過Apple Sign-In或Google Sign-In的安全認證",
           "assessments": "定期的安全評估和更新"
         },
         "note": "但是，透過網際網路傳輸或電子儲存的方法都不是100%安全的。我們無法保證絕對安全。"
@@ -327,7 +327,8 @@
         "title": "9. 第三方服務",
         "content": "ShineMind與以下第三方服務整合：",
         "items": {
-          "apple": "Apple服務：Apple Sign-In、推送通知、應用程式內購買"
+          "apple": "Apple服務：Apple Sign-In、推送通知、應用程式內購買",
+          "google": "Google服務：Google Sign-In"
         },
         "note": "這些服務有自己的隱私政策。我們鼓勵您查看它們。"
       },
