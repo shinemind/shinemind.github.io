@@ -147,8 +147,11 @@
     "title": "마음을 변화시키세요.",
     "titleHighlight": "삶을 빛나게 하세요.",
     "subtitle": "오늘부터 더 건강하고 행복한 마음으로의 여정을 시작하세요.",
-    "cta": "무료로 다운로드",
-    "note": "무료로 시작하세요. 언제든지 업그레이드 가능합니다."
+    "cta": "App Store에서 다운로드",
+    "note": "무료로 시작하세요. 언제든지 업그레이드 가능합니다.",
+    "appStore": "App Store에서 다운로드",
+    "googlePlay": "Google Play에서 다운로드",
+    "downloadShineMind": "ShineMind 다운로드"
   },
   "footer": {
     "tagline": "정신 웰니스와 개인 성장을 위한 일상적인 동반자.",

@@ -147,8 +147,11 @@
     "title": "改变您的心态。",
     "titleHighlight": "闪耀您的人生。",
     "subtitle": "今天就开始您通往更健康、更快乐心灵的旅程。",
-    "cta": "免费下载",
-    "note": "免费开始。随时升级。"
+    "cta": "前往 App Store 下载",
+    "note": "免费开始。随时升级。",
+    "appStore": "前往 App Store 下载",
+    "googlePlay": "前往 Google Play 下载",
+    "downloadShineMind": "下载 ShineMind"
   },
   "footer": {
     "tagline": "您日常的心理健康和个人成长伴侣。",

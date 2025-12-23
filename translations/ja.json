@@ -147,8 +147,11 @@
     "title": "心を変える。",
     "titleHighlight": "人生を輝かせる。",
     "subtitle": "今日からより健康で幸せな心への旅を始めましょう。",
-    "cta": "無料でダウンロード",
-    "note": "無料で始められます。いつでもアップグレード可能。"
+    "cta": "App Storeからダウンロード",
+    "note": "無料で始められます。いつでもアップグレード可能。",
+    "appStore": "App Storeからダウンロード",
+    "googlePlay": "Google Playで手に入れよう",
+    "downloadShineMind": "ShineMindをダウンロード"
   },
   "footer": {
     "tagline": "メンタルウェルネスと個人成長のための日常的な仲間。",

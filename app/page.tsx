@@ -45,15 +45,34 @@ export default function Home() {
                 <Link href="/blog" className="text-gray-300 hover:text-white transition-all duration-300 font-medium hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]">
                   {t("nav.blog")}
                 </Link>
-                <a
-                  href="https://apps.apple.com/us/app/shinemind/id6754637065"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="relative group bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2.5 rounded-full text-sm font-bold hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-105 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-pink-500/40"
-                >
-                  <span className="relative z-10">{t("nav.downloadNow")}</span>
-                  <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-300"></div>
-                </a>
+                <div className="flex items-center gap-2">
+                  <a
+                    href="https://apps.apple.com/us/app/shinemind/id6754637065"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="relative group bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2.5 rounded-full text-sm font-bold hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-105 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-pink-500/40"
+                  >
+                    <span className="relative z-10 flex items-center gap-2">
+                      <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+                      </svg>
+                    </span>
+                    <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-300"></div>
+                  </a>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.trinhngocdieu.shinemind"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="relative group bg-gradient-to-r from-green-500 to-emerald-500 text-white px-6 py-2.5 rounded-full text-sm font-bold hover:from-green-600 hover:to-emerald-600 transition-all transform hover:scale-105 shadow-lg shadow-green-500/30 hover:shadow-xl hover:shadow-emerald-500/40"
+                  >
+                    <span className="relative z-10 flex items-center gap-2">
+                      <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                      </svg>
+                    </span>
+                    <div className="absolute inset-0 rounded-full bg-gradient-to-r from-green-400 to-emerald-400 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-300"></div>
+                  </a>
+                </div>
                 <LanguageSelector />
               </div>
 
@@ -99,15 +118,32 @@ export default function Home() {
                 >
                   {t("nav.blog")}
                 </Link>
-                <a
-                  href="https://apps.apple.com/us/app/shinemind/id6754637065"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="block bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-full text-sm font-semibold text-center hover:from-purple-600 hover:to-pink-600 transition-all"
-                >
-                  {t("nav.downloadNow")}
-                </a>
+                <div className="space-y-3">
+                  <a
+                    href="https://apps.apple.com/us/app/shinemind/id6754637065"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="flex items-center justify-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-full text-sm font-semibold text-center hover:from-purple-600 hover:to-pink-600 transition-all"
+                  >
+                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+                    </svg>
+                    {t("nav.downloadNow")}
+                  </a>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.trinhngocdieu.shinemind"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="flex items-center justify-center gap-2 bg-gradient-to-r from-green-500 to-emerald-500 text-white px-6 py-3 rounded-full text-sm font-semibold text-center hover:from-green-600 hover:to-emerald-600 transition-all"
+                  >
+                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                    </svg>
+                    {t("nav.downloadNow")}
+                  </a>
+                </div>
                 <div className="pt-2">
                   <LanguageSelector />
                 </div>
@@ -180,12 +216,29 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="group relative bg-gradient-to-r from-purple-500 to-pink-500 text-white px-12 py-5 rounded-full text-lg font-bold hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-110 shadow-2xl shadow-purple-500/40 hover:shadow-purple-500/60 overflow-hidden"
               >
-                <span className="relative z-10 flex items-center gap-2">
-                  {t("hero.downloadNow")}
-                  <span className="group-hover:translate-x-1 transition-transform">→</span>
+                <span className="relative z-10 flex items-center gap-3">
+                  <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+                  </svg>
+                  App Store
                 </span>
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 opacity-0 group-hover:opacity-100 blur-2xl transition-opacity"></div>
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.trinhngocdieu.shinemind"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative bg-gradient-to-r from-green-500 to-emerald-500 text-white px-12 py-5 rounded-full text-lg font-bold hover:from-green-600 hover:to-emerald-600 transition-all transform hover:scale-110 shadow-2xl shadow-green-500/40 hover:shadow-green-500/60 overflow-hidden"
+              >
+                <span className="relative z-10 flex items-center gap-3">
+                  <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                  </svg>
+                  Google Play
+                </span>
+                <div className="absolute inset-0 bg-gradient-to-r from-green-600 to-emerald-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-green-400 to-emerald-400 opacity-0 group-hover:opacity-100 blur-2xl transition-opacity"></div>
               </a>
             </div>
           </div>
@@ -646,40 +699,37 @@ export default function Home() {
           <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-pink-500/5 rounded-full blur-[120px]"></div>
         </div>
 
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center space-y-12">
-            {/* Premium Typography */}
-            <div className="space-y-4">
-              <h2 className="font-heading text-6xl md:text-7xl lg:text-8xl font-bold text-white tracking-tight leading-[1.05]">
-                {t("download.title")}
-                <br />
-                <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-400 bg-clip-text text-transparent">
-                  {t("download.titleHighlight")}
-                </span>
-              </h2>
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-8">
+            {/* Small Professional Title */}
+            <h2 className="text-xl md:text-2xl font-medium text-gray-300">
+              {t("download.downloadShineMind")}
+            </h2>
 
-              <p className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto font-light pt-4">
-                {t("download.subtitle")}
-              </p>
-            </div>
-
-            {/* CTA Section */}
-            <div className="flex flex-col items-center gap-6 pt-4">
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
               <a
                 href="https://apps.apple.com/us/app/shinemind/id6754637065"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative inline-flex items-center gap-3 bg-white text-slate-900 px-10 py-5 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300 shadow-2xl shadow-white/10 hover:shadow-white/20 hover:scale-[1.02]"
+                className="group inline-flex items-center justify-center gap-3 bg-transparent border-2 border-white/70 text-white px-12 py-4 rounded-full text-lg font-medium hover:bg-white/10 hover:border-white transition-all duration-300 hover:scale-105 min-w-[220px]"
               >
                 <svg className="w-7 h-7" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
                 </svg>
-                <span>{t("download.cta")}</span>
+                <span>App Store</span>
               </a>
-
-              <p className="text-sm text-gray-500 font-light">
-                {t("download.note")}
-              </p>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.trinhngocdieu.shinemind"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center justify-center gap-3 bg-transparent border-2 border-white/70 text-white px-12 py-4 rounded-full text-lg font-medium hover:bg-white/10 hover:border-white transition-all duration-300 hover:scale-105 min-w-[220px]"
+              >
+                <svg className="w-7 h-7" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
             </div>
           </div>
         </div>
@@ -723,13 +773,23 @@ export default function Home() {
               <h4 className="text-white font-bold text-xl mb-6">{t("footer.support")}</h4>
               <ul className="space-y-3">
                 <li>
-                  <a 
-                    href="https://apps.apple.com/us/app/shinemind/id6754637065" 
+                  <a
+                    href="https://apps.apple.com/us/app/shinemind/id6754637065"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-1 inline-block text-lg"
                   >
-                    {t("nav.downloadNow")}
+                    Download on iOS
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.trinhngocdieu.shinemind"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-1 inline-block text-lg"
+                  >
+                    Download on Android
                   </a>
                 </li>
                 <li>

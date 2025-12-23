@@ -147,8 +147,11 @@
     "title": "Transform Your Mind.",
     "titleHighlight": "Shine Your Life.",
     "subtitle": "Start your journey to a healthier, happier mind today.",
-    "cta": "Download for free",
-    "note": "Free to start. Upgrade anytime."
+    "cta": "Download on the App Store",
+    "note": "Free to start. Upgrade anytime.",
+    "appStore": "Download on the App Store",
+    "googlePlay": "Get it on Google Play",
+    "downloadShineMind": "Download ShineMind"
   },
   "footer": {
     "tagline": "Your daily companion for mental wellness and personal growth.",
