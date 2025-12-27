@@ -45,34 +45,12 @@ export default function Home() {
                 <Link href="/blog" className="text-gray-300 hover:text-white transition-all duration-300 font-medium hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]">
                   {t("nav.blog")}
                 </Link>
-                <div className="flex items-center gap-2">
-                  <a
-                    href="https://apps.apple.com/us/app/shinemind/id6754637065"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="relative group bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2.5 rounded-full text-sm font-bold hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-105 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-pink-500/40"
-                  >
-                    <span className="relative z-10 flex items-center gap-2">
-                      <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
-                      </svg>
-                    </span>
-                    <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-300"></div>
-                  </a>
-                  <a
-                    href="https://play.google.com/store/apps/details?id=com.trinhngocdieu.shinemind"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="relative group bg-gradient-to-r from-green-500 to-emerald-500 text-white px-6 py-2.5 rounded-full text-sm font-bold hover:from-green-600 hover:to-emerald-600 transition-all transform hover:scale-105 shadow-lg shadow-green-500/30 hover:shadow-xl hover:shadow-emerald-500/40"
-                  >
-                    <span className="relative z-10 flex items-center gap-2">
-                      <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
-                      </svg>
-                    </span>
-                    <div className="absolute inset-0 rounded-full bg-gradient-to-r from-green-400 to-emerald-400 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-300"></div>
-                  </a>
-                </div>
+                <a
+                  href="#download"
+                  className="flex items-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-105"
+                >
+                  {t("nav.downloadNow")}
+                </a>
                 <LanguageSelector />
               </div>
 
@@ -118,32 +96,13 @@ export default function Home() {
                 >
                   {t("nav.blog")}
                 </Link>
-                <div className="space-y-3">
-                  <a
-                    href="https://apps.apple.com/us/app/shinemind/id6754637065"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="flex items-center justify-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-full text-sm font-semibold text-center hover:from-purple-600 hover:to-pink-600 transition-all"
-                  >
-                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
-                    </svg>
-                    {t("nav.downloadNow")}
-                  </a>
-                  <a
-                    href="https://play.google.com/store/apps/details?id=com.trinhngocdieu.shinemind"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="flex items-center justify-center gap-2 bg-gradient-to-r from-green-500 to-emerald-500 text-white px-6 py-3 rounded-full text-sm font-semibold text-center hover:from-green-600 hover:to-emerald-600 transition-all"
-                  >
-                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
-                    </svg>
-                    {t("nav.downloadNow")}
-                  </a>
-                </div>
+                <a
+                  href="#download"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center justify-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-full text-sm font-semibold text-center hover:from-purple-600 hover:to-pink-600 transition-all"
+                >
+                  {t("nav.downloadNow")}
+                </a>
                 <div className="pt-2">
                   <LanguageSelector />
                 </div>
@@ -209,36 +168,42 @@ export default function Home() {
                 {t("hero.subtitle")}
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center pt-12">
+            <div className="flex flex-col sm:flex-row gap-5 justify-center items-center pt-12">
               <a
                 href="https://apps.apple.com/us/app/shinemind/id6754637065"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative bg-gradient-to-r from-purple-500 to-pink-500 text-white px-12 py-5 rounded-full text-lg font-bold hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-110 shadow-2xl shadow-purple-500/40 hover:shadow-purple-500/60 overflow-hidden"
+                className="group relative bg-black hover:bg-gray-900 text-white px-6 py-3 rounded-2xl transition-all transform hover:scale-105 shadow-2xl border border-white/20 hover:border-white/40 min-w-[180px] h-[60px] flex items-center justify-center"
               >
-                <span className="relative z-10 flex items-center gap-3">
-                  <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+                <div className="flex items-center gap-3">
+                  <svg className="w-9 h-9 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
                   </svg>
-                  App Store
-                </span>
-                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 opacity-0 group-hover:opacity-100 blur-2xl transition-opacity"></div>
+                  <div className="flex flex-col items-start space-y-0.5">
+                    <span className="text-[10px] font-normal whitespace-nowrap">{t("download.downloadOnThe")}</span>
+                    <span className="text-[22px] font-semibold leading-none whitespace-nowrap">App Store</span>
+                  </div>
+                </div>
               </a>
               <a
                 href="https://play.google.com/store/apps/details?id=com.trinhngocdieu.shinemind"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative bg-gradient-to-r from-green-500 to-emerald-500 text-white px-12 py-5 rounded-full text-lg font-bold hover:from-green-600 hover:to-emerald-600 transition-all transform hover:scale-110 shadow-2xl shadow-green-500/40 hover:shadow-green-500/60 overflow-hidden"
+                className="group relative bg-black hover:bg-gray-900 text-white px-6 py-3 rounded-2xl transition-all transform hover:scale-105 shadow-2xl border border-white/20 hover:border-white/40 min-w-[180px] h-[60px] flex items-center justify-center"
               >
-                <span className="relative z-10 flex items-center gap-3">
-                  <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
-                  </svg>
-                  Google Play
-                </span>
-                <div className="absolute inset-0 bg-gradient-to-r from-green-600 to-emerald-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-green-400 to-emerald-400 opacity-0 group-hover:opacity-100 blur-2xl transition-opacity"></div>
+                <div className="flex items-center gap-3">
+                  <Image
+                    src="/google-play-icon-new.svg"
+                    alt="Google Play"
+                    width={32}
+                    height={32}
+                    className="w-8 h-8 flex-shrink-0"
+                  />
+                  <div className="flex flex-col items-start space-y-0.5">
+                    <span className="text-[10px] font-normal whitespace-nowrap">{t("download.getItOn")}</span>
+                    <span className="text-[22px] font-semibold leading-none whitespace-nowrap">Google Play</span>
+                  </div>
+                </div>
               </a>
             </div>
           </div>
@@ -725,9 +690,13 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="group inline-flex items-center justify-center gap-3 bg-transparent border-2 border-white/70 text-white px-12 py-4 rounded-full text-lg font-medium hover:bg-white/10 hover:border-white transition-all duration-300 hover:scale-105 min-w-[220px]"
               >
-                <svg className="w-7 h-7" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
-                </svg>
+                <Image
+                  src="/google-play-icon-new.svg"
+                  alt="Google Play"
+                  width={28}
+                  height={28}
+                  className="w-7 h-7"
+                />
                 <span>Google Play</span>
               </a>
             </div>

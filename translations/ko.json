@@ -151,7 +151,9 @@
     "note": "무료로 시작하세요. 언제든지 업그레이드 가능합니다.",
     "appStore": "App Store에서 다운로드",
     "googlePlay": "Google Play에서 다운로드",
-    "downloadShineMind": "ShineMind 다운로드"
+    "downloadShineMind": "지금 다운로드",
+    "downloadOnThe": "다운로드",
+    "getItOn": "다운로드"
   },
   "footer": {
     "tagline": "정신 웰니스와 개인 성장을 위한 일상적인 동반자.",

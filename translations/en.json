@@ -151,7 +151,9 @@
     "note": "Free to start. Upgrade anytime.",
     "appStore": "Download on the App Store",
     "googlePlay": "Get it on Google Play",
-    "downloadShineMind": "Download ShineMind"
+    "downloadShineMind": "Download Now",
+    "downloadOnThe": "Download on the",
+    "getItOn": "GET IT ON"
   },
   "footer": {
     "tagline": "Your daily companion for mental wellness and personal growth.",
