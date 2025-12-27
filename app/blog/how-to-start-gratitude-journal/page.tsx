@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowLeft, Calendar, Clock, Heart } from "lucide-react";
 import { useLanguage } from "@/lib/i18n";
 import { gratitudeJournalContent } from "@/lib/blog-content/gratitude-journal";
+import DownloadButtons from "@/components/DownloadButtons";
 
 export default function GratitudeJournalPost() {
   const { language } = useLanguage();
@@ -95,10 +96,7 @@ export default function GratitudeJournalPost() {
             Start Your Gratitude Practice with ShineMind
           </h3>
           <p className="text-gray-300 mb-8 text-lg">Built-in gratitude journal with daily prompts and reminders</p>
-          <a href="https://apps.apple.com/us/app/shinemind/id6754637065" target="_blank" rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-10 py-4 rounded-full text-lg font-bold hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-105 shadow-2xl shadow-purple-500/40">
-            Download ShineMind
-          </a>
+          <DownloadButtons />
         </div>
 
         <div className="mt-16 pt-12 border-t border-white/10">

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
 import { useLanguage } from "@/lib/i18n";
 import { blogListingContent } from "@/lib/blog-content/blog-listing";
+import DownloadButtons from "@/components/DownloadButtons";
 
 export default function BlogPage() {
   const { language } = useLanguage();
@@ -164,15 +165,7 @@ export default function BlogPage() {
               <p className="text-xl text-gray-300 mb-8">
                 {content.ctaSubtitle}
               </p>
-              <a
-                href="https://apps.apple.com/us/app/shinemind/id6754637065"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-10 py-4 rounded-full text-lg font-bold hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-105 shadow-2xl shadow-purple-500/40"
-              >
-                {content.ctaButton}
-                <ArrowRight className="w-5 h-5" />
-              </a>
+              <DownloadButtons />
             </div>
           </div>
         </div>

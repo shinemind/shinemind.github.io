@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowLeft, Calendar, Clock, Sparkles, Brain, Target, TrendingUp } from "lucide-react";
 import { useLanguage } from "@/lib/i18n";
 import { aiWellnessContent } from "@/lib/blog-content/ai-wellness";
+import DownloadButtons from "@/components/DownloadButtons";
 
 export default function AIPoweredWellnessPost() {
   const { language } = useLanguage();
@@ -226,15 +227,7 @@ export default function AIPoweredWellnessPost() {
           <p className="text-gray-300 mb-8 text-lg">
             {content.downloadCTA?.subtitle || "Get personalized meditation, insights, and recommendations tailored to your unique wellness journey"}
           </p>
-          <a
-            href="https://apps.apple.com/us/app/shinemind/id6754637065"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-10 py-4 rounded-full text-lg font-bold hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-105 shadow-2xl shadow-purple-500/40"
-          >
-            <Sparkles className="w-5 h-5" />
-            {content.downloadCTA?.button || "Try ShineMind Free"}
-          </a>
+          <DownloadButtons />
         </div>
 
         {/* Related Posts */}

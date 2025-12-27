@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowLeft, Calendar, Clock } from "lucide-react";
 import { useLanguage } from "@/lib/i18n";
 import { mindfulnessProfessionalsContent } from "@/lib/blog-content/mindfulness-professionals";
+import DownloadButtons from "@/components/DownloadButtons";
 
 export default function MindfulnessBusyProfessionalsPost() {
   const { language } = useLanguage();
@@ -74,10 +75,7 @@ export default function MindfulnessBusyProfessionalsPost() {
         <div className="mt-16 bg-gradient-to-br from-teal-500/10 to-emerald-500/10 backdrop-blur-xl rounded-3xl p-10 border border-teal-500/30 text-center">
           <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">{content.downloadCTA.title}</h3>
           <p className="text-gray-300 mb-8 text-lg">{content.downloadCTA.subtitle}</p>
-          <a href="https://apps.apple.com/us/app/shinemind/id6754637065" target="_blank" rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-gradient-to-r from-teal-500 to-emerald-500 text-white px-10 py-4 rounded-full text-lg font-bold hover:from-teal-600 hover:to-emerald-600 transition-all transform hover:scale-105 shadow-2xl shadow-teal-500/40">
-            {content.downloadCTA.button}
-          </a>
+          <DownloadButtons />
         </div>
 
         <div className="mt-16 pt-12 border-t border-white/10">
