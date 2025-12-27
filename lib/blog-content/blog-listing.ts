@@ -30,6 +30,27 @@ export const blogListingContent = {
         category: "AI & Technology",
         date: "November 25, 2025",
         readTime: "7 min read"
+      },
+      morning: {
+        title: "Morning Routines for Better Mental Health",
+        excerpt: "Transform your mornings and boost your mental well-being with these science-backed routines that take less than an hour.",
+        category: "Mental Health",
+        date: "December 27, 2025",
+        readTime: "6 min read"
+      },
+      mindfulness: {
+        title: "Mindfulness Techniques for Busy Professionals",
+        excerpt: "Practical mindfulness strategies that fit into your hectic schedule—no meditation cushion required. Reduce stress and improve focus with micro-practices.",
+        category: "Mindfulness",
+        date: "December 27, 2025",
+        readTime: "7 min read"
+      },
+      happiness: {
+        title: "The Science of Happiness and Well-being",
+        excerpt: "What decades of research reveal about cultivating lasting happiness and living a fulfilling life. Science-backed practices for greater well-being.",
+        category: "Well-being",
+        date: "December 27, 2025",
+        readTime: "8 min read"
       }
     }
   },
@@ -64,6 +85,27 @@ export const blogListingContent = {
         category: "AI＆テクノロジー",
         date: "2025年11月25日",
         readTime: "7分で読める"
+      },
+      morning: {
+        title: "メンタルヘルスを向上させる朝のルーティン",
+        excerpt: "1時間以内でできる科学的根拠のあるルーティンで、朝を変革し、精神的な幸福を高めましょう。",
+        category: "メンタルヘルス",
+        date: "2025年12月27日",
+        readTime: "6分で読める"
+      },
+      mindfulness: {
+        title: "忙しいプロフェッショナルのためのマインドフルネステクニック",
+        excerpt: "瞑想クッションは不要—多忙なスケジュールに合う実践的なマインドフルネス戦略。マイクロ実践でストレスを軽減し、集中力を向上させましょう。",
+        category: "マインドフルネス",
+        date: "2025年12月27日",
+        readTime: "7分で読める"
+      },
+      happiness: {
+        title: "幸福とウェルビーイングの科学",
+        excerpt: "数十年の研究が、持続的な幸福を育み、充実した人生を送ることについて明らかにしていること。科学的根拠に基づいた幸福の実践。",
+        category: "ウェルビーイング",
+        date: "2025年12月27日",
+        readTime: "8分で読める"
       }
     }
   },
@@ -98,6 +140,27 @@ export const blogListingContent = {
         category: "AI 및 기술",
         date: "2025년 11월 25일",
         readTime: "7분 읽기"
+      },
+      morning: {
+        title: "정신 건강을 위한 아침 루틴",
+        excerpt: "1시간 이내로 할 수 있는 과학적으로 입증된 루틴으로 아침을 변화시키고 정신적 웰빙을 향상시키세요.",
+        category: "정신 건강",
+        date: "2025년 12월 27일",
+        readTime: "6분 읽기"
+      },
+      mindfulness: {
+        title: "바쁜 전문가를 위한 마인드풀니스 기법",
+        excerpt: "명상 쿠션 불필요—바쁜 일정에 맞는 실용적인 마인드풀니스 전략. 마이크로 실천으로 스트레스를 줄이고 집중력을 향상시키세요.",
+        category: "마인드풀니스",
+        date: "2025년 12월 27일",
+        readTime: "7분 읽기"
+      },
+      happiness: {
+        title: "행복과 웰빙의 과학",
+        excerpt: "수십 년의 연구가 지속적인 행복을 키우고 충만한 삶을 사는 것에 대해 밝혀낸 것. 과학적으로 입증된 더 큰 웰빙을 위한 실천.",
+        category: "웰빙",
+        date: "2025년 12월 27일",
+        readTime: "8분 읽기"
       }
     }
   },
@@ -132,6 +195,27 @@ export const blogListingContent = {
         category: "AI & Công Nghệ",
         date: "25 tháng 11, 2025",
         readTime: "7 phút đọc"
+      },
+      morning: {
+        title: "Thói Quen Buổi Sáng Cho Sức Khỏe Tâm Thần Tốt Hơn",
+        excerpt: "Biến đổi buổi sáng của bạn và tăng cường sức khỏe tinh thần với những thói quen được khoa học chứng minh, mất ít hơn một giờ.",
+        category: "Sức Khỏe Tâm Thần",
+        date: "27 tháng 12, 2025",
+        readTime: "6 phút đọc"
+      },
+      mindfulness: {
+        title: "Kỹ Thuật Chánh Niệm Cho Chuyên Gia Bận Rộn",
+        excerpt: "Chiến lược chánh niệm thực tế phù hợp với lịch trình bận rộn của bạn—không cần đệm thiền định. Giảm căng thẳng và cải thiện sự tập trung với các thực hành vi mô.",
+        category: "Chánh Niệm",
+        date: "27 tháng 12, 2025",
+        readTime: "7 phút đọc"
+      },
+      happiness: {
+        title: "Khoa Học Về Hạnh Phúc Và Sức Khỏe",
+        excerpt: "Những gì hàng thập kỷ nghiên cứu tiết lộ về việc trau dồi hạnh phúc lâu dài và sống một cuộc sống trọn vẹn. Các thực hành được khoa học chứng minh để có sức khỏe tốt hơn.",
+        category: "Sức Khỏe",
+        date: "27 tháng 12, 2025",
+        readTime: "8 phút đọc"
       }
     }
   },
@@ -166,6 +250,27 @@ export const blogListingContent = {
         category: "AI与技术",
         date: "2025年11月25日",
         readTime: "7分钟阅读"
+      },
+      morning: {
+        title: "改善心理健康的晨间习惯",
+        excerpt: "通过这些不到一小时的科学支持习惯来改变您的早晨并提升您的心理健康。",
+        category: "心理健康",
+        date: "2025年12月27日",
+        readTime: "6分钟阅读"
+      },
+      mindfulness: {
+        title: "忙碌专业人士的正念技巧",
+        excerpt: "适合您繁忙日程的实用正念策略—无需冥想垫。通过微实践减少压力并提高专注力。",
+        category: "正念",
+        date: "2025年12月27日",
+        readTime: "7分钟阅读"
+      },
+      happiness: {
+        title: "幸福与健康的科学",
+        excerpt: "数十年的研究揭示了培养持久幸福和过充实生活的秘密。科学支持的更大幸福的实践。",
+        category: "幸福",
+        date: "2025年12月27日",
+        readTime: "8分钟阅读"
       }
     }
   },
@@ -200,6 +305,27 @@ export const blogListingContent = {
         category: "AI與技術",
         date: "2025年11月25日",
         readTime: "7分鐘閱讀"
+      },
+      morning: {
+        title: "改善心理健康的晨間習慣",
+        excerpt: "通過這些不到一小時的科學支持習慣來改變您的早晨並提升您的心理健康。",
+        category: "心理健康",
+        date: "2025年12月27日",
+        readTime: "6分鐘閱讀"
+      },
+      mindfulness: {
+        title: "忙碌專業人士的正念技巧",
+        excerpt: "適合您繁忙日程的實用正念策略—無需冥想墊。通過微實踐減少壓力並提高專注力。",
+        category: "正念",
+        date: "2025年12月27日",
+        readTime: "7分鐘閱讀"
+      },
+      happiness: {
+        title: "幸福與健康的科學",
+        excerpt: "數十年的研究揭示了培養持久幸福和過充實生活的秘密。科學支持的更大幸福的實踐。",
+        category: "幸福",
+        date: "2025年12月27日",
+        readTime: "8分鐘閱讀"
       }
     }
   }
