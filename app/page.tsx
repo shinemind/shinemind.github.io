@@ -711,7 +711,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-3 mb-6">
                 <Image
-                  src="/footer.png"
+                  src="/logo.png"
                   alt="ShineMind"
                   width={48}
                   height={48}
