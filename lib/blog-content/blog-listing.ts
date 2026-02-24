@@ -51,6 +51,27 @@ export const blogListingContent = {
         category: "Well-being",
         date: "December 27, 2025",
         readTime: "8 min read"
+      },
+      procrastination: {
+        title: "Overcoming Procrastination with Mindfulness",
+        excerpt: "Discover science-backed mindfulness techniques to beat procrastination, boost focus, and finally get things done without the guilt and stress.",
+        category: "Productivity",
+        date: "February 20, 2026",
+        readTime: "8 min read"
+      },
+      digitalDetox: {
+        title: "Digital Detox: How to Disconnect and Recharge",
+        excerpt: "Learn practical strategies to break free from screen addiction, reduce digital overwhelm, and reclaim your mental clarity in our hyperconnected world.",
+        category: "Digital Wellness",
+        date: "February 22, 2026",
+        readTime: "7 min read"
+      },
+      confidence: {
+        title: "Building Self-Confidence Through Daily Affirmations",
+        excerpt: "Discover the science-backed power of positive affirmations to rewire your brain, overcome self-doubt, and build unshakeable confidence from within.",
+        category: "Self-Improvement",
+        date: "February 24, 2026",
+        readTime: "6 min read"
       }
     }
   },
@@ -106,6 +127,27 @@ export const blogListingContent = {
         category: "ウェルビーイング",
         date: "2025年12月27日",
         readTime: "8分で読める"
+      },
+      procrastination: {
+        title: "マインドフルネスで先延ばしを克服する",
+        excerpt: "科学的に裏付けられたマインドフルネステクニックを発見して、先延ばしを克服し、集中力を高め、罪悪感やストレスなしにタスクを完了しましょう。",
+        category: "生産性",
+        date: "2026年2月20日",
+        readTime: "8分で読める"
+      },
+      digitalDetox: {
+        title: "デジタルデトックス：切断して充電する方法",
+        excerpt: "ハイパーコネクテッドな世界で、スクリーン依存から解放され、デジタル過負荷を軽減し、精神的な明晰さを取り戻すための実践的な戦略を学びましょう。",
+        category: "デジタルウェルネス",
+        date: "2026年2月22日",
+        readTime: "7分で読める"
+      },
+      confidence: {
+        title: "毎日のアファメーションで自信を築く",
+        excerpt: "脳を再配線し、自己疑念を克服し、内なる揺るぎない自信を築くためのポジティブなアファメーションの科学的に裏付けられた力を発見しましょう。",
+        category: "自己改善",
+        date: "2026年2月24日",
+        readTime: "6分で読める"
       }
     }
   },
@@ -161,6 +203,27 @@ export const blogListingContent = {
         category: "웰빙",
         date: "2025년 12월 27일",
         readTime: "8분 읽기"
+      },
+      procrastination: {
+        title: "마음챙김으로 미루기 극복하기",
+        excerpt: "과학적으로 입증된 마음챙김 기법을 발견하여 미루기를 극복하고, 집중력을 높이며, 죄책감과 스트레스 없이 마침내 일을 해내세요.",
+        category: "생산성",
+        date: "2026년 2월 20일",
+        readTime: "8분 읽기"
+      },
+      digitalDetox: {
+        title: "디지털 디톡스: 연결을 끊고 재충전하는 방법",
+        excerpt: "초연결 세상에서 스크린 중독에서 벗어나고, 디지털 과부하를 줄이며, 정신적 명료함을 되찾기 위한 실용적인 전략을 배우세요.",
+        category: "디지털 웰니스",
+        date: "2026년 2월 22일",
+        readTime: "7분 읽기"
+      },
+      confidence: {
+        title: "매일 확언으로 자신감 키우기",
+        excerpt: "뇌를 재배선하고, 자기 의심을 극복하며, 내면에서 흔들리지 않는 자신감을 키우는 긍정적 확언의 과학적으로 입증된 힘을 발견하세요.",
+        category: "자기계발",
+        date: "2026년 2월 24일",
+        readTime: "6분 읽기"
       }
     }
   },
@@ -216,6 +279,27 @@ export const blogListingContent = {
         category: "Sức Khỏe",
         date: "27 tháng 12, 2025",
         readTime: "8 phút đọc"
+      },
+      procrastination: {
+        title: "Vượt Qua Sự Trì Hoãn Với Chánh Niệm",
+        excerpt: "Khám phá các kỹ thuật chánh niệm được khoa học chứng minh để đánh bại sự trì hoãn, tăng cường sự tập trung và cuối cùng hoàn thành công việc mà không có cảm giác tội lỗi và căng thẳng.",
+        category: "Năng Suất",
+        date: "20 tháng 2, 2026",
+        readTime: "8 phút đọc"
+      },
+      digitalDetox: {
+        title: "Digital Detox: Cách Ngắt Kết Nối Và Nạp Năng Lượng",
+        excerpt: "Học các chiến lược thực tế để thoát khỏi nghiện màn hình, giảm quá tải kỹ thuật số và lấy lại sự minh mẫn tinh thần trong thế giới siêu kết nối của chúng ta.",
+        category: "Sức Khỏe Số",
+        date: "22 tháng 2, 2026",
+        readTime: "7 phút đọc"
+      },
+      confidence: {
+        title: "Xây Dựng Sự Tự Tin Qua Khẳng Định Hàng Ngày",
+        excerpt: "Khám phá sức mạnh được khoa học chứng minh của khẳng định tích cực để tái cấu trúc não, vượt qua sự tự nghi ngờ và xây dựng sự tự tin vững chắc từ bên trong.",
+        category: "Phát Triển Bản Thân",
+        date: "24 tháng 2, 2026",
+        readTime: "6 phút đọc"
       }
     }
   },
@@ -271,6 +355,27 @@ export const blogListingContent = {
         category: "幸福",
         date: "2025年12月27日",
         readTime: "8分钟阅读"
+      },
+      procrastination: {
+        title: "用正念克服拖延症",
+        excerpt: "发现科学支持的正念技巧来战胜拖延，提高专注力，最终在没有内疚和压力的情况下完成事情。",
+        category: "生产力",
+        date: "2026年2月20日",
+        readTime: "8分钟阅读"
+      },
+      digitalDetox: {
+        title: "数字排毒：如何断开连接并重新充电",
+        excerpt: "学习实用策略，摆脱屏幕成瘾，减少数字过载，在我们高度互联的世界中重新获得心理清晰度。",
+        category: "数字健康",
+        date: "2026年2月22日",
+        readTime: "7分钟阅读"
+      },
+      confidence: {
+        title: "通过每日肯定语建立自信",
+        excerpt: "发现积极肯定语的科学力量，重新连接你的大脑，克服自我怀疑，从内心建立坚不可摧的自信。",
+        category: "自我提升",
+        date: "2026年2月24日",
+        readTime: "6分钟阅读"
       }
     }
   },
@@ -326,6 +431,27 @@ export const blogListingContent = {
         category: "幸福",
         date: "2025年12月27日",
         readTime: "8分鐘閱讀"
+      },
+      procrastination: {
+        title: "用正念克服拖延症",
+        excerpt: "發現科學支持的正念技巧來戰勝拖延，提高專注力，最終在沒有內疚和壓力的情況下完成事情。",
+        category: "生產力",
+        date: "2026年2月20日",
+        readTime: "8分鐘閱讀"
+      },
+      digitalDetox: {
+        title: "數位排毒：如何斷開連接並重新充電",
+        excerpt: "學習實用策略，擺脫螢幕成癮，減少數位過載，在我們高度互聯的世界中重新獲得心理清晰度。",
+        category: "數位健康",
+        date: "2026年2月22日",
+        readTime: "7分鐘閱讀"
+      },
+      confidence: {
+        title: "通過每日肯定語建立自信",
+        excerpt: "發現積極肯定語的科學力量，重新連接你的大腦，克服自我懷疑，從內心建立堅不可摧的自信。",
+        category: "自我提升",
+        date: "2026年2月24日",
+        readTime: "6分鐘閱讀"
       }
     }
   }
