@@ -72,6 +72,27 @@ export const blogListingContent = {
         category: "Self-Improvement",
         date: "February 24, 2026",
         readTime: "6 min read"
+      },
+      breathing: {
+        title: "Breathing Exercises for Anxiety Relief",
+        excerpt: "Master proven breathing techniques to calm anxiety instantly. Science-backed methods that reduce stress by up to 40% and activate your body's natural relaxation response.",
+        category: "Anxiety Relief",
+        date: "January 1, 2026",
+        readTime: "7 min read"
+      },
+      sleepMeditation: {
+        title: "Sleep Meditation: A Complete Guide",
+        excerpt: "Discover how sleep meditation can help you fall asleep 50% faster and improve sleep quality. Science-backed techniques to overcome insomnia and wake up refreshed.",
+        category: "Sleep & Wellness",
+        date: "January 1, 2026",
+        readTime: "8 min read"
+      },
+      stressManagement: {
+        title: "Stress Management Techniques That Actually Work",
+        excerpt: "Science-backed stress management strategies to regain control, build resilience, and transform how you respond to life's pressures—starting today.",
+        category: "Stress & Wellness",
+        date: "March 6, 2026",
+        readTime: "8 min read"
       }
     }
   },
@@ -148,6 +169,27 @@ export const blogListingContent = {
         category: "自己改善",
         date: "2026年2月24日",
         readTime: "6分で読める"
+      },
+      breathing: {
+        title: "不安を和らげる呼吸法",
+        excerpt: "不安を即座に鎮める実証済みの呼吸テクニックをマスターしましょう。ストレスを最大40%軽減し、体の自然なリラクゼーション反応を活性化する科学的根拠に基づいた方法。",
+        category: "不安解消",
+        date: "2026年1月1日",
+        readTime: "7分で読める"
+      },
+      sleepMeditation: {
+        title: "睡眠瞑想：完全ガイド",
+        excerpt: "睡眠瞑想がどのように入眠を50%速くし、睡眠の質を改善できるかを発見してください。不眠症を克服し、毎日リフレッシュして目覚めるための科学的根拠に基づいたテクニック。",
+        category: "睡眠とウェルネス",
+        date: "2026年1月1日",
+        readTime: "8分で読める"
+      },
+      stressManagement: {
+        title: "本当に効くストレス管理テクニック",
+        excerpt: "コントロールを取り戻し、回復力を高め、人生のプレッシャーへの対応を変えるための科学的根拠に基づいたストレス管理戦略を発見してください。",
+        category: "ストレス＆ウェルネス",
+        date: "2026年3月6日",
+        readTime: "8分で読める"
       }
     }
   },
@@ -224,6 +266,27 @@ export const blogListingContent = {
         category: "자기계발",
         date: "2026년 2월 24일",
         readTime: "6분 읽기"
+      },
+      breathing: {
+        title: "불안 해소를 위한 호흡 운동",
+        excerpt: "불안을 즉시 진정시키는 검증된 호흡 기법을 마스터하세요. 스트레스를 최대 40%까지 줄이고 신체의 자연스러운 이완 반응을 활성화하는 과학적으로 입증된 방법.",
+        category: "불안 해소",
+        date: "2026년 1월 1일",
+        readTime: "7분 읽기"
+      },
+      sleepMeditation: {
+        title: "수면 명상: 완전한 가이드",
+        excerpt: "수면 명상이 어떻게 50% 더 빨리 잠들고 수면의 질을 향상시킬 수 있는지 알아보세요. 불면증을 극복하고 매일 상쾌하게 깨어나기 위한 과학적으로 입증된 기법.",
+        category: "수면 & 웰니스",
+        date: "2026년 1월 1일",
+        readTime: "8분 읽기"
+      },
+      stressManagement: {
+        title: "실제로 효과 있는 스트레스 관리 기법",
+        excerpt: "통제력을 되찾고, 회복력을 키우며, 삶의 압박에 반응하는 방식을 바꿀 과학적으로 입증된 스트레스 관리 전략을 발견하세요.",
+        category: "스트레스 & 웰니스",
+        date: "2026년 3월 6일",
+        readTime: "8분 읽기"
       }
     }
   },
@@ -300,6 +363,27 @@ export const blogListingContent = {
         category: "Phát Triển Bản Thân",
         date: "24 tháng 2, 2026",
         readTime: "6 phút đọc"
+      },
+      breathing: {
+        title: "Bài Tập Thở Để Giảm Lo Âu",
+        excerpt: "Làm chủ các kỹ thuật thở đã được chứng minh để xoa dịu lo âu ngay lập tức. Các phương pháp được khoa học hỗ trợ giảm căng thẳng lên đến 40% và kích hoạt phản ứng thư giãn tự nhiên của cơ thể.",
+        category: "Giảm Lo Âu",
+        date: "1 tháng 1, 2026",
+        readTime: "7 phút đọc"
+      },
+      sleepMeditation: {
+        title: "Thiền Định Ngủ: Hướng Dẫn Đầy Đủ",
+        excerpt: "Khám phá cách thiền định ngủ có thể giúp bạn ngủ nhanh hơn 50% và cải thiện chất lượng giấc ngủ. Các kỹ thuật được khoa học hỗ trợ để khắc phục chứng mất ngủ và thức dậy sảng khoái.",
+        category: "Giấc Ngủ & Sức Khỏe",
+        date: "1 tháng 1, 2026",
+        readTime: "8 phút đọc"
+      },
+      stressManagement: {
+        title: "Kỹ Thuật Quản Lý Căng Thẳng Thực Sự Hiệu Quả",
+        excerpt: "Khám phá các chiến lược quản lý căng thẳng được khoa học chứng minh để lấy lại kiểm soát, xây dựng khả năng phục hồi và thay đổi cách bạn phản ứng với áp lực cuộc sống.",
+        category: "Stress & Sức Khỏe",
+        date: "6 tháng 3, 2026",
+        readTime: "8 phút đọc"
       }
     }
   },
@@ -376,6 +460,27 @@ export const blogListingContent = {
         category: "自我提升",
         date: "2026年2月24日",
         readTime: "6分钟阅读"
+      },
+      breathing: {
+        title: "缓解焦虑的呼吸练习",
+        excerpt: "掌握经过验证的呼吸技巧，立即平息焦虑。科学支持的方法可将压力降低多达40%并激活身体的自然放松反应。",
+        category: "焦虑缓解",
+        date: "2026年1月1日",
+        readTime: "7分钟阅读"
+      },
+      sleepMeditation: {
+        title: "睡眠冥想：完整指南",
+        excerpt: "发现睡眠冥想如何帮助您入睡速度提高50%并改善睡眠质量。克服失眠并每天醒来精神焕发的科学支持技术。",
+        category: "睡眠与健康",
+        date: "2026年1月1日",
+        readTime: "8分钟阅读"
+      },
+      stressManagement: {
+        title: "真正有效的压力管理技巧",
+        excerpt: "发现有科学依据的压力管理策略，重获掌控感，增强心理韧性，改变您对生活压力的应对方式。",
+        category: "压力与健康",
+        date: "2026年3月6日",
+        readTime: "8分钟阅读"
       }
     }
   },
@@ -452,6 +557,27 @@ export const blogListingContent = {
         category: "自我提升",
         date: "2026年2月24日",
         readTime: "6分鐘閱讀"
+      },
+      breathing: {
+        title: "緩解焦慮的呼吸練習",
+        excerpt: "掌握經過驗證的呼吸技巧，立即平息焦慮。科學支持的方法可將壓力降低多達40%並激活身體的自然放鬆反應。",
+        category: "焦慮緩解",
+        date: "2026年1月1日",
+        readTime: "7分鐘閱讀"
+      },
+      sleepMeditation: {
+        title: "睡眠冥想：完整指南",
+        excerpt: "發現睡眠冥想如何幫助您入睡速度提高50%並改善睡眠質量。克服失眠並每天醒來精神煥發的科學支持技術。",
+        category: "睡眠與健康",
+        date: "2026年1月1日",
+        readTime: "8分鐘閱讀"
+      },
+      stressManagement: {
+        title: "真正有效的壓力管理技巧",
+        excerpt: "發現有科學依據的壓力管理策略，重獲掌控感，增強心理韌性，改變您對生活壓力的應對方式。",
+        category: "壓力與健康",
+        date: "2026年3月6日",
+        readTime: "8分鐘閱讀"
       }
     }
   }
