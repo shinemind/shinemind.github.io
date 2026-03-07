@@ -93,6 +93,27 @@ export const blogListingContent = {
         category: "Stress & Wellness",
         date: "March 6, 2026",
         readTime: "8 min read"
+      },
+      anxiety: {
+        title: "How to Manage Anxiety: 8 Evidence-Based Techniques That Work",
+        excerpt: "Discover proven anxiety management strategies that calm your nervous system, quiet racing thoughts, and build lasting emotional resilience—without medication.",
+        category: "Mental Health",
+        date: "March 7, 2026",
+        readTime: "9 min read"
+      },
+      focus: {
+        title: "How to Improve Focus and Concentration: Science-Backed Strategies",
+        excerpt: "Unlock your brain's full potential with proven techniques to sharpen focus, eliminate distractions, and achieve deep concentration in our distraction-filled world.",
+        category: "Productivity & Mind",
+        date: "March 8, 2026",
+        readTime: "8 min read"
+      },
+      habits: {
+        title: "How to Build Healthy Habits That Actually Stick",
+        excerpt: "Master the science of habit formation to create lasting positive change in your mental and physical health—without relying on willpower or motivation.",
+        category: "Self-Improvement",
+        date: "March 9, 2026",
+        readTime: "8 min read"
       }
     }
   },
@@ -189,6 +210,27 @@ export const blogListingContent = {
         excerpt: "コントロールを取り戻し、回復力を高め、人生のプレッシャーへの対応を変えるための科学的根拠に基づいたストレス管理戦略を発見してください。",
         category: "ストレス＆ウェルネス",
         date: "2026年3月6日",
+        readTime: "8分で読める"
+      },
+      anxiety: {
+        title: "不安を管理する方法：効果的な8つの科学的テクニック",
+        excerpt: "神経系を落ち着かせ、心を静め、長続きする感情的回復力を築くための実証済みの不安管理戦略を発見してください—薬なしで。",
+        category: "メンタルヘルス",
+        date: "2026年3月7日",
+        readTime: "9分で読める"
+      },
+      focus: {
+        title: "集中力と注意力を高める方法：科学的根拠に基づく戦略",
+        excerpt: "気散りに満ちた現代世界で、集中力を研ぎ澄まし、気散りを排除し、深い集中を実現するための実証済みテクニックで脳の可能性を最大限に引き出しましょう。",
+        category: "生産性とマインド",
+        date: "2026年3月8日",
+        readTime: "8分で読める"
+      },
+      habits: {
+        title: "本当に続く健康的な習慣の作り方",
+        excerpt: "意志力やモチベーションに頼らずに、精神的・身体的健康に持続的なポジティブな変化をもたらす習慣形成の科学をマスターしましょう。",
+        category: "自己改善",
+        date: "2026年3月9日",
         readTime: "8分で読める"
       }
     }
@@ -287,6 +329,27 @@ export const blogListingContent = {
         category: "스트레스 & 웰니스",
         date: "2026년 3월 6일",
         readTime: "8분 읽기"
+      },
+      anxiety: {
+        title: "불안 관리 방법: 효과적인 8가지 과학 기반 기법",
+        excerpt: "신경계를 진정시키고, 경주하는 생각을 조용히 하며, 지속적인 정서적 회복력을 구축하는 검증된 불안 관리 전략을 발견하세요—약 없이.",
+        category: "정신 건강",
+        date: "2026년 3월 7일",
+        readTime: "9분 읽기"
+      },
+      focus: {
+        title: "집중력과 주의력 향상 방법: 과학적으로 입증된 전략",
+        excerpt: "집중력을 연마하고, 산만함을 없애며, 산만함으로 가득 찬 세상에서 깊은 집중을 달성하는 검증된 기법으로 뇌의 잠재력을 최대화하세요.",
+        category: "생산성 & 마인드",
+        date: "2026년 3월 8일",
+        readTime: "8분 읽기"
+      },
+      habits: {
+        title: "실제로 지속되는 건강한 습관 만드는 방법",
+        excerpt: "의지력이나 동기에 의존하지 않고 정신적, 신체적 건강에 지속적인 긍정적 변화를 만드는 습관 형성의 과학을 마스터하세요.",
+        category: "자기계발",
+        date: "2026년 3월 9일",
+        readTime: "8분 읽기"
       }
     }
   },
@@ -383,6 +446,27 @@ export const blogListingContent = {
         excerpt: "Khám phá các chiến lược quản lý căng thẳng được khoa học chứng minh để lấy lại kiểm soát, xây dựng khả năng phục hồi và thay đổi cách bạn phản ứng với áp lực cuộc sống.",
         category: "Stress & Sức Khỏe",
         date: "6 tháng 3, 2026",
+        readTime: "8 phút đọc"
+      },
+      anxiety: {
+        title: "Cách Quản Lý Lo Âu: 8 Kỹ Thuật Dựa Trên Khoa Học Thực Sự Hiệu Quả",
+        excerpt: "Khám phá các chiến lược quản lý lo âu đã được chứng minh để làm dịu hệ thần kinh, tĩnh lặng những suy nghĩ hỗn loạn và xây dựng khả năng phục hồi cảm xúc lâu dài—không cần thuốc.",
+        category: "Sức Khỏe Tâm Thần",
+        date: "7 tháng 3, 2026",
+        readTime: "9 phút đọc"
+      },
+      focus: {
+        title: "Cách Cải Thiện Sự Tập Trung: Các Chiến Lược Được Khoa Học Chứng Minh",
+        excerpt: "Mở khóa tiềm năng đầy đủ của não bộ với các kỹ thuật đã được chứng minh để mài sắc sự tập trung, loại bỏ phiền nhiễu và đạt được sự tập trung sâu trong thế giới đầy phiền nhiễu.",
+        category: "Năng Suất & Tâm Trí",
+        date: "8 tháng 3, 2026",
+        readTime: "8 phút đọc"
+      },
+      habits: {
+        title: "Cách Xây Dựng Thói Quen Lành Mạnh Thực Sự Bền Vững",
+        excerpt: "Nắm vững khoa học hình thành thói quen để tạo ra sự thay đổi tích cực lâu dài cho sức khỏe tâm thần và thể chất—không cần dựa vào ý chí hay động lực.",
+        category: "Phát Triển Bản Thân",
+        date: "9 tháng 3, 2026",
         readTime: "8 phút đọc"
       }
     }
@@ -481,6 +565,27 @@ export const blogListingContent = {
         category: "压力与健康",
         date: "2026年3月6日",
         readTime: "8分钟阅读"
+      },
+      anxiety: {
+        title: "如何管理焦虑：8种有效的循证技术",
+        excerpt: "发现经过验证的焦虑管理策略，平复您的神经系统，让纷乱的思绪安静下来，构建持久的情绪韧性——无需药物。",
+        category: "心理健康",
+        date: "2026年3月7日",
+        readTime: "9分钟阅读"
+      },
+      focus: {
+        title: "如何提高专注力和注意力：科学支持的策略",
+        excerpt: "用经过验证的技术解锁大脑的全部潜能，磨砺专注力，消除干扰，在充满干扰的世界中实现深度专注。",
+        category: "生产力与思维",
+        date: "2026年3月8日",
+        readTime: "8分钟阅读"
+      },
+      habits: {
+        title: "如何建立真正持久的健康习惯",
+        excerpt: "掌握习惯形成的科学，无需依赖意志力或动力，在心理和身体健康方面创造持久的积极变化。",
+        category: "自我提升",
+        date: "2026年3月9日",
+        readTime: "8分钟阅读"
       }
     }
   },
@@ -577,6 +682,27 @@ export const blogListingContent = {
         excerpt: "發現有科學依據的壓力管理策略，重獲掌控感，增強心理韌性，改變您對生活壓力的應對方式。",
         category: "壓力與健康",
         date: "2026年3月6日",
+        readTime: "8分鐘閱讀"
+      },
+      anxiety: {
+        title: "如何管理焦慮：8種有效的循證技術",
+        excerpt: "發現經過驗證的焦慮管理策略，平復您的神經系統，讓紛亂的思緒安靜下來，構建持久的情緒韌性——無需藥物。",
+        category: "心理健康",
+        date: "2026年3月7日",
+        readTime: "9分鐘閱讀"
+      },
+      focus: {
+        title: "如何提高專注力和注意力：科學支持的策略",
+        excerpt: "用經過驗證的技術解鎖大腦的全部潛能，磨礪專注力，消除干擾，在充滿干擾的世界中實現深度專注。",
+        category: "生產力與思維",
+        date: "2026年3月8日",
+        readTime: "8分鐘閱讀"
+      },
+      habits: {
+        title: "如何建立真正持久的健康習慣",
+        excerpt: "掌握習慣形成的科學，無需依賴意志力或動力，在心理和身體健康方面創造持久的積極變化。",
+        category: "自我提升",
+        date: "2026年3月9日",
         readTime: "8分鐘閱讀"
       }
     }
