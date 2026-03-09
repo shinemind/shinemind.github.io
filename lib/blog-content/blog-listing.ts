@@ -114,6 +114,27 @@ export const blogListingContent = {
         category: "Self-Improvement",
         date: "March 9, 2026",
         readTime: "8 min read"
+      },
+      workLifeBalance: {
+        title: "Work-Life Balance: How to Prevent Burnout and Find Harmony",
+        excerpt: "Discover science-backed strategies to set boundaries, reclaim your personal time, and build sustainable work habits that protect your mental health—without sacrificing your career.",
+        category: "Work & Well-being",
+        date: "March 10, 2026",
+        readTime: "9 min read"
+      },
+      emotionalIntelligence: {
+        title: "Emotional Intelligence: How to Understand and Master Your Emotions",
+        excerpt: "Develop the emotional intelligence skills that predict life success better than IQ—learn to recognize, understand, and regulate your emotions to build better relationships and a more fulfilling life.",
+        category: "Emotional Health",
+        date: "March 10, 2026",
+        readTime: "8 min read"
+      },
+      positiveThinking: {
+        title: "Positive Thinking: How to Overcome Negative Thoughts and Rewire Your Brain",
+        excerpt: "Learn science-backed strategies to break free from negative thought patterns, cultivate an optimistic mindset, and train your brain to default to possibility instead of fear.",
+        category: "Mindset & Growth",
+        date: "March 10, 2026",
+        readTime: "7 min read"
       }
     }
   },
@@ -232,6 +253,27 @@ export const blogListingContent = {
         category: "自己改善",
         date: "2026年3月9日",
         readTime: "8分で読める"
+      },
+      workLifeBalance: {
+        title: "ワークライフバランス：燃え尽き症候群を防ぎ、調和を見つける方法",
+        excerpt: "境界線を設定し、プライベートな時間を取り戻し、メンタルヘルスを守りながらキャリアも犠牲にしない持続可能な仕事習慣を構築するための科学的根拠に基づいた戦略を発見してください。",
+        category: "仕事とウェルビーイング",
+        date: "2026年3月10日",
+        readTime: "9分で読める"
+      },
+      emotionalIntelligence: {
+        title: "感情知性：感情を理解し、マスターする方法",
+        excerpt: "IQよりも人生の成功を予測する感情知性スキルを開発し、感情を認識・理解・調整して、より良い人間関係と充実した人生を構築しましょう。",
+        category: "感情の健康",
+        date: "2026年3月10日",
+        readTime: "8分で読める"
+      },
+      positiveThinking: {
+        title: "ポジティブ思考：ネガティブな思考を克服し、脳を書き換える方法",
+        excerpt: "ネガティブな思考パターンから抜け出し、楽観的な思考を育て、恐怖ではなく可能性をデフォルトとする脳を訓練するための科学的根拠に基づいた戦略を学びましょう。",
+        category: "マインドセット＆成長",
+        date: "2026年3月10日",
+        readTime: "7分で読める"
       }
     }
   },
@@ -350,6 +392,27 @@ export const blogListingContent = {
         category: "자기계발",
         date: "2026년 3월 9일",
         readTime: "8분 읽기"
+      },
+      workLifeBalance: {
+        title: "워라밸: 번아웃을 예방하고 조화를 찾는 방법",
+        excerpt: "경계를 설정하고, 개인 시간을 되찾으며, 커리어를 희생하지 않고도 정신 건강을 보호하는 지속 가능한 업무 습관을 구축하는 과학적으로 입증된 전략을 발견하세요.",
+        category: "일 & 웰빙",
+        date: "2026년 3월 10일",
+        readTime: "9분 읽기"
+      },
+      emotionalIntelligence: {
+        title: "감성 지능: 감정을 이해하고 마스터하는 방법",
+        excerpt: "IQ보다 인생 성공을 더 잘 예측하는 감성 지능 기술을 개발하고, 감정을 인식·이해·조절하여 더 나은 관계와 보람 있는 삶을 구축하세요.",
+        category: "감정 건강",
+        date: "2026년 3월 10일",
+        readTime: "8분 읽기"
+      },
+      positiveThinking: {
+        title: "긍정적 사고: 부정적인 생각을 극복하고 뇌를 재배선하는 방법",
+        excerpt: "부정적인 사고 패턴에서 벗어나고, 낙관적인 마음을 키우며, 두려움 대신 가능성을 기본값으로 하는 뇌를 훈련하는 과학적으로 입증된 전략을 배우세요.",
+        category: "마인드셋 & 성장",
+        date: "2026년 3월 10일",
+        readTime: "7분 읽기"
       }
     }
   },
@@ -468,6 +531,27 @@ export const blogListingContent = {
         category: "Phát Triển Bản Thân",
         date: "9 tháng 3, 2026",
         readTime: "8 phút đọc"
+      },
+      workLifeBalance: {
+        title: "Cân Bằng Công Việc-Cuộc Sống: Cách Ngăn Ngừa Kiệt Sức và Tìm Sự Hài Hòa",
+        excerpt: "Khám phá các chiến lược được khoa học chứng minh để thiết lập ranh giới, lấy lại thời gian cá nhân và xây dựng thói quen làm việc bền vững bảo vệ sức khỏe tâm thần của bạn.",
+        category: "Công Việc & Sức Khỏe",
+        date: "10 tháng 3, 2026",
+        readTime: "9 phút đọc"
+      },
+      emotionalIntelligence: {
+        title: "Trí Tuệ Cảm Xúc: Cách Hiểu và Làm Chủ Cảm Xúc Của Bạn",
+        excerpt: "Phát triển kỹ năng trí tuệ cảm xúc dự đoán thành công trong cuộc sống tốt hơn IQ—học cách nhận biết, hiểu và điều chỉnh cảm xúc để xây dựng mối quan hệ tốt hơn.",
+        category: "Sức Khỏe Cảm Xúc",
+        date: "10 tháng 3, 2026",
+        readTime: "8 phút đọc"
+      },
+      positiveThinking: {
+        title: "Tư Duy Tích Cực: Cách Vượt Qua Suy Nghĩ Tiêu Cực và Tái Cấu Trúc Não Bộ",
+        excerpt: "Học các chiến lược được khoa học chứng minh để thoát khỏi các mô hình suy nghĩ tiêu cực, nuôi dưỡng tư duy lạc quan và huấn luyện não bộ hướng đến khả năng thay vì nỗi sợ.",
+        category: "Tư Duy & Phát Triển",
+        date: "10 tháng 3, 2026",
+        readTime: "7 phút đọc"
       }
     }
   },
@@ -586,6 +670,27 @@ export const blogListingContent = {
         category: "自我提升",
         date: "2026年3月9日",
         readTime: "8分钟阅读"
+      },
+      workLifeBalance: {
+        title: "工作与生活的平衡：如何预防职业倦怠并找到和谐",
+        excerpt: "发现有科学依据的策略，设立界限，重新掌控个人时间，建立可持续的工作习惯，保护您的心理健康——同时不牺牲您的职业发展。",
+        category: "工作与健康",
+        date: "2026年3月10日",
+        readTime: "9分钟阅读"
+      },
+      emotionalIntelligence: {
+        title: "情商：如何理解并掌控您的情绪",
+        excerpt: "培养比智商更能预测人生成功的情商技能——学会识别、理解和调节情绪，建立更好的人际关系和更充实的生活。",
+        category: "情绪健康",
+        date: "2026年3月10日",
+        readTime: "8分钟阅读"
+      },
+      positiveThinking: {
+        title: "积极思考：如何克服负面想法并重塑大脑",
+        excerpt: "学习有科学依据的策略，摆脱负面思维模式，培养乐观心态，训练大脑以可能性而非恐惧作为默认模式。",
+        category: "思维与成长",
+        date: "2026年3月10日",
+        readTime: "7分钟阅读"
       }
     }
   },
@@ -704,6 +809,27 @@ export const blogListingContent = {
         category: "自我提升",
         date: "2026年3月9日",
         readTime: "8分鐘閱讀"
+      },
+      workLifeBalance: {
+        title: "工作與生活的平衡：如何預防職業倦怠並找到和諧",
+        excerpt: "發現有科學依據的策略，設立界限，重新掌控個人時間，建立可持續的工作習慣，保護您的心理健康——同時不犧牲您的職業發展。",
+        category: "工作與健康",
+        date: "2026年3月10日",
+        readTime: "9分鐘閱讀"
+      },
+      emotionalIntelligence: {
+        title: "情商：如何理解並掌控您的情緒",
+        excerpt: "培養比智商更能預測人生成功的情商技能——學會識別、理解和調節情緒，建立更好的人際關係和更充實的生活。",
+        category: "情緒健康",
+        date: "2026年3月10日",
+        readTime: "8分鐘閱讀"
+      },
+      positiveThinking: {
+        title: "積極思考：如何克服負面想法並重塑大腦",
+        excerpt: "學習有科學依據的策略，擺脫負面思維模式，培養樂觀心態，訓練大腦以可能性而非恐懼作為預設模式。",
+        category: "思維與成長",
+        date: "2026年3月10日",
+        readTime: "7分鐘閱讀"
       }
     }
   }
