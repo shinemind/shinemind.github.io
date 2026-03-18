@@ -135,6 +135,27 @@ export const blogListingContent = {
         category: "Mindset & Growth",
         date: "March 10, 2026",
         readTime: "7 min read"
+      },
+      guidedMeditationBeginners: {
+        title: "Guided Meditation for Beginners: The Complete Step-by-Step Guide",
+        excerpt: "Start your meditation journey with confidence. Discover 7 powerful guided meditation techniques that reduce stress by 30%, improve sleep, and build lasting inner peace—no experience needed.",
+        category: "Meditation",
+        date: "March 18, 2026",
+        readTime: "9 min read"
+      },
+      selfCareRoutine: {
+        title: "How to Build a Self-Care Routine That Actually Works",
+        excerpt: "Create a personalized self-care plan that fits your life. Science-backed strategies across 7 dimensions of wellness to reduce burnout, boost resilience, and nurture your whole self.",
+        category: "Self-Care",
+        date: "March 18, 2026",
+        readTime: "8 min read"
+      },
+      journalingPrompts: {
+        title: "50 Journaling Prompts for Mental Health and Self-Discovery",
+        excerpt: "Unlock deeper self-awareness with 50 powerful journaling prompts for anxiety, stress, gratitude, emotional healing, and personal growth. Transform your mental health one page at a time.",
+        category: "Journaling",
+        date: "March 18, 2026",
+        readTime: "10 min read"
       }
     }
   },
@@ -274,6 +295,27 @@ export const blogListingContent = {
         category: "マインドセット＆成長",
         date: "2026年3月10日",
         readTime: "7分で読める"
+      },
+      guidedMeditationBeginners: {
+        title: "初心者のためのガイド付き瞑想：完全ステップバイステップガイド",
+        excerpt: "自信を持って瞑想の旅を始めましょう。ストレスを30%軽減し、睡眠を改善し、内なる平和を築く7つの強力なガイド付き瞑想テクニック—経験不要。",
+        category: "瞑想",
+        date: "2026年3月18日",
+        readTime: "9分で読める"
+      },
+      selfCareRoutine: {
+        title: "本当に効果があるセルフケアルーティンの作り方",
+        excerpt: "自分の生活に合ったパーソナライズされたセルフケアプランを作りましょう。燃え尽き症候群を減らし、回復力を高め、全体的な自分を育む7つのウェルネス次元にわたる科学的根拠に基づいた戦略。",
+        category: "セルフケア",
+        date: "2026年3月18日",
+        readTime: "8分で読める"
+      },
+      journalingPrompts: {
+        title: "メンタルヘルスと自己発見のための50のジャーナリングプロンプト",
+        excerpt: "不安、ストレス、感謝、感情の癒し、個人的成長のための50の強力なジャーナリングプロンプトで、より深い自己認識を解き放ちましょう。",
+        category: "ジャーナリング",
+        date: "2026年3月18日",
+        readTime: "10分で読める"
       }
     }
   },
@@ -413,6 +455,27 @@ export const blogListingContent = {
         category: "마인드셋 & 성장",
         date: "2026년 3월 10일",
         readTime: "7분 읽기"
+      },
+      guidedMeditationBeginners: {
+        title: "초보자를 위한 가이드 명상: 완전한 단계별 가이드",
+        excerpt: "자신감 있게 명상 여정을 시작하세요. 스트레스를 30% 줄이고, 수면을 개선하며, 지속적인 내면의 평화를 구축하는 7가지 강력한 가이드 명상 기법—경험 불필요.",
+        category: "명상",
+        date: "2026년 3월 18일",
+        readTime: "9분 읽기"
+      },
+      selfCareRoutine: {
+        title: "실제로 효과 있는 셀프케어 루틴 만드는 방법",
+        excerpt: "자신의 삶에 맞는 개인화된 셀프케어 계획을 세우세요. 번아웃을 줄이고 회복력을 높이며 전반적인 자신을 돌보는 7가지 웰니스 차원에 걸친 과학적으로 입증된 전략.",
+        category: "셀프케어",
+        date: "2026년 3월 18일",
+        readTime: "8분 읽기"
+      },
+      journalingPrompts: {
+        title: "정신 건강과 자기 발견을 위한 50가지 저널링 프롬프트",
+        excerpt: "불안, 스트레스, 감사, 감정 치유, 개인 성장을 위한 50가지 강력한 저널링 프롬프트로 더 깊은 자기 인식을 열어보세요.",
+        category: "저널링",
+        date: "2026년 3월 18일",
+        readTime: "10분 읽기"
       }
     }
   },
@@ -552,6 +615,27 @@ export const blogListingContent = {
         category: "Tư Duy & Phát Triển",
         date: "10 tháng 3, 2026",
         readTime: "7 phút đọc"
+      },
+      guidedMeditationBeginners: {
+        title: "Thiền Có Hướng Dẫn Cho Người Mới Bắt Đầu: Hướng Dẫn Từng Bước Hoàn Chỉnh",
+        excerpt: "Bắt đầu hành trình thiền định tự tin. Khám phá 7 kỹ thuật thiền có hướng dẫn mạnh mẽ giúp giảm căng thẳng 30%, cải thiện giấc ngủ và xây dựng sự bình yên nội tâm lâu dài.",
+        category: "Thiền Định",
+        date: "18 tháng 3, 2026",
+        readTime: "9 phút đọc"
+      },
+      selfCareRoutine: {
+        title: "Cách Xây Dựng Thói Quen Chăm Sóc Bản Thân Thực Sự Hiệu Quả",
+        excerpt: "Tạo kế hoạch chăm sóc bản thân được cá nhân hóa phù hợp với cuộc sống của bạn. Các chiến lược được khoa học chứng minh trên 7 khía cạnh sức khỏe để giảm kiệt sức và tăng khả năng phục hồi.",
+        category: "Chăm Sóc Bản Thân",
+        date: "18 tháng 3, 2026",
+        readTime: "8 phút đọc"
+      },
+      journalingPrompts: {
+        title: "50 Gợi Ý Viết Nhật Ký Cho Sức Khỏe Tâm Thần và Tự Khám Phá Bản Thân",
+        excerpt: "Mở khóa nhận thức bản thân sâu sắc hơn với 50 gợi ý viết nhật ký mạnh mẽ về lo âu, căng thẳng, lòng biết ơn, chữa lành cảm xúc và phát triển cá nhân.",
+        category: "Viết Nhật Ký",
+        date: "18 tháng 3, 2026",
+        readTime: "10 phút đọc"
       }
     }
   },
@@ -691,6 +775,27 @@ export const blogListingContent = {
         category: "思维与成长",
         date: "2026年3月10日",
         readTime: "7分钟阅读"
+      },
+      guidedMeditationBeginners: {
+        title: "初学者引导冥想：完整的分步指南",
+        excerpt: "自信地开始您的冥想之旅。发现7种强大的引导冥想技巧，可将压力减少30%，改善睡眠，建立持久的内心平静——无需经验。",
+        category: "冥想",
+        date: "2026年3月18日",
+        readTime: "9分钟阅读"
+      },
+      selfCareRoutine: {
+        title: "如何建立真正有效的自我照顾日常",
+        excerpt: "制定适合您生活的个性化自我照顾计划。跨越7个健康维度的科学支持策略，减少倦怠，增强韧性，全面关爱自己。",
+        category: "自我照顾",
+        date: "2026年3月18日",
+        readTime: "8分钟阅读"
+      },
+      journalingPrompts: {
+        title: "50个心理健康与自我发现日记提示",
+        excerpt: "用50个关于焦虑、压力、感恩、情绪疗愈和个人成长的强大日记提示，解锁更深的自我认知，改变您的心理健康。",
+        category: "日记",
+        date: "2026年3月18日",
+        readTime: "10分钟阅读"
       }
     }
   },
@@ -830,6 +935,27 @@ export const blogListingContent = {
         category: "思維與成長",
         date: "2026年3月10日",
         readTime: "7分鐘閱讀"
+      },
+      guidedMeditationBeginners: {
+        title: "初學者引導冥想：完整的分步指南",
+        excerpt: "自信地開始您的冥想之旅。發現7種強大的引導冥想技巧，可將壓力減少30%，改善睡眠，建立持久的內心平靜——無需經驗。",
+        category: "冥想",
+        date: "2026年3月18日",
+        readTime: "9分鐘閱讀"
+      },
+      selfCareRoutine: {
+        title: "如何建立真正有效的自我照顧日常",
+        excerpt: "制定適合您生活的個人化自我照顧計劃。跨越7個健康維度的科學支持策略，減少倦怠，增強韌性，全面關愛自己。",
+        category: "自我照顧",
+        date: "2026年3月18日",
+        readTime: "8分鐘閱讀"
+      },
+      journalingPrompts: {
+        title: "50個心理健康與自我發現日記提示",
+        excerpt: "用50個關於焦慮、壓力、感恩、情緒療癒和個人成長的強大日記提示，解鎖更深的自我認知，改變您的心理健康。",
+        category: "日記",
+        date: "2026年3月18日",
+        readTime: "10分鐘閱讀"
       }
     }
   }
