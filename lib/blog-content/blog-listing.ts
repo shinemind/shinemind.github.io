@@ -156,6 +156,27 @@ export const blogListingContent = {
         category: "Journaling",
         date: "March 18, 2026",
         readTime: "10 min read"
+      },
+      mindfulEating: {
+        title: "Mindful Eating: How to Transform Your Relationship with Food and Mental Health",
+        excerpt: "Discover how mindful eating reduces emotional eating by 48%, lowers stress hormones, and helps you build a healthier relationship with food—without dieting or restriction.",
+        category: "Mindful Eating",
+        date: "March 24, 2026",
+        readTime: "9 min read"
+      },
+      natureTherapy: {
+        title: "Nature Therapy: How Spending Time Outdoors Heals Your Mind",
+        excerpt: "Science confirms it: just 2 hours in nature weekly reduces anxiety by 60%, lowers cortisol, and restores mental clarity. Discover forest bathing, blue space therapy, and more evidence-based nature practices.",
+        category: "Nature & Wellness",
+        date: "March 24, 2026",
+        readTime: "8 min read"
+      },
+      visualization: {
+        title: "The Power of Visualization: Science-Backed Techniques to Achieve Any Goal",
+        excerpt: "Elite athletes and top performers all use visualization—and neuroscience proves why it works. Learn how mental imagery rewires your brain, reduces anxiety, and accelerates goal achievement by up to 45%.",
+        category: "Mental Performance",
+        date: "March 24, 2026",
+        readTime: "9 min read"
       }
     }
   },
@@ -316,6 +337,27 @@ export const blogListingContent = {
         category: "ジャーナリング",
         date: "2026年3月18日",
         readTime: "10分で読める"
+      },
+      mindfulEating: {
+        title: "マインドフルイーティング：食べ物とメンタルヘルスとの関係を変える方法",
+        excerpt: "マインドフルイーティングが感情的な食べ過ぎを48%減少させ、ストレスホルモンを下げ、ダイエットや制限なしに食との健全な関係を築く方法を発見してください。",
+        category: "マインドフルイーティング",
+        date: "2026年3月24日",
+        readTime: "9分で読める"
+      },
+      natureTherapy: {
+        title: "自然療法：屋外で過ごすことが心を癒す方法",
+        excerpt: "科学が証明しています：週2時間の自然の中での時間で不安が60%減少し、コルチゾールが低下し、精神的明晰さが回復します。森林浴、ブルースペース療法などを発見してください。",
+        category: "自然とウェルネス",
+        date: "2026年3月24日",
+        readTime: "8分で読める"
+      },
+      visualization: {
+        title: "視覚化の力：あらゆる目標を達成するための科学的根拠に基づいたテクニック",
+        excerpt: "トップアスリートやトップパフォーマーは全員ビジュアライゼーションを使用しています—そして神経科学がなぜ機能するかを証明しています。目標達成を最大45%加速させる方法を学びましょう。",
+        category: "メンタルパフォーマンス",
+        date: "2026年3月24日",
+        readTime: "9分で読める"
       }
     }
   },
@@ -476,6 +518,27 @@ export const blogListingContent = {
         category: "저널링",
         date: "2026년 3월 18일",
         readTime: "10분 읽기"
+      },
+      mindfulEating: {
+        title: "마음챙김 식사: 음식과 정신 건강과의 관계를 변화시키는 방법",
+        excerpt: "마음챙김 식사가 감정적 과식을 48% 줄이고, 스트레스 호르몬을 낮추며, 다이어트나 제한 없이 음식과 더 건강한 관계를 구축하는 방법을 알아보세요.",
+        category: "마음챙김 식사",
+        date: "2026년 3월 24일",
+        readTime: "9분 읽기"
+      },
+      natureTherapy: {
+        title: "자연 치료: 야외에서 시간을 보내는 것이 마음을 치유하는 방법",
+        excerpt: "과학이 확인합니다: 주당 2시간의 자연 시간만으로도 불안이 60% 감소하고, 코르티솔이 낮아지며, 정신적 명료함이 회복됩니다. 삼림욕, 블루스페이스 테라피 등을 알아보세요.",
+        category: "자연과 웰니스",
+        date: "2026년 3월 24일",
+        readTime: "8분 읽기"
+      },
+      visualization: {
+        title: "시각화의 힘: 어떤 목표도 달성하는 과학적으로 입증된 기법",
+        excerpt: "엘리트 선수와 최고 성과자들은 모두 시각화를 사용합니다—그리고 신경과학이 왜 효과가 있는지 증명합니다. 목표 달성을 최대 45% 가속화하는 방법을 배우세요.",
+        category: "정신 수행",
+        date: "2026년 3월 24일",
+        readTime: "9분 읽기"
       }
     }
   },
@@ -636,6 +699,27 @@ export const blogListingContent = {
         category: "Viết Nhật Ký",
         date: "18 tháng 3, 2026",
         readTime: "10 phút đọc"
+      },
+      mindfulEating: {
+        title: "Ăn Uống Có Chánh Niệm: Cách Thay Đổi Mối Quan Hệ Với Thức Ăn và Sức Khỏe Tâm Thần",
+        excerpt: "Khám phá cách ăn uống có chánh niệm giảm ăn uống cảm xúc 48%, hạ thấp hormone căng thẳng và giúp bạn xây dựng mối quan hệ lành mạnh hơn với thức ăn—không cần ăn kiêng hay hạn chế.",
+        category: "Ăn Uống Có Chánh Niệm",
+        date: "24 tháng 3, 2026",
+        readTime: "9 phút đọc"
+      },
+      natureTherapy: {
+        title: "Liệu Pháp Thiên Nhiên: Cách Dành Thời Gian Ngoài Trời Chữa Lành Tâm Trí Bạn",
+        excerpt: "Khoa học xác nhận: chỉ 2 giờ trong thiên nhiên mỗi tuần giảm lo âu 60%, hạ cortisol và khôi phục sự minh mẫn tinh thần. Khám phá tắm rừng, liệu pháp không gian xanh và nhiều hơn nữa.",
+        category: "Thiên Nhiên & Sức Khỏe",
+        date: "24 tháng 3, 2026",
+        readTime: "8 phút đọc"
+      },
+      visualization: {
+        title: "Sức Mạnh Của Hình Dung: Kỹ Thuật Được Khoa Học Chứng Minh Để Đạt Được Bất Kỳ Mục Tiêu Nào",
+        excerpt: "Các vận động viên hàng đầu và người thành công đều sử dụng hình dung—và thần kinh học chứng minh tại sao nó hoạt động. Tìm hiểu cách đẩy nhanh việc đạt được mục tiêu lên đến 45%.",
+        category: "Hiệu Suất Tinh Thần",
+        date: "24 tháng 3, 2026",
+        readTime: "9 phút đọc"
       }
     }
   },
@@ -796,6 +880,27 @@ export const blogListingContent = {
         category: "日记",
         date: "2026年3月18日",
         readTime: "10分钟阅读"
+      },
+      mindfulEating: {
+        title: "正念饮食：如何改变您与食物和心理健康的关系",
+        excerpt: "探索正念饮食如何将情绪性进食减少48%，降低压力激素，并帮助您建立与食物更健康的关系——无需节食或限制。",
+        category: "正念饮食",
+        date: "2026年3月24日",
+        readTime: "9分钟阅读"
+      },
+      natureTherapy: {
+        title: "自然疗法：在户外度过时光如何治愈您的心灵",
+        excerpt: "科学证实：每周仅2小时在自然中可将焦虑减少60%，降低皮质醇，恢复精神清晰度。探索森林浴、蓝色空间疗法等循证自然实践。",
+        category: "自然与健康",
+        date: "2026年3月24日",
+        readTime: "8分钟阅读"
+      },
+      visualization: {
+        title: "可视化的力量：有科学依据的实现任何目标的技巧",
+        excerpt: "精英运动员和顶级表演者都使用可视化——神经科学证明了原因。了解如何将心理意象重塑大脑并将目标实现速度提高多达45%。",
+        category: "心理表现",
+        date: "2026年3月24日",
+        readTime: "9分钟阅读"
       }
     }
   },
@@ -956,6 +1061,27 @@ export const blogListingContent = {
         category: "日記",
         date: "2026年3月18日",
         readTime: "10分鐘閱讀"
+      },
+      mindfulEating: {
+        title: "正念飲食：如何改變您與食物和心理健康的關係",
+        excerpt: "探索正念飲食如何將情緒性進食減少48%，降低壓力激素，並幫助您建立與食物更健康的關係——無需節食或限制。",
+        category: "正念飲食",
+        date: "2026年3月24日",
+        readTime: "9分鐘閱讀"
+      },
+      natureTherapy: {
+        title: "自然療法：在戶外度過時光如何治癒您的心靈",
+        excerpt: "科學證實：每週僅2小時在自然中可將焦慮減少60%，降低皮質醇，恢復精神清晰度。探索森林浴、藍色空間療法等循證自然實踐。",
+        category: "自然與健康",
+        date: "2026年3月24日",
+        readTime: "8分鐘閱讀"
+      },
+      visualization: {
+        title: "可視化的力量：有科學依據的實現任何目標的技巧",
+        excerpt: "精英運動員和頂級表演者都使用可視化——神經科學證明了原因。了解如何將心理意象重塑大腦並將目標實現速度提高多達45%。",
+        category: "心理表現",
+        date: "2026年3月24日",
+        readTime: "9分鐘閱讀"
       }
     }
   }
