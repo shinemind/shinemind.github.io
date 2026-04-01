@@ -177,6 +177,27 @@ export const blogListingContent = {
         category: "Mental Performance",
         date: "March 24, 2026",
         readTime: "9 min read"
+      },
+      socialConnection: {
+        title: "Social Connection and Mental Health: Why Relationships Heal the Brain",
+        excerpt: "Loneliness is linked to depression and heart disease—meaningful connection is a skill you can build. Science-backed steps for quality time, micro-moments, and belonging.",
+        category: "Relationships & Wellness",
+        date: "April 2, 2026",
+        readTime: "8 min read"
+      },
+      musicMood: {
+        title: "Music and Mental Health: How Sound Shapes Your Mood and Brain",
+        excerpt: "From lowering cortisol to boosting motivation—how music affects the brain, and how to use playlists, the iso principle, and active listening intentionally.",
+        category: "Music & Mind",
+        date: "April 2, 2026",
+        readTime: "8 min read"
+      },
+      bodyScan: {
+        title: "Body Scan Meditation: A Science-Backed Guide to Stress Relief",
+        excerpt: "Train attention through the body from head to toe—strengthen interoception, reduce tension, and calm your nervous system with evidence-based MBSR-style practice.",
+        category: "Meditation",
+        date: "April 2, 2026",
+        readTime: "9 min read"
       }
     }
   },
@@ -357,6 +378,27 @@ export const blogListingContent = {
         excerpt: "トップアスリートやトップパフォーマーは全員ビジュアライゼーションを使用しています—そして神経科学がなぜ機能するかを証明しています。目標達成を最大45%加速させる方法を学びましょう。",
         category: "メンタルパフォーマンス",
         date: "2026年3月24日",
+        readTime: "9分で読める"
+      },
+      socialConnection: {
+        title: "社会的つながりとメンタルヘルス：なぜ人間関係が脳を癒すのか",
+        excerpt: "孤独感はうつ病や心疾患と関連します—意味のあるつながりは育てられるスキルです。質の時間、マイクロなつながり、帰属意識のための科学的ステップをまとめました。",
+        category: "人間関係とウェルネス",
+        date: "2026年4月2日",
+        readTime: "8分で読める"
+      },
+      musicMood: {
+        title: "音楽とメンタルヘルス：音が気分と脳をどう形づけるか",
+        excerpt: "コルチゾールを下げることからモチベーションを高めることまで—音楽が脳に与える影響と、プレイリスト、アイソの原理、能動的な聴取を意図的に使う方法。",
+        category: "音楽とマインド",
+        date: "2026年4月2日",
+        readTime: "8分で読める"
+      },
+      bodyScan: {
+        title: "ボディスキャン瞑想：ストレス軽減の科学的ガイド",
+        excerpt: "頭からつま先へ注意を感覚に沿って動かす訓練—内受容を強め、緊張をほどき、エビデンスに基づくMBSR式の実践で神経系を落ち着かせます。",
+        category: "瞑想",
+        date: "2026年4月2日",
         readTime: "9分で読める"
       }
     }
@@ -539,6 +581,27 @@ export const blogListingContent = {
         category: "정신 수행",
         date: "2026년 3월 24일",
         readTime: "9분 읽기"
+      },
+      socialConnection: {
+        title: "사회적 연결과 정신 건강: 관계가 뇌를 치유하는 이유",
+        excerpt: "외로움은 우울증과 심장 질환과 연결됩니다—의미 있는 연결은 기를 수 있는 기술입니다. 질 높은 시간, 마이크로 연결, 소속감을 위한 과학적 단계를 정리했습니다.",
+        category: "관계와 웰니스",
+        date: "2026년 4월 2일",
+        readTime: "8분 읽기"
+      },
+      musicMood: {
+        title: "음악과 정신 건강: 소리가 기분과 뇌를 어떻게 형성하는가",
+        excerpt: "코르티솔을 낮추는 것부터 동기를 높이는 것까지—음악이 뇌에 미치는 영향과 플레이리스트, 아이소 원리, 능동적 청취를 의도적으로 쓰는 방법.",
+        category: "음악과 마음",
+        date: "2026년 4월 2일",
+        readTime: "8분 읽기"
+      },
+      bodyScan: {
+        title: "바디 스캔 명상: 스트레스 완화를 위한 과학적 가이드",
+        excerpt: "머리부터 발끝까지 감각에 따라 주의를 옮기는 훈련—내수용을 강화하고 긴장을 풀며, 증거 기반 MBSR식 실천으로 신경계를 진정시킵니다.",
+        category: "명상",
+        date: "2026년 4월 2일",
+        readTime: "9분 읽기"
       }
     }
   },
@@ -719,6 +782,27 @@ export const blogListingContent = {
         excerpt: "Các vận động viên hàng đầu và người thành công đều sử dụng hình dung—và thần kinh học chứng minh tại sao nó hoạt động. Tìm hiểu cách đẩy nhanh việc đạt được mục tiêu lên đến 45%.",
         category: "Hiệu Suất Tinh Thần",
         date: "24 tháng 3, 2026",
+        readTime: "9 phút đọc"
+      },
+      socialConnection: {
+        title: "Kết Nối Xã Hội và Sức Khỏe Tâm Thần: Vì Sao Mối Quan Hệ Chữa Lành Não Bộ",
+        excerpt: "Cô đơn gắn liền với trầm cảm và bệnh tim—kết nối ý nghĩa là kỹ năng có thể rèn luyện. Các bước có căn cứ khoa học cho thời gian chất lượng, khoảnh khắc vi và cảm giác thuộc về.",
+        category: "Mối Quan Hệ & Sức Khỏe",
+        date: "2 tháng 4, 2026",
+        readTime: "8 phút đọc"
+      },
+      musicMood: {
+        title: "Âm Nhạc và Sức Khỏe Tâm Thần: Âm Thanh Định Hình Tâm Trạng và Não Bộ Thế Nào",
+        excerpt: "Từ hạ cortisol đến tăng động lực—âm nhạc ảnh hưởng não bộ ra sao và cách dùng playlist, nguyên lý iso và lắng nghe chủ động có chủ đích.",
+        category: "Âm Nhạc & Tâm Trí",
+        date: "2 tháng 4, 2026",
+        readTime: "8 phút đọc"
+      },
+      bodyScan: {
+        title: "Thiền Quét Cơ Thể: Hướng Dẫn Giảm Căng Thẳng Có Căn Cứ Khoa Học",
+        excerpt: "Rèn luyện sự chú ý qua cơ thể từ đầu đến chân—tăng cường nội cảm, giảm căng thẳng và làm dịu hệ thần kinh với thực hành kiểu MBSR có bằng chứng.",
+        category: "Thiền Định",
+        date: "2 tháng 4, 2026",
         readTime: "9 phút đọc"
       }
     }
@@ -901,6 +985,27 @@ export const blogListingContent = {
         category: "心理表现",
         date: "2026年3月24日",
         readTime: "9分钟阅读"
+      },
+      socialConnection: {
+        title: "社会联结与心理健康：为什么关系能疗愈大脑",
+        excerpt: "孤独与抑郁、心脏病相关—有意义的联结是可以培养的技能。关于优质时光、微联结与归属感的科学步骤。",
+        category: "关系与健康",
+        date: "2026年4月2日",
+        readTime: "8分钟阅读"
+      },
+      musicMood: {
+        title: "音乐与心理健康：声音如何塑造情绪与大脑",
+        excerpt: "从降低皮质醇到提升动力—音乐如何影响大脑，以及如何有意使用歌单、同构原理与主动聆听。",
+        category: "音乐与心灵",
+        date: "2026年4月2日",
+        readTime: "8分钟阅读"
+      },
+      bodyScan: {
+        title: "身体扫描冥想：减压的科学指南",
+        excerpt: "训练注意力沿身体从头到脚移动—增强内感受、减轻紧张，并以循证的正念减压式练习安抚神经系统。",
+        category: "冥想",
+        date: "2026年4月2日",
+        readTime: "9分钟阅读"
       }
     }
   },
@@ -1081,6 +1186,27 @@ export const blogListingContent = {
         excerpt: "精英運動員和頂級表演者都使用可視化——神經科學證明了原因。了解如何將心理意象重塑大腦並將目標實現速度提高多達45%。",
         category: "心理表現",
         date: "2026年3月24日",
+        readTime: "9分鐘閱讀"
+      },
+      socialConnection: {
+        title: "社會連結與心理健康：為什麼關係能療癒大腦",
+        excerpt: "孤獨與憂鬱、心臟病相關—有意義的連結是可以培養的技能。關於優質時光、微連結與歸屬感的科學步驟。",
+        category: "關係與健康",
+        date: "2026年4月2日",
+        readTime: "8分鐘閱讀"
+      },
+      musicMood: {
+        title: "音樂與心理健康：聲音如何塑造情緒與大腦",
+        excerpt: "從降低皮質醇到提升動力—音樂如何影響大腦，以及如何有意使用歌單、同構原理與主動聆聽。",
+        category: "音樂與心靈",
+        date: "2026年4月2日",
+        readTime: "8分鐘閱讀"
+      },
+      bodyScan: {
+        title: "身體掃描冥想：減壓的科學指南",
+        excerpt: "訓練注意力沿身體從頭到腳移動—增強內感受、減輕緊張，並以循證的正念減壓式練習安撫神經系統。",
+        category: "冥想",
+        date: "2026年4月2日",
         readTime: "9分鐘閱讀"
       }
     }
