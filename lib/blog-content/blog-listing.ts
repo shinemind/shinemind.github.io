@@ -198,6 +198,27 @@ export const blogListingContent = {
         category: "Meditation",
         date: "April 2, 2026",
         readTime: "9 min read"
+      },
+      reduceCortisol: {
+        title: "How to Reduce Cortisol Naturally: 7 Science-Backed Daily Habits",
+        excerpt: "Feel wired and tired? Use seven practical, research-supported habits to regulate stress hormones naturally and improve mood, focus, and sleep.",
+        category: "Stress & Wellness",
+        date: "April 7, 2026",
+        readTime: "8 min read"
+      },
+      eveningRoutineSleep: {
+        title: "Best Evening Routine for Better Sleep: A 60-Minute Wind-Down Plan",
+        excerpt: "A simple one-hour pre-sleep routine to reduce mental noise, calm your nervous system, and improve sleep quality consistently.",
+        category: "Sleep & Wellness",
+        date: "April 7, 2026",
+        readTime: "8 min read"
+      },
+      stopOverthinkingNight: {
+        title: "How to Stop Overthinking at Night: 6 Evidence-Based Techniques",
+        excerpt: "If your mind races at bedtime, try these six clinically grounded techniques to break rumination loops and fall asleep faster.",
+        category: "Mental Health",
+        date: "April 7, 2026",
+        readTime: "8 min read"
       }
     }
   },
@@ -400,6 +421,27 @@ export const blogListingContent = {
         category: "瞑想",
         date: "2026年4月2日",
         readTime: "9分で読める"
+      },
+      reduceCortisol: {
+        title: "コルチゾールを自然に下げる方法：科学的根拠のある7つの習慣",
+        excerpt: "緊張と疲労が続くときに。ストレスホルモン調整に役立つ実践的な7習慣を紹介します。",
+        category: "ストレスとウェルネス",
+        date: "2026年4月7日",
+        readTime: "8分で読める"
+      },
+      eveningRoutineSleep: {
+        title: "よりよく眠るための夜ルーティン：60分の実践プラン",
+        excerpt: "就寝前1時間の流れを整えて、心身を落ち着かせ、睡眠の質を安定して高めます。",
+        category: "睡眠とウェルネス",
+        date: "2026年4月7日",
+        readTime: "8分で読める"
+      },
+      stopOverthinkingNight: {
+        title: "夜の考えすぎを止める方法：エビデンスに基づく6つの技法",
+        excerpt: "就寝時の反すうループを断つための、実証ベースの6つの方法をまとめました。",
+        category: "メンタルヘルス",
+        date: "2026年4月7日",
+        readTime: "8分で読める"
       }
     }
   },
@@ -602,6 +644,27 @@ export const blogListingContent = {
         category: "명상",
         date: "2026년 4월 2일",
         readTime: "9분 읽기"
+      },
+      reduceCortisol: {
+        title: "코르티솔을 자연스럽게 낮추는 방법: 과학 기반 7가지 습관",
+        excerpt: "늘 긴장되고 피곤하다면, 스트레스 호르몬 조절에 도움되는 7가지 실천 습관을 확인해보세요.",
+        category: "스트레스 & 웰니스",
+        date: "2026년 4월 7일",
+        readTime: "8분 읽기"
+      },
+      eveningRoutineSleep: {
+        title: "더 나은 수면을 위한 저녁 루틴: 60분 윈드다운 플랜",
+        excerpt: "취침 전 1시간 루틴으로 마음을 진정시키고 수면의 질을 안정적으로 높이는 방법.",
+        category: "수면 & 웰니스",
+        date: "2026년 4월 7일",
+        readTime: "8분 읽기"
+      },
+      stopOverthinkingNight: {
+        title: "밤에 과생각 멈추는 법: 근거 기반 6가지 기술",
+        excerpt: "잠들기 전 생각 폭주를 줄이고 반추 루프를 끊는 검증된 방법 6가지.",
+        category: "정신 건강",
+        date: "2026년 4월 7일",
+        readTime: "8분 읽기"
       }
     }
   },
@@ -804,6 +867,27 @@ export const blogListingContent = {
         category: "Thiền Định",
         date: "2 tháng 4, 2026",
         readTime: "9 phút đọc"
+      },
+      reduceCortisol: {
+        title: "Cách Giảm Cortisol Tự Nhiên: 7 Thói Quen Có Căn Cứ Khoa Học",
+        excerpt: "Nếu bạn luôn căng và mệt, hãy áp dụng 7 thói quen thực tế giúp điều hòa hormone stress tự nhiên.",
+        category: "Căng Thẳng & Sức Khỏe",
+        date: "7 tháng 4, 2026",
+        readTime: "8 phút đọc"
+      },
+      eveningRoutineSleep: {
+        title: "Routine Buổi Tối Tốt Nhất Để Ngủ Ngon: Kế Hoạch 60 Phút",
+        excerpt: "Một kế hoạch trước ngủ đơn giản để làm dịu hệ thần kinh và cải thiện chất lượng giấc ngủ đều đặn.",
+        category: "Giấc Ngủ & Sức Khỏe",
+        date: "7 tháng 4, 2026",
+        readTime: "8 phút đọc"
+      },
+      stopOverthinkingNight: {
+        title: "Cách Ngừng Suy Nghĩ Quá Mức Vào Ban Đêm: 6 Kỹ Thuật Có Bằng Chứng",
+        excerpt: "Giảm vòng lặp suy nghĩ khi đi ngủ với 6 kỹ thuật thực tế dựa trên bằng chứng.",
+        category: "Sức Khỏe Tâm Thần",
+        date: "7 tháng 4, 2026",
+        readTime: "8 phút đọc"
       }
     }
   },
@@ -1006,6 +1090,27 @@ export const blogListingContent = {
         category: "冥想",
         date: "2026年4月2日",
         readTime: "9分钟阅读"
+      },
+      reduceCortisol: {
+        title: "如何自然降低皮质醇：7个有科学依据的日常习惯",
+        excerpt: "总是紧绷又疲惫？这7个可执行习惯可帮助自然调节压力激素并改善睡眠与专注。",
+        category: "压力与健康",
+        date: "2026年4月7日",
+        readTime: "8分钟阅读"
+      },
+      eveningRoutineSleep: {
+        title: "改善睡眠的最佳晚间流程：60分钟放松计划",
+        excerpt: "用一小时睡前流程降低心理噪音，稳定神经系统并提升睡眠质量。",
+        category: "睡眠与健康",
+        date: "2026年4月7日",
+        readTime: "8分钟阅读"
+      },
+      stopOverthinkingNight: {
+        title: "如何停止夜间过度思考：6个循证技巧",
+        excerpt: "睡前想太多？试试这6个可落地的方法，打断反刍循环，更快入睡。",
+        category: "心理健康",
+        date: "2026年4月7日",
+        readTime: "8分钟阅读"
       }
     }
   },
@@ -1208,6 +1313,27 @@ export const blogListingContent = {
         category: "冥想",
         date: "2026年4月2日",
         readTime: "9分鐘閱讀"
+      },
+      reduceCortisol: {
+        title: "如何自然降低皮質醇：7個有科學依據的日常習慣",
+        excerpt: "總是緊繃又疲憊？這7個可執行習慣可幫助自然調節壓力荷爾蒙並改善睡眠與專注。",
+        category: "壓力與健康",
+        date: "2026年4月7日",
+        readTime: "8分鐘閱讀"
+      },
+      eveningRoutineSleep: {
+        title: "改善睡眠的最佳晚間流程：60分鐘放鬆計畫",
+        excerpt: "用一小時睡前流程降低心理噪音，穩定神經系統並提升睡眠品質。",
+        category: "睡眠與健康",
+        date: "2026年4月7日",
+        readTime: "8分鐘閱讀"
+      },
+      stopOverthinkingNight: {
+        title: "如何停止夜間過度思考：6個循證技巧",
+        excerpt: "睡前想太多？試試這6個可落地的方法，打斷反芻循環，更快入睡。",
+        category: "心理健康",
+        date: "2026年4月7日",
+        readTime: "8分鐘閱讀"
       }
     }
   }
