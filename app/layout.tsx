@@ -101,9 +101,6 @@ export default function RootLayout({
     "url": "https://shinemind.app",
     "logo": "https://shinemind.app/logo.png",
     "description": "Transform your daily routine with AI-powered wellness insights, guided meditation, gratitude journaling, and goal tracking.",
-    "sameAs": [
-      "https://apps.apple.com/us/app/shinemind/id6754637065"
-    ],
     "contactPoint": {
       "@type": "ContactPoint",
       "email": "contact@shinemind.app",
@@ -138,7 +135,6 @@ export default function RootLayout({
       "@type": "Organization",
       "name": "ShineMind"
     },
-    "installUrl": "https://apps.apple.com/us/app/shinemind/id6754637065",
     "featureList": [
       "AI-powered wellness insights",
       "Guided meditation sessions",

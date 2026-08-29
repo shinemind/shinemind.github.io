@@ -7,6 +7,7 @@ import { useState } from "react";
 import Lottie from "lottie-react";
 import shining6Animation from "@/public/shining-6.json";
 import LanguageSelector from "@/components/LanguageSelector";
+import ShutdownNotice from "@/components/ShutdownNotice";
 import { useLanguage } from "@/lib/i18n";
 
 export default function Home() {
@@ -39,18 +40,9 @@ export default function Home() {
                 <a href="#features" className="text-gray-300 hover:text-white transition-all duration-300 font-medium hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]">
                   {t("nav.features")}
                 </a>
-                <a href="#pricing" className="text-gray-300 hover:text-white transition-all duration-300 font-medium hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]">
-                  {t("nav.pricing")}
-                </a>
                 <Link href="/blog" className="text-gray-300 hover:text-white transition-all duration-300 font-medium hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]">
                   {t("nav.blog")}
                 </Link>
-                <a
-                  href="#download"
-                  className="flex items-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-105"
-                >
-                  {t("nav.downloadNow")}
-                </a>
                 <LanguageSelector />
               </div>
 
@@ -82,13 +74,6 @@ export default function Home() {
                 >
                   {t("nav.features")}
                 </a>
-                <a
-                  href="#pricing"
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="block text-gray-300 hover:text-white transition-colors py-2"
-                >
-                  {t("nav.pricing")}
-                </a>
                 <Link
                   href="/blog"
                   onClick={() => setMobileMenuOpen(false)}
@@ -96,13 +81,6 @@ export default function Home() {
                 >
                   {t("nav.blog")}
                 </Link>
-                <a
-                  href="#download"
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="flex items-center justify-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-full text-sm font-semibold text-center hover:from-purple-600 hover:to-pink-600 transition-all"
-                >
-                  {t("nav.downloadNow")}
-                </a>
                 <div className="pt-2">
                   <LanguageSelector />
                 </div>
@@ -168,43 +146,8 @@ export default function Home() {
                 {t("hero.subtitle")}
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row gap-5 justify-center items-center pt-12">
-              <a
-                href="https://apps.apple.com/us/app/shinemind/id6754637065"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative bg-black hover:bg-gray-900 text-white px-6 py-3 rounded-2xl transition-all transform hover:scale-105 shadow-2xl border border-white/20 hover:border-white/40 min-w-[180px] h-[60px] flex items-center justify-center"
-              >
-                <div className="flex items-center gap-3">
-                  <svg className="w-9 h-9 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
-                  </svg>
-                  <div className="flex flex-col items-start space-y-0.5">
-                    <span className="text-[10px] font-normal whitespace-nowrap">{t("download.downloadOnThe")}</span>
-                    <span className="text-[22px] font-semibold leading-none whitespace-nowrap">App Store</span>
-                  </div>
-                </div>
-              </a>
-              <a
-                href="https://play.google.com/store/apps/details?id=com.trinhngocdieu.shinemind"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative bg-black hover:bg-gray-900 text-white px-6 py-3 rounded-2xl transition-all transform hover:scale-105 shadow-2xl border border-white/20 hover:border-white/40 min-w-[180px] h-[60px] flex items-center justify-center"
-              >
-                <div className="flex items-center gap-3">
-                  <Image
-                    src="/google-play-icon-new.svg"
-                    alt="Google Play"
-                    width={32}
-                    height={32}
-                    className="w-8 h-8 flex-shrink-0"
-                  />
-                  <div className="flex flex-col items-start space-y-0.5">
-                    <span className="text-[10px] font-normal whitespace-nowrap">{t("download.getItOn")}</span>
-                    <span className="text-[22px] font-semibold leading-none whitespace-nowrap">Google Play</span>
-                  </div>
-                </div>
-              </a>
+            <div className="pt-12">
+              <ShutdownNotice />
             </div>
           </div>
         </div>
@@ -471,238 +414,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Pricing Section */}
-      <section id="pricing" className="relative py-32 overflow-hidden">
-        {/* Decorative Background */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-purple-950/20 to-transparent"></div>
-        <div className="absolute top-40 right-40 w-96 h-96 bg-purple-500/10 rounded-full blur-[150px]"></div>
-        <div className="absolute bottom-40 left-40 w-96 h-96 bg-pink-500/10 rounded-full blur-[150px]"></div>
-
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-20">
-            <h2 className="font-heading text-5xl md:text-6xl font-black text-white mb-6 tracking-tight">
-              {t("pricing.title")}
-            </h2>
-            <p className="text-xl md:text-2xl text-gray-300 font-light max-w-3xl mx-auto">
-              {t("pricing.subtitle")}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
-            {/* Free Plan */}
-            <div className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/20 hover:border-white/40 transition-all duration-500 hover:scale-105 hover:shadow-2xl">
-              <div className="absolute inset-0 bg-gradient-to-br from-gray-500/0 to-gray-500/0 group-hover:from-gray-500/5 group-hover:to-transparent rounded-3xl transition-all duration-500"></div>
-              <div className="relative">
-                <h3 className="text-3xl font-black text-white mb-4">{t("pricing.free.title")}</h3>
-                <div className="mb-8">
-                  <span className="text-5xl font-black text-white">{t("pricing.free.price")}</span>
-                </div>
-                <ul className="space-y-4 text-gray-300">
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base">{t("pricing.free.features.goals")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base">{t("pricing.free.features.affirmations")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base">{t("pricing.free.features.meditation")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base">{t("pricing.free.features.journal")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base">{t("pricing.free.features.aiChat")}</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Premium Monthly */}
-            <div className="group relative bg-gradient-to-br from-purple-500/20 to-pink-500/20 backdrop-blur-xl rounded-3xl p-8 border-2 border-purple-500/50 hover:border-purple-400/70 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/30 lg:scale-105">
-              <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2 rounded-full text-sm font-bold shadow-lg shadow-purple-500/50">
-                {t("pricing.monthly.badge")}
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-br from-purple-500/0 to-purple-500/0 group-hover:from-purple-500/10 group-hover:to-transparent rounded-3xl transition-all duration-500"></div>
-              <div className="relative">
-                <h3 className="text-3xl font-black text-white mb-4 group-hover:text-purple-300 transition-colors">{t("pricing.monthly.title")}</h3>
-                <div className="mb-8">
-                  <span className="text-5xl font-black bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">{t("pricing.monthly.price")}</span>
-                  <span className="text-gray-300 text-lg ml-2">{t("pricing.monthly.period")}</span>
-                  <div className="text-sm text-blue-400 mt-2 font-semibold">{t("pricing.monthly.trial")}</div>
-                </div>
-                <ul className="space-y-4 text-gray-200">
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-yellow-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base font-medium">{t("pricing.monthly.features.goals")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-yellow-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base font-medium">{t("pricing.monthly.features.affirmations")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-yellow-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base font-medium">{t("pricing.monthly.features.meditation")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-yellow-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base font-medium">{t("pricing.monthly.features.journal")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-yellow-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base font-medium">{t("pricing.monthly.features.aiChat")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-yellow-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base font-medium">{t("pricing.monthly.features.sleepSounds")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-yellow-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base font-medium">{t("pricing.monthly.features.analytics")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-yellow-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base font-medium">{t("pricing.monthly.features.support")}</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Yearly */}
-            <div className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/20 hover:border-green-400/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-green-500/20">
-              <div className="absolute inset-0 bg-gradient-to-br from-green-500/0 to-green-500/0 group-hover:from-green-500/5 group-hover:to-transparent rounded-3xl transition-all duration-500"></div>
-              <div className="relative">
-                <h3 className="text-3xl font-black text-white mb-4 group-hover:text-green-300 transition-colors">{t("pricing.yearly.title")}</h3>
-                <div className="mb-8">
-                  <span className="text-5xl font-black text-white">{t("pricing.yearly.price")}</span>
-                  <span className="text-gray-300 text-lg ml-2">{t("pricing.yearly.period")}</span>
-                  <div className="text-sm text-green-400 mt-2 font-semibold">{t("pricing.yearly.savings")}</div>
-                </div>
-                <ul className="space-y-4 text-gray-300">
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base">{t("pricing.yearly.features.goals")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base">{t("pricing.yearly.features.affirmations")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base">{t("pricing.yearly.features.meditation")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base">{t("pricing.yearly.features.journal")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base">{t("pricing.yearly.features.aiChat")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base">{t("pricing.yearly.features.sleepSounds")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base">{t("pricing.yearly.features.analytics")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base">{t("pricing.yearly.features.support")}</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Lifetime */}
-            <div className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/20 hover:border-yellow-400/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/20">
-              <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/0 to-yellow-500/0 group-hover:from-yellow-500/5 group-hover:to-transparent rounded-3xl transition-all duration-500"></div>
-              <div className="relative">
-                <h3 className="text-3xl font-black text-white mb-4 group-hover:text-yellow-300 transition-colors">{t("pricing.lifetime.title")}</h3>
-                <div className="mb-8">
-                  <span className="text-5xl font-black text-white">{t("pricing.lifetime.price")}</span>
-                  <div className="text-sm text-green-400 mt-2 font-semibold">{t("pricing.lifetime.note")}</div>
-                </div>
-                <ul className="space-y-4 text-gray-300">
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base">{t("pricing.lifetime.features.all")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base">{t("pricing.lifetime.features.unlimited")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base">{t("pricing.lifetime.features.updates")}</span>
-                  </li>
-                  <li className="flex items-start gap-3 group/item">
-                    <span className="text-green-400 mt-1 text-lg font-bold group-hover/item:scale-125 transition-transform">✓</span>
-                    <span className="text-base">{t("pricing.lifetime.features.value")}</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* <div className="text-center mt-12">
-            <p className="text-gray-400 mb-8">App is currently being reviewed</p>
-          </div> */}
-        </div>
-      </section>
-
-      {/* Download Section */}
-      <section id="download" className="relative py-40 md:py-48 overflow-hidden">
-        {/* Subtle Background */}
-        <div className="absolute inset-0">
-          <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-purple-500/5 rounded-full blur-[120px]"></div>
-          <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-pink-500/5 rounded-full blur-[120px]"></div>
-        </div>
-
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center space-y-8">
-            {/* Small Professional Title */}
-            <h2 className="text-xl md:text-2xl font-medium text-gray-300">
-              {t("download.downloadShineMind")}
-            </h2>
-
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
-              <a
-                href="https://apps.apple.com/us/app/shinemind/id6754637065"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group inline-flex items-center justify-center gap-3 bg-transparent border-2 border-white/70 text-white px-12 py-4 rounded-full text-lg font-medium hover:bg-white/10 hover:border-white transition-all duration-300 hover:scale-105 min-w-[220px]"
-              >
-                <svg className="w-7 h-7" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
-                </svg>
-                <span>App Store</span>
-              </a>
-              <a
-                href="https://play.google.com/store/apps/details?id=com.trinhngocdieu.shinemind"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group inline-flex items-center justify-center gap-3 bg-transparent border-2 border-white/70 text-white px-12 py-4 rounded-full text-lg font-medium hover:bg-white/10 hover:border-white transition-all duration-300 hover:scale-105 min-w-[220px]"
-              >
-                <Image
-                  src="/google-play-icon-new.svg"
-                  alt="Google Play"
-                  width={28}
-                  height={28}
-                  className="w-7 h-7"
-                />
-                <span>Google Play</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Footer */}
       <footer className="relative py-16 bg-gradient-to-b from-black/40 to-black/60 backdrop-blur-xl border-t border-white/10">
@@ -741,26 +452,6 @@ export default function Home() {
             <div>
               <h4 className="text-white font-bold text-xl mb-6">{t("footer.support")}</h4>
               <ul className="space-y-3">
-                <li>
-                  <a
-                    href="https://apps.apple.com/us/app/shinemind/id6754637065"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-1 inline-block text-lg"
-                  >
-                    Download on iOS
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://play.google.com/store/apps/details?id=com.trinhngocdieu.shinemind"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-1 inline-block text-lg"
-                  >
-                    Download on Android
-                  </a>
-                </li>
                 <li>
                   <a href="mailto:contact@shinemind.app" className="text-gray-400 hover:text-white transition-all duration-300 hover:translate-x-1 inline-block text-lg">
                     {t("footer.contactUs")}

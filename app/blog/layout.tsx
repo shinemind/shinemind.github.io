@@ -40,21 +40,9 @@ export default function BlogLayout({
               <a href="/#features" className="text-gray-300 hover:text-white transition-all duration-300 font-medium hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]">
                 {t("nav.features")}
               </a>
-              <a href="/#pricing" className="text-gray-300 hover:text-white transition-all duration-300 font-medium hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]">
-                {t("nav.pricing")}
-              </a>
               <Link href="/blog" className="text-purple-400 hover:text-purple-300 transition-all duration-300 font-medium">
                 {t("nav.blog")}
               </Link>
-              <a
-                href="https://apps.apple.com/us/app/shinemind/id6754637065"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="relative group bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2.5 rounded-full text-sm font-bold hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-105 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-pink-500/40"
-              >
-                <span className="relative z-10">{t("nav.downloadNow")}</span>
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-300"></div>
-              </a>
               <LanguageSelector />
             </div>
 
@@ -86,13 +74,6 @@ export default function BlogLayout({
               >
                 {t("nav.features")}
               </a>
-              <a
-                href="/#pricing"
-                onClick={() => setMobileMenuOpen(false)}
-                className="block text-gray-300 hover:text-white transition-colors py-2"
-              >
-                {t("nav.pricing")}
-              </a>
               <Link
                 href="/blog"
                 onClick={() => setMobileMenuOpen(false)}
@@ -100,15 +81,6 @@ export default function BlogLayout({
               >
                 {t("nav.blog")}
               </Link>
-              <a
-                href="https://apps.apple.com/us/app/shinemind/id6754637065"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setMobileMenuOpen(false)}
-                className="block bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-full text-sm font-semibold text-center hover:from-purple-600 hover:to-pink-600 transition-all"
-              >
-                {t("nav.downloadNow")}
-              </a>
               <div className="pt-2">
                 <LanguageSelector />
               </div>

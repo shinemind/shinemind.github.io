@@ -354,6 +354,10 @@
         "content": "If you have any questions about this Privacy Policy or our privacy practices, please contact us at:"
       }
     }
+  },
+  "shutdown": {
+    "title": "ShineMind is shutting down",
+    "message": "Thank you for being part of our journey. The ShineMind service is currently being shut down and the app is no longer available for download or purchase.",
+    "contact": "Questions? Contact us at"
   }
 }
-
